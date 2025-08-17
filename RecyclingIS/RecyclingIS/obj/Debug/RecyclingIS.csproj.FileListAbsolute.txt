@@ -8,3 +8,6 @@ C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\R
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.CoreCompileInputs.cache
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.pdb
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmStudentManagement.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmItemsManagement.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDashboardManagement.resources

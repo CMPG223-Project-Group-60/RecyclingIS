@@ -30,16 +30,16 @@ namespace RecyclingIS
         private void InitializeComponent()
         {
             this.pnlHeader = new System.Windows.Forms.Panel();
+            this.lblSubheading = new System.Windows.Forms.Label();
             this.lblHeading = new System.Windows.Forms.Label();
             this.pnlSidebar = new System.Windows.Forms.Panel();
-            this.btnDashboard = new System.Windows.Forms.Button();
-            this.btnStudents = new System.Windows.Forms.Button();
-            this.btnItems = new System.Windows.Forms.Button();
-            this.btnTransactions = new System.Windows.Forms.Button();
-            this.btnProjects = new System.Windows.Forms.Button();
-            this.btnMerits = new System.Windows.Forms.Button();
             this.btnReports = new System.Windows.Forms.Button();
-            this.lblSubheading = new System.Windows.Forms.Label();
+            this.btnMerits = new System.Windows.Forms.Button();
+            this.btnProjects = new System.Windows.Forms.Button();
+            this.btnTransactions = new System.Windows.Forms.Button();
+            this.btnItems = new System.Windows.Forms.Button();
+            this.btnStudents = new System.Windows.Forms.Button();
+            this.btnDashboard = new System.Windows.Forms.Button();
             this.imgReport = new System.Windows.Forms.PictureBox();
             this.imgMerit = new System.Windows.Forms.PictureBox();
             this.imgProject = new System.Windows.Forms.PictureBox();
@@ -69,8 +69,19 @@ namespace RecyclingIS
             this.pnlHeader.Location = new System.Drawing.Point(0, 0);
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.pnlHeader.Size = new System.Drawing.Size(718, 80);
+            this.pnlHeader.Size = new System.Drawing.Size(1156, 80);
             this.pnlHeader.TabIndex = 1;
+            // 
+            // lblSubheading
+            // 
+            this.lblSubheading.AutoSize = true;
+            this.lblSubheading.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubheading.ForeColor = System.Drawing.Color.Gray;
+            this.lblSubheading.Location = new System.Drawing.Point(91, 51);
+            this.lblSubheading.Name = "lblSubheading";
+            this.lblSubheading.Size = new System.Drawing.Size(192, 23);
+            this.lblSubheading.TabIndex = 3;
+            this.lblSubheading.Text = "Treasure hidden in waste";
             // 
             // lblHeading
             // 
@@ -104,22 +115,83 @@ namespace RecyclingIS
             this.pnlSidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlSidebar.Location = new System.Drawing.Point(0, 80);
             this.pnlSidebar.Name = "pnlSidebar";
-            this.pnlSidebar.Size = new System.Drawing.Size(225, 442);
+            this.pnlSidebar.Size = new System.Drawing.Size(225, 389);
             this.pnlSidebar.TabIndex = 2;
             // 
-            // btnDashboard
+            // btnReports
             // 
-            this.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDashboard.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDashboard.ForeColor = System.Drawing.Color.White;
-            this.btnDashboard.Location = new System.Drawing.Point(0, 0);
-            this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(225, 50);
-            this.btnDashboard.TabIndex = 0;
-            this.btnDashboard.Text = "Dashboard";
-            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDashboard.UseVisualStyleBackColor = true;
+            this.btnReports.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReports.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReports.ForeColor = System.Drawing.Color.White;
+            this.btnReports.Location = new System.Drawing.Point(0, 300);
+            this.btnReports.Name = "btnReports";
+            this.btnReports.Size = new System.Drawing.Size(225, 50);
+            this.btnReports.TabIndex = 7;
+            this.btnReports.Text = "Report";
+            this.btnReports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReports.UseVisualStyleBackColor = true;
+            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
+            // 
+            // btnMerits
+            // 
+            this.btnMerits.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnMerits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMerits.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMerits.ForeColor = System.Drawing.Color.White;
+            this.btnMerits.Location = new System.Drawing.Point(0, 250);
+            this.btnMerits.Name = "btnMerits";
+            this.btnMerits.Size = new System.Drawing.Size(225, 50);
+            this.btnMerits.TabIndex = 6;
+            this.btnMerits.Text = "Merit System";
+            this.btnMerits.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMerits.UseVisualStyleBackColor = true;
+            this.btnMerits.Click += new System.EventHandler(this.btnMerits_Click);
+            // 
+            // btnProjects
+            // 
+            this.btnProjects.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProjects.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProjects.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProjects.ForeColor = System.Drawing.Color.White;
+            this.btnProjects.Location = new System.Drawing.Point(0, 200);
+            this.btnProjects.Name = "btnProjects";
+            this.btnProjects.Size = new System.Drawing.Size(225, 50);
+            this.btnProjects.TabIndex = 5;
+            this.btnProjects.Text = "Project Management";
+            this.btnProjects.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProjects.UseVisualStyleBackColor = true;
+            this.btnProjects.Click += new System.EventHandler(this.btnProjects_Click);
+            // 
+            // btnTransactions
+            // 
+            this.btnTransactions.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTransactions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTransactions.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTransactions.ForeColor = System.Drawing.Color.White;
+            this.btnTransactions.Location = new System.Drawing.Point(0, 150);
+            this.btnTransactions.Name = "btnTransactions";
+            this.btnTransactions.Size = new System.Drawing.Size(225, 50);
+            this.btnTransactions.TabIndex = 4;
+            this.btnTransactions.Text = "Recycling Transactions";
+            this.btnTransactions.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTransactions.UseVisualStyleBackColor = true;
+            this.btnTransactions.Click += new System.EventHandler(this.btnTransactions_Click);
+            // 
+            // btnItems
+            // 
+            this.btnItems.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnItems.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnItems.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnItems.ForeColor = System.Drawing.Color.White;
+            this.btnItems.Location = new System.Drawing.Point(0, 100);
+            this.btnItems.Name = "btnItems";
+            this.btnItems.Size = new System.Drawing.Size(225, 50);
+            this.btnItems.TabIndex = 3;
+            this.btnItems.Text = "Items Catalogue";
+            this.btnItems.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnItems.UseVisualStyleBackColor = true;
+            this.btnItems.Click += new System.EventHandler(this.btnItems_Click);
             // 
             // btnStudents
             // 
@@ -136,86 +208,20 @@ namespace RecyclingIS
             this.btnStudents.UseVisualStyleBackColor = true;
             this.btnStudents.Click += new System.EventHandler(this.btnStudents_Click);
             // 
-            // btnItems
+            // btnDashboard
             // 
-            this.btnItems.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnItems.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnItems.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnItems.ForeColor = System.Drawing.Color.White;
-            this.btnItems.Location = new System.Drawing.Point(0, 100);
-            this.btnItems.Name = "btnItems";
-            this.btnItems.Size = new System.Drawing.Size(225, 50);
-            this.btnItems.TabIndex = 3;
-            this.btnItems.Text = "Items Catalogue";
-            this.btnItems.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnItems.UseVisualStyleBackColor = true;
-            // 
-            // btnTransactions
-            // 
-            this.btnTransactions.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnTransactions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTransactions.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTransactions.ForeColor = System.Drawing.Color.White;
-            this.btnTransactions.Location = new System.Drawing.Point(0, 150);
-            this.btnTransactions.Name = "btnTransactions";
-            this.btnTransactions.Size = new System.Drawing.Size(225, 50);
-            this.btnTransactions.TabIndex = 4;
-            this.btnTransactions.Text = "Recycling Transactions";
-            this.btnTransactions.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTransactions.UseVisualStyleBackColor = true;
-            // 
-            // btnProjects
-            // 
-            this.btnProjects.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnProjects.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProjects.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProjects.ForeColor = System.Drawing.Color.White;
-            this.btnProjects.Location = new System.Drawing.Point(0, 200);
-            this.btnProjects.Name = "btnProjects";
-            this.btnProjects.Size = new System.Drawing.Size(225, 50);
-            this.btnProjects.TabIndex = 5;
-            this.btnProjects.Text = "Project Management";
-            this.btnProjects.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProjects.UseVisualStyleBackColor = true;
-            // 
-            // btnMerits
-            // 
-            this.btnMerits.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnMerits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMerits.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMerits.ForeColor = System.Drawing.Color.White;
-            this.btnMerits.Location = new System.Drawing.Point(0, 250);
-            this.btnMerits.Name = "btnMerits";
-            this.btnMerits.Size = new System.Drawing.Size(225, 50);
-            this.btnMerits.TabIndex = 6;
-            this.btnMerits.Text = "Merit System";
-            this.btnMerits.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMerits.UseVisualStyleBackColor = true;
-            // 
-            // btnReports
-            // 
-            this.btnReports.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReports.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReports.ForeColor = System.Drawing.Color.White;
-            this.btnReports.Location = new System.Drawing.Point(0, 300);
-            this.btnReports.Name = "btnReports";
-            this.btnReports.Size = new System.Drawing.Size(225, 50);
-            this.btnReports.TabIndex = 7;
-            this.btnReports.Text = "Report";
-            this.btnReports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReports.UseVisualStyleBackColor = true;
-            // 
-            // lblSubheading
-            // 
-            this.lblSubheading.AutoSize = true;
-            this.lblSubheading.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubheading.ForeColor = System.Drawing.Color.Gray;
-            this.lblSubheading.Location = new System.Drawing.Point(91, 51);
-            this.lblSubheading.Name = "lblSubheading";
-            this.lblSubheading.Size = new System.Drawing.Size(202, 38);
-            this.lblSubheading.TabIndex = 3;
-            this.lblSubheading.Text = "Treasure hidden in waste";
+            this.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboard.ForeColor = System.Drawing.Color.White;
+            this.btnDashboard.Location = new System.Drawing.Point(0, 0);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Size = new System.Drawing.Size(225, 50);
+            this.btnDashboard.TabIndex = 0;
+            this.btnDashboard.Text = "Dashboard";
+            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDashboard.UseVisualStyleBackColor = true;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
             // imgReport
             // 
@@ -238,6 +244,7 @@ namespace RecyclingIS
             this.imgMerit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imgMerit.TabIndex = 11;
             this.imgMerit.TabStop = false;
+            this.imgMerit.Click += new System.EventHandler(this.imgMerit_Click);
             // 
             // imgProject
             // 
@@ -311,7 +318,7 @@ namespace RecyclingIS
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(718, 522);
+            this.ClientSize = new System.Drawing.Size(1156, 469);
             this.Controls.Add(this.pnlSidebar);
             this.Controls.Add(this.pnlHeader);
             this.IsMdiContainer = true;

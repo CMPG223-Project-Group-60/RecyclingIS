@@ -1,7 +1,7 @@
 ﻿
-namespace RecyclingIS.Properties
+namespace RecyclingIS
 {
-    partial class frmStudentManagement
+    partial class frmRecordManagement
     {
         /// <summary>
         /// Required designer variable.
@@ -29,18 +29,10 @@ namespace RecyclingIS.Properties
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // frmStudentManagement
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "frmStudentManagement";
-            this.Text = "frmStudentManagement";
-            this.Load += new System.EventHandler(this.frmStudentManagement_Load);
-            this.ResumeLayout(false);
-
+            this.Text = "frmRecordManagement";
         }
 
         #endregion

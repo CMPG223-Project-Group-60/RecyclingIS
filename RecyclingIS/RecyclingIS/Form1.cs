@@ -51,9 +51,146 @@ namespace RecyclingIS
 
         private void btnStudents_Click(object sender, EventArgs e)
         {
+
+
+            //close existing instance of a form is its open to avoid duplication
+
+            foreach (Form form in this.MdiChildren)
+            {
+                if (form is frmStudentManagement)
+                {
+                    form.Close();
+                    break;
+                }
+            }
+
+
             frmStudentManagement studentform = new frmStudentManagement();
             studentform.MdiParent = this;
             studentform.Show();
+            studentform.BringToFront();
+        }
+
+        private void btnItems_Click(object sender, EventArgs e)
+        {
+            //close existing instance of a form is its open to avoid duplication
+
+            foreach (Form form in this.MdiChildren)
+            {
+                if (form is frmItemsManagement)
+                {
+                    form.Close();
+                    break;
+                }
+            }
+
+
+            frmItemsManagement itemform = new frmItemsManagement();
+            itemform.MdiParent = this;
+            itemform.Show();
+            itemform.BringToFront();
+        }
+
+        private void btnTransactions_Click(object sender, EventArgs e)
+        {
+            //close existing instance of a form is its open to avoid duplication
+
+            foreach (Form form in this.MdiChildren)
+            {
+                if (form is frmRecordManagement)
+                {
+                    form.Close();
+                    break;
+                }
+            }
+
+
+            frmRecordManagement recordform = new frmRecordManagement();
+            recordform.MdiParent = this;
+            recordform.Show();
+            recordform.BringToFront();
+        }
+
+        private void btnProjects_Click(object sender, EventArgs e)
+        {
+            //close existing instance of a form is its open to avoid duplication
+
+            foreach (Form form in this.MdiChildren)
+            {
+                if (form is frmProjectManagement)
+                {
+                    form.Close();
+                    break;
+                }
+            }
+
+
+            frmProjectManagement projform = new frmProjectManagement();
+            projform.MdiParent = this;
+            projform.Show();
+            projform.BringToFront();
+        }
+
+        private void imgMerit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMerits_Click(object sender, EventArgs e)
+        {
+            //close existing instance of a form is its open to avoid duplication
+
+            foreach (Form form in this.MdiChildren)
+            {
+                if (form is frmMeritManagement)
+                {
+                    form.Close();
+                    break;
+                }
+            }
+
+
+            frmMeritManagement meritform = new frmMeritManagement();
+            meritform.MdiParent = this;
+            meritform.Show();
+            meritform.BringToFront();
+        }
+
+        private void btnReports_Click(object sender, EventArgs e)
+        {
+
+            foreach (Form form in this.MdiChildren)
+            {
+                if (form is frmReportManagement)
+                {
+                    form.Close();
+                    break;
+                }
+            }
+
+
+            frmReportManagement reportform = new frmReportManagement();
+            reportform.MdiParent = this;
+            reportform.Show();
+            reportform.BringToFront();
+        }
+
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            foreach (Form form in this.MdiChildren)
+            {
+                if (form is frmDashboardManagement)
+                {
+                    form.Close();
+                    break;
+                }
+            }
+
+
+            frmDashboardManagement dashboardform = new frmDashboardManagement();
+            dashboardform.MdiParent = this;
+            dashboardform.Show();
+            dashboardform.BringToFront();
         }
     }
 }
