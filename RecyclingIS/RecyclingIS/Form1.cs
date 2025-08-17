@@ -85,10 +85,10 @@ namespace RecyclingIS
             }
 
 
-            frmItemsManagement itemform = new frmItemsManagement();
-            itemform.MdiParent = this;
-            itemform.Show();
-            itemform.BringToFront();
+           frmItemsManagement itemform = new frmItemsManagement();
+           // itemform.MdiParent = this;
+           itemform.Show();
+           // itemform.BringToFront();
         }
 
         private void btnTransactions_Click(object sender, EventArgs e)

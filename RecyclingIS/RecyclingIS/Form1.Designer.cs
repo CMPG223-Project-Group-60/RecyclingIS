@@ -29,26 +29,28 @@ namespace RecyclingIS
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.lblSubheading = new System.Windows.Forms.Label();
+            this.imgLogo = new System.Windows.Forms.PictureBox();
             this.lblHeading = new System.Windows.Forms.Label();
             this.pnlSidebar = new System.Windows.Forms.Panel();
-            this.btnReports = new System.Windows.Forms.Button();
-            this.btnMerits = new System.Windows.Forms.Button();
-            this.btnProjects = new System.Windows.Forms.Button();
-            this.btnTransactions = new System.Windows.Forms.Button();
-            this.btnItems = new System.Windows.Forms.Button();
-            this.btnStudents = new System.Windows.Forms.Button();
-            this.btnDashboard = new System.Windows.Forms.Button();
             this.imgReport = new System.Windows.Forms.PictureBox();
             this.imgMerit = new System.Windows.Forms.PictureBox();
             this.imgProject = new System.Windows.Forms.PictureBox();
             this.imgRecord = new System.Windows.Forms.PictureBox();
             this.imgItems = new System.Windows.Forms.PictureBox();
             this.imgStudent = new System.Windows.Forms.PictureBox();
+            this.btnReports = new System.Windows.Forms.Button();
+            this.btnMerits = new System.Windows.Forms.Button();
+            this.btnProjects = new System.Windows.Forms.Button();
+            this.btnTransactions = new System.Windows.Forms.Button();
+            this.btnItems = new System.Windows.Forms.Button();
+            this.btnStudents = new System.Windows.Forms.Button();
             this.imgDashboard = new System.Windows.Forms.PictureBox();
-            this.imgLogo = new System.Windows.Forms.PictureBox();
+            this.btnDashboard = new System.Windows.Forms.Button();
             this.pnlHeader.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).BeginInit();
             this.pnlSidebar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgReport)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMerit)).BeginInit();
@@ -57,7 +59,6 @@ namespace RecyclingIS
             ((System.ComponentModel.ISupportInitialize)(this.imgItems)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgStudent)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgDashboard)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlHeader
@@ -82,6 +83,17 @@ namespace RecyclingIS
             this.lblSubheading.Size = new System.Drawing.Size(192, 23);
             this.lblSubheading.TabIndex = 3;
             this.lblSubheading.Text = "Treasure hidden in waste";
+            // 
+            // imgLogo
+            // 
+            this.imgLogo.BackColor = System.Drawing.Color.White;
+            this.imgLogo.Image = global::RecyclingIS.Properties.Resources.logo;
+            this.imgLogo.Location = new System.Drawing.Point(9, 3);
+            this.imgLogo.Name = "imgLogo";
+            this.imgLogo.Size = new System.Drawing.Size(71, 74);
+            this.imgLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgLogo.TabIndex = 2;
+            this.imgLogo.TabStop = false;
             // 
             // lblHeading
             // 
@@ -115,119 +127,14 @@ namespace RecyclingIS
             this.pnlSidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlSidebar.Location = new System.Drawing.Point(0, 80);
             this.pnlSidebar.Name = "pnlSidebar";
-            this.pnlSidebar.Size = new System.Drawing.Size(225, 389);
+            this.pnlSidebar.Size = new System.Drawing.Size(225, 664);
             this.pnlSidebar.TabIndex = 2;
-            // 
-            // btnReports
-            // 
-            this.btnReports.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReports.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReports.ForeColor = System.Drawing.Color.White;
-            this.btnReports.Location = new System.Drawing.Point(0, 300);
-            this.btnReports.Name = "btnReports";
-            this.btnReports.Size = new System.Drawing.Size(225, 50);
-            this.btnReports.TabIndex = 7;
-            this.btnReports.Text = "Report";
-            this.btnReports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReports.UseVisualStyleBackColor = true;
-            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
-            // 
-            // btnMerits
-            // 
-            this.btnMerits.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnMerits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMerits.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMerits.ForeColor = System.Drawing.Color.White;
-            this.btnMerits.Location = new System.Drawing.Point(0, 250);
-            this.btnMerits.Name = "btnMerits";
-            this.btnMerits.Size = new System.Drawing.Size(225, 50);
-            this.btnMerits.TabIndex = 6;
-            this.btnMerits.Text = "Merit System";
-            this.btnMerits.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMerits.UseVisualStyleBackColor = true;
-            this.btnMerits.Click += new System.EventHandler(this.btnMerits_Click);
-            // 
-            // btnProjects
-            // 
-            this.btnProjects.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnProjects.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProjects.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProjects.ForeColor = System.Drawing.Color.White;
-            this.btnProjects.Location = new System.Drawing.Point(0, 200);
-            this.btnProjects.Name = "btnProjects";
-            this.btnProjects.Size = new System.Drawing.Size(225, 50);
-            this.btnProjects.TabIndex = 5;
-            this.btnProjects.Text = "Project Management";
-            this.btnProjects.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProjects.UseVisualStyleBackColor = true;
-            this.btnProjects.Click += new System.EventHandler(this.btnProjects_Click);
-            // 
-            // btnTransactions
-            // 
-            this.btnTransactions.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnTransactions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTransactions.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTransactions.ForeColor = System.Drawing.Color.White;
-            this.btnTransactions.Location = new System.Drawing.Point(0, 150);
-            this.btnTransactions.Name = "btnTransactions";
-            this.btnTransactions.Size = new System.Drawing.Size(225, 50);
-            this.btnTransactions.TabIndex = 4;
-            this.btnTransactions.Text = "Recycling Transactions";
-            this.btnTransactions.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTransactions.UseVisualStyleBackColor = true;
-            this.btnTransactions.Click += new System.EventHandler(this.btnTransactions_Click);
-            // 
-            // btnItems
-            // 
-            this.btnItems.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnItems.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnItems.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnItems.ForeColor = System.Drawing.Color.White;
-            this.btnItems.Location = new System.Drawing.Point(0, 100);
-            this.btnItems.Name = "btnItems";
-            this.btnItems.Size = new System.Drawing.Size(225, 50);
-            this.btnItems.TabIndex = 3;
-            this.btnItems.Text = "Items Catalogue";
-            this.btnItems.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnItems.UseVisualStyleBackColor = true;
-            this.btnItems.Click += new System.EventHandler(this.btnItems_Click);
-            // 
-            // btnStudents
-            // 
-            this.btnStudents.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnStudents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStudents.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStudents.ForeColor = System.Drawing.Color.White;
-            this.btnStudents.Location = new System.Drawing.Point(0, 50);
-            this.btnStudents.Name = "btnStudents";
-            this.btnStudents.Size = new System.Drawing.Size(225, 50);
-            this.btnStudents.TabIndex = 2;
-            this.btnStudents.Text = "Student Management";
-            this.btnStudents.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStudents.UseVisualStyleBackColor = true;
-            this.btnStudents.Click += new System.EventHandler(this.btnStudents_Click);
-            // 
-            // btnDashboard
-            // 
-            this.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDashboard.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDashboard.ForeColor = System.Drawing.Color.White;
-            this.btnDashboard.Location = new System.Drawing.Point(0, 0);
-            this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(225, 50);
-            this.btnDashboard.TabIndex = 0;
-            this.btnDashboard.Text = "Dashboard";
-            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDashboard.UseVisualStyleBackColor = true;
-            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
             // imgReport
             // 
             this.imgReport.BackColor = System.Drawing.Color.White;
             this.imgReport.Image = global::RecyclingIS.Properties.Resources.reporticon;
-            this.imgReport.Location = new System.Drawing.Point(95, 306);
+            this.imgReport.Location = new System.Drawing.Point(187, 598);
             this.imgReport.Name = "imgReport";
             this.imgReport.Size = new System.Drawing.Size(24, 38);
             this.imgReport.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -238,7 +145,7 @@ namespace RecyclingIS
             // 
             this.imgMerit.BackColor = System.Drawing.Color.White;
             this.imgMerit.Image = global::RecyclingIS.Properties.Resources.medal_icon;
-            this.imgMerit.Location = new System.Drawing.Point(149, 256);
+            this.imgMerit.Location = new System.Drawing.Point(187, 494);
             this.imgMerit.Name = "imgMerit";
             this.imgMerit.Size = new System.Drawing.Size(24, 38);
             this.imgMerit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -250,7 +157,7 @@ namespace RecyclingIS
             // 
             this.imgProject.BackColor = System.Drawing.Color.White;
             this.imgProject.Image = global::RecyclingIS.Properties.Resources.projecticon;
-            this.imgProject.Location = new System.Drawing.Point(186, 206);
+            this.imgProject.Location = new System.Drawing.Point(187, 399);
             this.imgProject.Name = "imgProject";
             this.imgProject.Size = new System.Drawing.Size(24, 38);
             this.imgProject.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -261,7 +168,7 @@ namespace RecyclingIS
             // 
             this.imgRecord.BackColor = System.Drawing.Color.White;
             this.imgRecord.Image = global::RecyclingIS.Properties.Resources.recordicon;
-            this.imgRecord.Location = new System.Drawing.Point(198, 156);
+            this.imgRecord.Location = new System.Drawing.Point(187, 307);
             this.imgRecord.Name = "imgRecord";
             this.imgRecord.Size = new System.Drawing.Size(24, 38);
             this.imgRecord.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -272,7 +179,7 @@ namespace RecyclingIS
             // 
             this.imgItems.BackColor = System.Drawing.Color.White;
             this.imgItems.Image = global::RecyclingIS.Properties.Resources.items_icon;
-            this.imgItems.Location = new System.Drawing.Point(158, 106);
+            this.imgItems.Location = new System.Drawing.Point(187, 211);
             this.imgItems.Name = "imgItems";
             this.imgItems.Size = new System.Drawing.Size(24, 38);
             this.imgItems.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -283,7 +190,7 @@ namespace RecyclingIS
             // 
             this.imgStudent.BackColor = System.Drawing.Color.White;
             this.imgStudent.Image = global::RecyclingIS.Properties.Resources.students_icon;
-            this.imgStudent.Location = new System.Drawing.Point(198, 56);
+            this.imgStudent.Location = new System.Drawing.Point(187, 111);
             this.imgStudent.Name = "imgStudent";
             this.imgStudent.Size = new System.Drawing.Size(24, 38);
             this.imgStudent.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -291,34 +198,123 @@ namespace RecyclingIS
             this.imgStudent.TabStop = false;
             this.imgStudent.Click += new System.EventHandler(this.imgStudent_Click);
             // 
+            // btnReports
+            // 
+            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReports.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReports.ForeColor = System.Drawing.Color.White;
+            this.btnReports.Location = new System.Drawing.Point(0, 566);
+            this.btnReports.Name = "btnReports";
+            this.btnReports.Size = new System.Drawing.Size(225, 100);
+            this.btnReports.TabIndex = 7;
+            this.btnReports.Text = "Report";
+            this.btnReports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReports.UseVisualStyleBackColor = true;
+            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
+            // 
+            // btnMerits
+            // 
+            this.btnMerits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMerits.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMerits.ForeColor = System.Drawing.Color.White;
+            this.btnMerits.Location = new System.Drawing.Point(0, 466);
+            this.btnMerits.Name = "btnMerits";
+            this.btnMerits.Size = new System.Drawing.Size(225, 100);
+            this.btnMerits.TabIndex = 6;
+            this.btnMerits.Text = "Merit System";
+            this.btnMerits.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMerits.UseVisualStyleBackColor = true;
+            this.btnMerits.Click += new System.EventHandler(this.btnMerits_Click);
+            // 
+            // btnProjects
+            // 
+            this.btnProjects.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProjects.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProjects.ForeColor = System.Drawing.Color.White;
+            this.btnProjects.Location = new System.Drawing.Point(0, 371);
+            this.btnProjects.Name = "btnProjects";
+            this.btnProjects.Size = new System.Drawing.Size(225, 100);
+            this.btnProjects.TabIndex = 5;
+            this.btnProjects.Text = "Project Management";
+            this.btnProjects.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProjects.UseVisualStyleBackColor = true;
+            this.btnProjects.Click += new System.EventHandler(this.btnProjects_Click);
+            // 
+            // btnTransactions
+            // 
+            this.btnTransactions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTransactions.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTransactions.ForeColor = System.Drawing.Color.White;
+            this.btnTransactions.Location = new System.Drawing.Point(0, 279);
+            this.btnTransactions.Name = "btnTransactions";
+            this.btnTransactions.Size = new System.Drawing.Size(225, 100);
+            this.btnTransactions.TabIndex = 4;
+            this.btnTransactions.Text = "Recycling Transactions";
+            this.btnTransactions.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTransactions.UseVisualStyleBackColor = true;
+            this.btnTransactions.Click += new System.EventHandler(this.btnTransactions_Click);
+            // 
+            // btnItems
+            // 
+            this.btnItems.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnItems.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnItems.ForeColor = System.Drawing.Color.White;
+            this.btnItems.Location = new System.Drawing.Point(0, 183);
+            this.btnItems.Name = "btnItems";
+            this.btnItems.Size = new System.Drawing.Size(225, 100);
+            this.btnItems.TabIndex = 3;
+            this.btnItems.Text = "Items Catalogue";
+            this.btnItems.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnItems.UseVisualStyleBackColor = true;
+            this.btnItems.Click += new System.EventHandler(this.btnItems_Click);
+            // 
+            // btnStudents
+            // 
+            this.btnStudents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStudents.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStudents.ForeColor = System.Drawing.Color.White;
+            this.btnStudents.Location = new System.Drawing.Point(0, 86);
+            this.btnStudents.Name = "btnStudents";
+            this.btnStudents.Size = new System.Drawing.Size(225, 100);
+            this.btnStudents.TabIndex = 2;
+            this.btnStudents.Text = "Student Management";
+            this.btnStudents.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStudents.UseVisualStyleBackColor = true;
+            this.btnStudents.Click += new System.EventHandler(this.btnStudents_Click);
+            // 
             // imgDashboard
             // 
             this.imgDashboard.BackColor = System.Drawing.Color.White;
             this.imgDashboard.Image = global::RecyclingIS.Properties.Resources.homeicon1;
-            this.imgDashboard.Location = new System.Drawing.Point(116, 12);
+            this.imgDashboard.Location = new System.Drawing.Point(187, 24);
             this.imgDashboard.Name = "imgDashboard";
             this.imgDashboard.Size = new System.Drawing.Size(24, 29);
             this.imgDashboard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imgDashboard.TabIndex = 1;
             this.imgDashboard.TabStop = false;
             // 
-            // imgLogo
+            // btnDashboard
             // 
-            this.imgLogo.BackColor = System.Drawing.Color.White;
-            this.imgLogo.Image = global::RecyclingIS.Properties.Resources.logo;
-            this.imgLogo.Location = new System.Drawing.Point(9, 3);
-            this.imgLogo.Name = "imgLogo";
-            this.imgLogo.Size = new System.Drawing.Size(71, 74);
-            this.imgLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgLogo.TabIndex = 2;
-            this.imgLogo.TabStop = false;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboard.ForeColor = System.Drawing.Color.White;
+            this.btnDashboard.Location = new System.Drawing.Point(0, 0);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Size = new System.Drawing.Size(225, 100);
+            this.btnDashboard.TabIndex = 0;
+            this.btnDashboard.Text = "Dashboard";
+            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDashboard.UseVisualStyleBackColor = true;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1156, 469);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1156, 744);
             this.Controls.Add(this.pnlSidebar);
             this.Controls.Add(this.pnlHeader);
             this.IsMdiContainer = true;
@@ -327,6 +323,7 @@ namespace RecyclingIS
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();
             this.pnlSidebar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.imgReport)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMerit)).EndInit();
@@ -335,7 +332,6 @@ namespace RecyclingIS
             ((System.ComponentModel.ISupportInitialize)(this.imgItems)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgStudent)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgDashboard)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();
             this.ResumeLayout(false);
 
         }

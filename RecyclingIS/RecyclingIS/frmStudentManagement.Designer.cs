@@ -29,20 +29,129 @@ namespace RecyclingIS
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmStudentManagement));
+            this.lblHeading = new System.Windows.Forms.Label();
+            this.lblSubHeading = new System.Windows.Forms.Label();
+            this.pnlSearch = new System.Windows.Forms.Panel();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.imgSearch = new System.Windows.Forms.PictureBox();
+            this.btnAddStudent = new System.Windows.Forms.Button();
+            this.dgvDisplayStudents = new System.Windows.Forms.DataGridView();
+            this.pnlSearch.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSearch)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDisplayStudents)).BeginInit();
             this.SuspendLayout();
+            // 
+            // lblHeading
+            // 
+            this.lblHeading.BackColor = System.Drawing.Color.Transparent;
+            this.lblHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeading.ForeColor = System.Drawing.Color.White;
+            this.lblHeading.Location = new System.Drawing.Point(3, 9);
+            this.lblHeading.Name = "lblHeading";
+            this.lblHeading.Size = new System.Drawing.Size(425, 58);
+            this.lblHeading.TabIndex = 0;
+            this.lblHeading.Text = "Student Management";
+            // 
+            // lblSubHeading
+            // 
+            this.lblSubHeading.BackColor = System.Drawing.Color.Transparent;
+            this.lblSubHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubHeading.ForeColor = System.Drawing.Color.LightGray;
+            this.lblSubHeading.Location = new System.Drawing.Point(6, 67);
+            this.lblSubHeading.Name = "lblSubHeading";
+            this.lblSubHeading.Size = new System.Drawing.Size(352, 23);
+            this.lblSubHeading.TabIndex = 1;
+            this.lblSubHeading.Text = "Manage student records and information";
+            // 
+            // pnlSearch
+            // 
+            this.pnlSearch.BackColor = System.Drawing.Color.Transparent;
+            this.pnlSearch.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlSearch.Controls.Add(this.txtSearch);
+            this.pnlSearch.Controls.Add(this.imgSearch);
+            this.pnlSearch.Location = new System.Drawing.Point(10, 148);
+            this.pnlSearch.Name = "pnlSearch";
+            this.pnlSearch.Padding = new System.Windows.Forms.Padding(1);
+            this.pnlSearch.Size = new System.Drawing.Size(816, 47);
+            this.pnlSearch.TabIndex = 2;
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.ForeColor = System.Drawing.Color.DarkGray;
+            this.txtSearch.Location = new System.Drawing.Point(55, 4);
+            this.txtSearch.Multiline = true;
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(753, 35);
+            this.txtSearch.TabIndex = 1;
+            this.txtSearch.TabStop = false;
+            // 
+            // imgSearch
+            // 
+            this.imgSearch.Image = ((System.Drawing.Image)(resources.GetObject("imgSearch.Image")));
+            this.imgSearch.Location = new System.Drawing.Point(4, 4);
+            this.imgSearch.Name = "imgSearch";
+            this.imgSearch.Size = new System.Drawing.Size(45, 35);
+            this.imgSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgSearch.TabIndex = 0;
+            this.imgSearch.TabStop = false;
+            // 
+            // btnAddStudent
+            // 
+            this.btnAddStudent.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddStudent.ForeColor = System.Drawing.Color.White;
+            this.btnAddStudent.Location = new System.Drawing.Point(665, 67);
+            this.btnAddStudent.Name = "btnAddStudent";
+            this.btnAddStudent.Size = new System.Drawing.Size(162, 55);
+            this.btnAddStudent.TabIndex = 3;
+            this.btnAddStudent.Text = "Add Student";
+            this.btnAddStudent.UseVisualStyleBackColor = false;
+            // 
+            // dgvDisplayStudents
+            // 
+            this.dgvDisplayStudents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDisplayStudents.Location = new System.Drawing.Point(17, 216);
+            this.dgvDisplayStudents.Name = "dgvDisplayStudents";
+            this.dgvDisplayStudents.RowHeadersWidth = 51;
+            this.dgvDisplayStudents.RowTemplate.Height = 24;
+            this.dgvDisplayStudents.Size = new System.Drawing.Size(816, 293);
+            this.dgvDisplayStudents.TabIndex = 4;
             // 
             // frmStudentManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1039, 521);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(845, 521);
+            this.Controls.Add(this.dgvDisplayStudents);
+            this.Controls.Add(this.btnAddStudent);
+            this.Controls.Add(this.pnlSearch);
+            this.Controls.Add(this.lblSubHeading);
+            this.Controls.Add(this.lblHeading);
+            this.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.Name = "frmStudentManagement";
             this.Text = "frmStudentManagement";
             this.Load += new System.EventHandler(this.frmStudentManagement_Load);
+            this.pnlSearch.ResumeLayout(false);
+            this.pnlSearch.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSearch)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDisplayStudents)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblHeading;
+        private System.Windows.Forms.Label lblSubHeading;
+        private System.Windows.Forms.Panel pnlSearch;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.PictureBox imgSearch;
+        private System.Windows.Forms.Button btnAddStudent;
+        private System.Windows.Forms.DataGridView dgvDisplayStudents;
     }
 }
