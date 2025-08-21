@@ -111,6 +111,12 @@
     <EmbeddedResource Include="frmItemsManagement.resx">
       <DependentUpon>frmItemsManagement.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMeritManagement.resx">
+      <DependentUpon>frmMeritManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProjectManagement.resx">
+      <DependentUpon>frmProjectManagement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmStudentManagement.resx">
       <DependentUpon>frmStudentManagement.cs</DependentUpon>
     </EmbeddedResource>
