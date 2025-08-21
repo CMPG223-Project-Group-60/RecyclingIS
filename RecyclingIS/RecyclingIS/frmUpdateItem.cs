@@ -13,7 +13,7 @@ namespace RecyclingIS
     public partial class frmUpdateItem : Form
     {
         public string ItemName => txtItemName.Text;
-        public int ItemQty => int.Parse(txtQty.Text);
+        public int ItemQty => int.Parse(dudQty.Text);
         public string ItemDescription => txtDescription.Text;
 
         public frmUpdateItem()
@@ -25,7 +25,7 @@ namespace RecyclingIS
         {
             InitializeComponent();
             txtItemName.Text = name;
-            txtQty.Text = quantity.ToString();
+            dudQty.Text = quantity.ToString();
             txtDescription.Text = description;
         }
         private void btnUpdate_Click(object sender, EventArgs e)
@@ -41,6 +41,11 @@ namespace RecyclingIS
         }
 
         private void frmUpdateItem_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblQty_Click(object sender, EventArgs e)
         {
 
         }

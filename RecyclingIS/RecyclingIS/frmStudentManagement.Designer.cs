@@ -45,22 +45,22 @@ namespace RecyclingIS
             // lblHeading
             // 
             this.lblHeading.BackColor = System.Drawing.Color.Transparent;
-            this.lblHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeading.ForeColor = System.Drawing.Color.White;
+            this.lblHeading.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeading.ForeColor = System.Drawing.Color.DarkGreen;
             this.lblHeading.Location = new System.Drawing.Point(3, 9);
             this.lblHeading.Name = "lblHeading";
-            this.lblHeading.Size = new System.Drawing.Size(425, 58);
+            this.lblHeading.Size = new System.Drawing.Size(830, 58);
             this.lblHeading.TabIndex = 0;
             this.lblHeading.Text = "Student Management";
             // 
             // lblSubHeading
             // 
             this.lblSubHeading.BackColor = System.Drawing.Color.Transparent;
-            this.lblSubHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubHeading.ForeColor = System.Drawing.Color.LightGray;
-            this.lblSubHeading.Location = new System.Drawing.Point(6, 67);
+            this.lblSubHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubHeading.ForeColor = System.Drawing.Color.White;
+            this.lblSubHeading.Location = new System.Drawing.Point(9, 57);
             this.lblSubHeading.Name = "lblSubHeading";
-            this.lblSubHeading.Size = new System.Drawing.Size(352, 23);
+            this.lblSubHeading.Size = new System.Drawing.Size(457, 23);
             this.lblSubHeading.TabIndex = 1;
             this.lblSubHeading.Text = "Manage student records and information";
             // 
@@ -112,6 +112,7 @@ namespace RecyclingIS
             // 
             // dgvDisplayStudents
             // 
+            this.dgvDisplayStudents.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvDisplayStudents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDisplayStudents.Location = new System.Drawing.Point(17, 216);
             this.dgvDisplayStudents.Name = "dgvDisplayStudents";

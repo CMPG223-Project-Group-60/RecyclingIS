@@ -46,6 +46,7 @@ namespace RecyclingIS
             // 
             this.dgvDisplayItems.AllowUserToAddRows = false;
             this.dgvDisplayItems.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvDisplayItems.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvDisplayItems.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDisplayItems.Location = new System.Drawing.Point(12, 273);
             this.dgvDisplayItems.Name = "dgvDisplayItems";
@@ -58,11 +59,11 @@ namespace RecyclingIS
             // 
             this.lblHeading.AutoSize = true;
             this.lblHeading.BackColor = System.Drawing.Color.Transparent;
-            this.lblHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeading.ForeColor = System.Drawing.Color.White;
+            this.lblHeading.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeading.ForeColor = System.Drawing.Color.DarkGreen;
             this.lblHeading.Location = new System.Drawing.Point(12, 18);
             this.lblHeading.Name = "lblHeading";
-            this.lblHeading.Size = new System.Drawing.Size(490, 40);
+            this.lblHeading.Size = new System.Drawing.Size(796, 59);
             this.lblHeading.TabIndex = 1;
             this.lblHeading.Text = "Recyclable Items Catalogue";
             // 
@@ -70,11 +71,11 @@ namespace RecyclingIS
             // 
             this.lblSubHeading.AutoSize = true;
             this.lblSubHeading.BackColor = System.Drawing.Color.Transparent;
-            this.lblSubHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubHeading.ForeColor = System.Drawing.Color.LightGray;
+            this.lblSubHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubHeading.ForeColor = System.Drawing.Color.White;
             this.lblSubHeading.Location = new System.Drawing.Point(15, 71);
             this.lblSubHeading.Name = "lblSubHeading";
-            this.lblSubHeading.Size = new System.Drawing.Size(362, 20);
+            this.lblSubHeading.Size = new System.Drawing.Size(509, 25);
             this.lblSubHeading.TabIndex = 2;
             this.lblSubHeading.Text = "Manage the master list of recyclable item types";
             this.lblSubHeading.Click += new System.EventHandler(this.lblSubHeading_Click);
