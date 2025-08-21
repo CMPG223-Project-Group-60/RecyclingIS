@@ -12,3 +12,17 @@ C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\R
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmItemsManagement.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDashboardManagement.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItem.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe.config
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.pdb
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.AssemblyReference.cache
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMain.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDashboardManagement.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmItemsManagement.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmStudentManagement.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItem.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.Properties.Resources.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.GenerateResource.cache
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.CoreCompileInputs.cache
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.pdb

@@ -127,14 +127,14 @@ namespace RecyclingIS
             this.pnlSidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlSidebar.Location = new System.Drawing.Point(0, 80);
             this.pnlSidebar.Name = "pnlSidebar";
-            this.pnlSidebar.Size = new System.Drawing.Size(225, 664);
+            this.pnlSidebar.Size = new System.Drawing.Size(269, 664);
             this.pnlSidebar.TabIndex = 2;
             // 
             // imgReport
             // 
             this.imgReport.BackColor = System.Drawing.Color.White;
             this.imgReport.Image = global::RecyclingIS.Properties.Resources.reporticon;
-            this.imgReport.Location = new System.Drawing.Point(187, 598);
+            this.imgReport.Location = new System.Drawing.Point(217, 598);
             this.imgReport.Name = "imgReport";
             this.imgReport.Size = new System.Drawing.Size(24, 38);
             this.imgReport.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -145,7 +145,7 @@ namespace RecyclingIS
             // 
             this.imgMerit.BackColor = System.Drawing.Color.White;
             this.imgMerit.Image = global::RecyclingIS.Properties.Resources.medal_icon;
-            this.imgMerit.Location = new System.Drawing.Point(187, 494);
+            this.imgMerit.Location = new System.Drawing.Point(217, 496);
             this.imgMerit.Name = "imgMerit";
             this.imgMerit.Size = new System.Drawing.Size(24, 38);
             this.imgMerit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -157,7 +157,7 @@ namespace RecyclingIS
             // 
             this.imgProject.BackColor = System.Drawing.Color.White;
             this.imgProject.Image = global::RecyclingIS.Properties.Resources.projecticon;
-            this.imgProject.Location = new System.Drawing.Point(187, 399);
+            this.imgProject.Location = new System.Drawing.Point(217, 404);
             this.imgProject.Name = "imgProject";
             this.imgProject.Size = new System.Drawing.Size(24, 38);
             this.imgProject.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -168,7 +168,7 @@ namespace RecyclingIS
             // 
             this.imgRecord.BackColor = System.Drawing.Color.White;
             this.imgRecord.Image = global::RecyclingIS.Properties.Resources.recordicon;
-            this.imgRecord.Location = new System.Drawing.Point(187, 307);
+            this.imgRecord.Location = new System.Drawing.Point(217, 314);
             this.imgRecord.Name = "imgRecord";
             this.imgRecord.Size = new System.Drawing.Size(24, 38);
             this.imgRecord.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -179,7 +179,7 @@ namespace RecyclingIS
             // 
             this.imgItems.BackColor = System.Drawing.Color.White;
             this.imgItems.Image = global::RecyclingIS.Properties.Resources.items_icon;
-            this.imgItems.Location = new System.Drawing.Point(187, 211);
+            this.imgItems.Location = new System.Drawing.Point(217, 211);
             this.imgItems.Name = "imgItems";
             this.imgItems.Size = new System.Drawing.Size(24, 38);
             this.imgItems.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -190,7 +190,7 @@ namespace RecyclingIS
             // 
             this.imgStudent.BackColor = System.Drawing.Color.White;
             this.imgStudent.Image = global::RecyclingIS.Properties.Resources.students_icon;
-            this.imgStudent.Location = new System.Drawing.Point(187, 111);
+            this.imgStudent.Location = new System.Drawing.Point(217, 123);
             this.imgStudent.Name = "imgStudent";
             this.imgStudent.Size = new System.Drawing.Size(24, 38);
             this.imgStudent.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -205,7 +205,7 @@ namespace RecyclingIS
             this.btnReports.ForeColor = System.Drawing.Color.White;
             this.btnReports.Location = new System.Drawing.Point(0, 566);
             this.btnReports.Name = "btnReports";
-            this.btnReports.Size = new System.Drawing.Size(225, 100);
+            this.btnReports.Size = new System.Drawing.Size(269, 70);
             this.btnReports.TabIndex = 7;
             this.btnReports.Text = "Report";
             this.btnReports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -219,7 +219,7 @@ namespace RecyclingIS
             this.btnMerits.ForeColor = System.Drawing.Color.White;
             this.btnMerits.Location = new System.Drawing.Point(0, 466);
             this.btnMerits.Name = "btnMerits";
-            this.btnMerits.Size = new System.Drawing.Size(225, 100);
+            this.btnMerits.Size = new System.Drawing.Size(269, 100);
             this.btnMerits.TabIndex = 6;
             this.btnMerits.Text = "Merit System";
             this.btnMerits.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -233,7 +233,7 @@ namespace RecyclingIS
             this.btnProjects.ForeColor = System.Drawing.Color.White;
             this.btnProjects.Location = new System.Drawing.Point(0, 371);
             this.btnProjects.Name = "btnProjects";
-            this.btnProjects.Size = new System.Drawing.Size(225, 100);
+            this.btnProjects.Size = new System.Drawing.Size(269, 100);
             this.btnProjects.TabIndex = 5;
             this.btnProjects.Text = "Project Management";
             this.btnProjects.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -247,7 +247,7 @@ namespace RecyclingIS
             this.btnTransactions.ForeColor = System.Drawing.Color.White;
             this.btnTransactions.Location = new System.Drawing.Point(0, 279);
             this.btnTransactions.Name = "btnTransactions";
-            this.btnTransactions.Size = new System.Drawing.Size(225, 100);
+            this.btnTransactions.Size = new System.Drawing.Size(269, 100);
             this.btnTransactions.TabIndex = 4;
             this.btnTransactions.Text = "Recycling Transactions";
             this.btnTransactions.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -261,7 +261,7 @@ namespace RecyclingIS
             this.btnItems.ForeColor = System.Drawing.Color.White;
             this.btnItems.Location = new System.Drawing.Point(0, 183);
             this.btnItems.Name = "btnItems";
-            this.btnItems.Size = new System.Drawing.Size(225, 100);
+            this.btnItems.Size = new System.Drawing.Size(269, 100);
             this.btnItems.TabIndex = 3;
             this.btnItems.Text = "Items Catalogue";
             this.btnItems.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -275,7 +275,7 @@ namespace RecyclingIS
             this.btnStudents.ForeColor = System.Drawing.Color.White;
             this.btnStudents.Location = new System.Drawing.Point(0, 86);
             this.btnStudents.Name = "btnStudents";
-            this.btnStudents.Size = new System.Drawing.Size(225, 100);
+            this.btnStudents.Size = new System.Drawing.Size(269, 100);
             this.btnStudents.TabIndex = 2;
             this.btnStudents.Text = "Student Management";
             this.btnStudents.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -286,7 +286,7 @@ namespace RecyclingIS
             // 
             this.imgDashboard.BackColor = System.Drawing.Color.White;
             this.imgDashboard.Image = global::RecyclingIS.Properties.Resources.homeicon1;
-            this.imgDashboard.Location = new System.Drawing.Point(187, 24);
+            this.imgDashboard.Location = new System.Drawing.Point(217, 21);
             this.imgDashboard.Name = "imgDashboard";
             this.imgDashboard.Size = new System.Drawing.Size(24, 29);
             this.imgDashboard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -300,7 +300,7 @@ namespace RecyclingIS
             this.btnDashboard.ForeColor = System.Drawing.Color.White;
             this.btnDashboard.Location = new System.Drawing.Point(0, 0);
             this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(225, 100);
+            this.btnDashboard.Size = new System.Drawing.Size(269, 100);
             this.btnDashboard.TabIndex = 0;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

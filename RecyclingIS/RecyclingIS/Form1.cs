@@ -51,84 +51,23 @@ namespace RecyclingIS
 
         private void btnStudents_Click(object sender, EventArgs e)
         {
-
-
-            //close existing instance of a form is its open to avoid duplication
-
-            foreach (Form form in this.MdiChildren)
-            {
-                if (form is frmStudentManagement)
-                {
-                    form.Close();
-                    break;
-                }
-            }
-
-
-            frmStudentManagement studentform = new frmStudentManagement();
-            studentform.MdiParent = this;
-            studentform.Show();
-            studentform.BringToFront();
+            OpenChildForm(new frmStudentManagement());
         }
 
         private void btnItems_Click(object sender, EventArgs e)
         {
-            //close existing instance of a form is its open to avoid duplication
+            OpenChildForm(new frmItemsManagement());
 
-            foreach (Form form in this.MdiChildren)
-            {
-                if (form is frmItemsManagement)
-                {
-                    form.Close();
-                    break;
-                }
-            }
-
-
-           frmItemsManagement itemform = new frmItemsManagement();
-           // itemform.MdiParent = this;
-           itemform.Show();
-           // itemform.BringToFront();
         }
 
         private void btnTransactions_Click(object sender, EventArgs e)
         {
-            //close existing instance of a form is its open to avoid duplication
-
-            foreach (Form form in this.MdiChildren)
-            {
-                if (form is frmRecordManagement)
-                {
-                    form.Close();
-                    break;
-                }
-            }
-
-
-            frmRecordManagement recordform = new frmRecordManagement();
-            recordform.MdiParent = this;
-            recordform.Show();
-            recordform.BringToFront();
+            OpenChildForm(new frmRecordManagement());
         }
 
         private void btnProjects_Click(object sender, EventArgs e)
         {
-            //close existing instance of a form is its open to avoid duplication
-
-            foreach (Form form in this.MdiChildren)
-            {
-                if (form is frmProjectManagement)
-                {
-                    form.Close();
-                    break;
-                }
-            }
-
-
-            frmProjectManagement projform = new frmProjectManagement();
-            projform.MdiParent = this;
-            projform.Show();
-            projform.BringToFront();
+            OpenChildForm(new frmProjectManagement());
         }
 
         private void imgMerit_Click(object sender, EventArgs e)
@@ -138,59 +77,34 @@ namespace RecyclingIS
 
         private void btnMerits_Click(object sender, EventArgs e)
         {
-            //close existing instance of a form is its open to avoid duplication
-
-            foreach (Form form in this.MdiChildren)
-            {
-                if (form is frmMeritManagement)
-                {
-                    form.Close();
-                    break;
-                }
-            }
-
-
-            frmMeritManagement meritform = new frmMeritManagement();
-            meritform.MdiParent = this;
-            meritform.Show();
-            meritform.BringToFront();
+            OpenChildForm(new frmMeritManagement());
         }
 
         private void btnReports_Click(object sender, EventArgs e)
         {
-
-            foreach (Form form in this.MdiChildren)
-            {
-                if (form is frmReportManagement)
-                {
-                    form.Close();
-                    break;
-                }
-            }
-
-
-            frmReportManagement reportform = new frmReportManagement();
-            reportform.MdiParent = this;
-            reportform.Show();
-            reportform.BringToFront();
+            OpenChildForm(new frmReportManagement());
         }
 
         private void btnDashboard_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new frmDashboardManagement());
+        }
+
+        //this method will close any open mdi child form and open the current selected
+        private void OpenChildForm(Form childform)
+        {
             foreach (Form form in this.MdiChildren)
             {
-                if (form is frmDashboardManagement)
-                {
-                    form.Close();
-                    break;
-                }
+                form.Close();
             }
 
-
-            frmDashboardManagement dashboardform = new frmDashboardManagement();
-            dashboardform.MdiParent = this;
-            dashboardform.Show();
-            dashboardform.BringToFront();
+            
+            childform.Dock = DockStyle.Fill;
+            childform.FormBorderStyle = FormBorderStyle.None;
+            childform.TopLevel = false;
+            childform.MdiParent = this;
+            childform.BringToFront();
+            childform.Show();
         }
     }
 }
