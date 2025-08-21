@@ -36,7 +36,7 @@ namespace RecyclingIS
             this.pnlSearch = new System.Windows.Forms.Panel();
             this.imgSearch = new System.Windows.Forms.PictureBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
-            this.btnRecordRecylcing = new System.Windows.Forms.Button();
+            this.btnRecordRecycling = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudentRecycling)).BeginInit();
             this.pnlSearch.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgSearch)).BeginInit();
@@ -112,24 +112,24 @@ namespace RecyclingIS
             this.txtSearch.TabIndex = 1;
             this.txtSearch.TabStop = false;
             // 
-            // btnRecordRecylcing
+            // btnRecordRecycling
             // 
-            this.btnRecordRecylcing.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnRecordRecylcing.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRecordRecylcing.ForeColor = System.Drawing.Color.White;
-            this.btnRecordRecylcing.Location = new System.Drawing.Point(734, 33);
-            this.btnRecordRecylcing.Name = "btnRecordRecylcing";
-            this.btnRecordRecylcing.Size = new System.Drawing.Size(251, 55);
-            this.btnRecordRecylcing.TabIndex = 13;
-            this.btnRecordRecylcing.Text = "Record Student Recycling Data";
-            this.btnRecordRecylcing.UseVisualStyleBackColor = false;
+            this.btnRecordRecycling.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnRecordRecycling.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRecordRecycling.ForeColor = System.Drawing.Color.White;
+            this.btnRecordRecycling.Location = new System.Drawing.Point(734, 33);
+            this.btnRecordRecycling.Name = "btnRecordRecycling";
+            this.btnRecordRecycling.Size = new System.Drawing.Size(251, 55);
+            this.btnRecordRecycling.TabIndex = 13;
+            this.btnRecordRecycling.Text = "Record Student Recycling Data";
+            this.btnRecordRecycling.UseVisualStyleBackColor = false;
             // 
             // frmRecordManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(997, 530);
-            this.Controls.Add(this.btnRecordRecylcing);
+            this.Controls.Add(this.btnRecordRecycling);
             this.Controls.Add(this.pnlSearch);
             this.Controls.Add(this.lblSubHeading);
             this.Controls.Add(this.lblHeading);
@@ -153,6 +153,6 @@ namespace RecyclingIS
         private System.Windows.Forms.Panel pnlSearch;
         private System.Windows.Forms.PictureBox imgSearch;
         private System.Windows.Forms.TextBox txtSearch;
-        private System.Windows.Forms.Button btnRecordRecylcing;
+        private System.Windows.Forms.Button btnRecordRecycling;
     }
 }
