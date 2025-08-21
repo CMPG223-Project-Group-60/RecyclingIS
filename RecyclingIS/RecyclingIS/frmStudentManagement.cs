@@ -54,6 +54,8 @@ namespace RecyclingIS
         private void frmStudentManagement_Load(object sender, EventArgs e)
         {
           
+
+
         }
 
 
