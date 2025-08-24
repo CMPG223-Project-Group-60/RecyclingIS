@@ -30,3 +30,4 @@ C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj
 C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMeritManagement.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMeritManagement.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmProjectManagement.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmReportManagement.resources
