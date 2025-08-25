@@ -51,3 +51,26 @@ C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-U
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItemType.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteItemType.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmReportManagement.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe.config
+K:\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe
+K:\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.pdb
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.AssemblyReference.cache
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMain.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddItems.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddItemType.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddStudent.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDashboardManagement.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteItemType.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteStudent.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmItemsManagement.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmProjectManagement.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmReportManagement.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmStudentManagement.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItem.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItemType.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateStudent.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.Properties.Resources.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.GenerateResource.cache
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.CoreCompileInputs.cache
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.pdb
