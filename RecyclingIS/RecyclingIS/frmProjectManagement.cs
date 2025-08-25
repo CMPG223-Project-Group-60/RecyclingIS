@@ -71,5 +71,33 @@ namespace RecyclingIS
         {
             SetupDataGridView();
         }
+
+        private void btnAddProject_Click(object sender, EventArgs e)
+        {
+            frmAddProject add = new frmAddProject();
+            add.StartPosition = FormStartPosition.CenterParent;
+            add.ShowDialog(this);
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            frmUpdateProject update = new frmUpdateProject();
+            update.StartPosition = FormStartPosition.CenterParent;
+            update.ShowDialog(this);
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            frmDeleteProject delete = new frmDeleteProject();
+            delete.StartPosition = FormStartPosition.CenterParent;
+            delete.ShowDialog(this);
+        }
+
+        private void btnStuProj_Click(object sender, EventArgs e)
+        {
+            frmAssignStudents assign = new frmAssignStudents();
+            assign.StartPosition = FormStartPosition.CenterParent;
+            assign.ShowDialog(this);
+        }
     }
 }

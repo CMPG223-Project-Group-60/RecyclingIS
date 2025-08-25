@@ -74,3 +74,6 @@ K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.GenerateReso
 K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.CoreCompileInputs.cache
 K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe
 K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.pdb
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddProject.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteProject.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateProject.resources

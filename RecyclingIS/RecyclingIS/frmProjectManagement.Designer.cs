@@ -63,6 +63,7 @@ namespace RecyclingIS
             // 
             this.dgvDisplayProjects.AllowUserToAddRows = false;
             this.dgvDisplayProjects.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvDisplayProjects.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvDisplayProjects.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDisplayProjects.Location = new System.Drawing.Point(9, 186);
             this.dgvDisplayProjects.Name = "dgvDisplayProjects";
@@ -135,6 +136,7 @@ namespace RecyclingIS
             this.btnDelete.TabIndex = 15;
             this.btnDelete.Text = "Delete Project";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -148,6 +150,7 @@ namespace RecyclingIS
             this.btnUpdate.TabIndex = 14;
             this.btnUpdate.Text = "Update Project";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnAddProject
             // 
@@ -160,6 +163,7 @@ namespace RecyclingIS
             this.btnAddProject.TabIndex = 13;
             this.btnAddProject.Text = "Add Project";
             this.btnAddProject.UseVisualStyleBackColor = false;
+            this.btnAddProject.Click += new System.EventHandler(this.btnAddProject_Click);
             // 
             // label2
             // 
@@ -185,6 +189,7 @@ namespace RecyclingIS
             this.btnStuProj.TabIndex = 17;
             this.btnStuProj.Text = "Assign Student to Project";
             this.btnStuProj.UseVisualStyleBackColor = false;
+            this.btnStuProj.Click += new System.EventHandler(this.btnStuProj_Click);
             // 
             // frmProjectManagement
             // 

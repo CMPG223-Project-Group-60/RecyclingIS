@@ -1,7 +1,7 @@
 ﻿
 namespace RecyclingIS
 {
-    partial class frmDeleteItemType
+    partial class frmDeleteProject
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace RecyclingIS
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDeleteItemType));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDeleteProject));
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnAddStudent = new System.Windows.Forms.Button();
             this.cbxItemType = new System.Windows.Forms.ComboBox();
@@ -42,10 +42,10 @@ namespace RecyclingIS
             this.btnCancel.BackColor = System.Drawing.Color.Crimson;
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(391, 176);
+            this.btnCancel.Location = new System.Drawing.Point(265, 176);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(171, 40);
-            this.btnCancel.TabIndex = 49;
+            this.btnCancel.TabIndex = 54;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
@@ -58,7 +58,7 @@ namespace RecyclingIS
             this.btnAddStudent.Location = new System.Drawing.Point(12, 176);
             this.btnAddStudent.Name = "btnAddStudent";
             this.btnAddStudent.Size = new System.Drawing.Size(171, 40);
-            this.btnAddStudent.TabIndex = 48;
+            this.btnAddStudent.TabIndex = 53;
             this.btnAddStudent.Text = "Delete Item Type";
             this.btnAddStudent.UseVisualStyleBackColor = false;
             // 
@@ -68,7 +68,7 @@ namespace RecyclingIS
             this.cbxItemType.Location = new System.Drawing.Point(12, 123);
             this.cbxItemType.Name = "cbxItemType";
             this.cbxItemType.Size = new System.Drawing.Size(276, 24);
-            this.cbxItemType.TabIndex = 47;
+            this.cbxItemType.TabIndex = 52;
             // 
             // label1
             // 
@@ -79,7 +79,7 @@ namespace RecyclingIS
             this.label1.Location = new System.Drawing.Point(18, 90);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(181, 25);
-            this.label1.TabIndex = 46;
+            this.label1.TabIndex = 51;
             this.label1.Text = "Select item type";
             // 
             // lblHeading
@@ -90,23 +90,22 @@ namespace RecyclingIS
             this.lblHeading.Location = new System.Drawing.Point(12, 9);
             this.lblHeading.Name = "lblHeading";
             this.lblHeading.Size = new System.Drawing.Size(830, 58);
-            this.lblHeading.TabIndex = 45;
-            this.lblHeading.Text = "Delete Item Type ";
-            this.lblHeading.Click += new System.EventHandler(this.lblHeading_Click);
+            this.lblHeading.TabIndex = 50;
+            this.lblHeading.Text = "Delete Project";
             // 
-            // frmDeleteItemType
+            // frmDeleteProject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(590, 226);
+            this.ClientSize = new System.Drawing.Size(482, 228);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnAddStudent);
             this.Controls.Add(this.cbxItemType);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblHeading);
-            this.Name = "frmDeleteItemType";
-            this.Text = "frmDeleteItemType";
+            this.Name = "frmDeleteProject";
+            this.Text = "frmDeleteProject";
             this.ResumeLayout(false);
             this.PerformLayout();
 
