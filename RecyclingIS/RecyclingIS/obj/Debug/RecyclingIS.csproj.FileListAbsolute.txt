@@ -35,7 +35,6 @@ C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-U
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMain.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDashboardManagement.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmItemsManagement.resources
-C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMeritManagement.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmProjectManagement.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmStudentManagement.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItem.resources
@@ -51,3 +50,4 @@ C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-U
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddItemType.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItemType.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteItemType.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmReportManagement.resources

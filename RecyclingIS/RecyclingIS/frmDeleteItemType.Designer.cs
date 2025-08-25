@@ -92,6 +92,7 @@ namespace RecyclingIS
             this.lblHeading.Size = new System.Drawing.Size(830, 58);
             this.lblHeading.TabIndex = 45;
             this.lblHeading.Text = "Delete Student ";
+            this.lblHeading.Click += new System.EventHandler(this.lblHeading_Click);
             // 
             // frmDeleteItemType
             // 

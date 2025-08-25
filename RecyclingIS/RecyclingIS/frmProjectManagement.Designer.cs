@@ -35,8 +35,8 @@ namespace RecyclingIS
             this.btnAddProject = new System.Windows.Forms.Button();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.pnlSearch = new System.Windows.Forms.Panel();
-            this.dgvDisplayProjects = new System.Windows.Forms.DataGridView();
             this.imgSearch = new System.Windows.Forms.PictureBox();
+            this.dgvDisplayProjects = new System.Windows.Forms.DataGridView();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.gpbProjects = new System.Windows.Forms.GroupBox();
             this.gpbStudentOnProj = new System.Windows.Forms.GroupBox();
@@ -46,8 +46,8 @@ namespace RecyclingIS
             this.txtSearch2 = new System.Windows.Forms.TextBox();
             this.dgvDisplayStudentOnProj = new System.Windows.Forms.DataGridView();
             this.pnlSearch.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDisplayProjects)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgSearch)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDisplayProjects)).BeginInit();
             this.gpbProjects.SuspendLayout();
             this.gpbStudentOnProj.SuspendLayout();
             this.pnlSearch1.SuspendLayout();
@@ -116,6 +116,15 @@ namespace RecyclingIS
             this.pnlSearch.Size = new System.Drawing.Size(1015, 47);
             this.pnlSearch.TabIndex = 7;
             // 
+            // imgSearch
+            // 
+            this.imgSearch.Location = new System.Drawing.Point(4, 4);
+            this.imgSearch.Name = "imgSearch";
+            this.imgSearch.Size = new System.Drawing.Size(45, 35);
+            this.imgSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgSearch.TabIndex = 0;
+            this.imgSearch.TabStop = false;
+            // 
             // dgvDisplayProjects
             // 
             this.dgvDisplayProjects.AllowUserToAddRows = false;
@@ -127,15 +136,6 @@ namespace RecyclingIS
             this.dgvDisplayProjects.RowTemplate.Height = 24;
             this.dgvDisplayProjects.Size = new System.Drawing.Size(1015, 265);
             this.dgvDisplayProjects.TabIndex = 8;
-            // 
-            // imgSearch
-            // 
-            this.imgSearch.Location = new System.Drawing.Point(4, 4);
-            this.imgSearch.Name = "imgSearch";
-            this.imgSearch.Size = new System.Drawing.Size(45, 35);
-            this.imgSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgSearch.TabIndex = 0;
-            this.imgSearch.TabStop = false;
             // 
             // splitter1
             // 
@@ -231,6 +231,8 @@ namespace RecyclingIS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1233, 1055);
             this.Controls.Add(this.gpbStudentOnProj);
             this.Controls.Add(this.gpbProjects);
@@ -241,8 +243,8 @@ namespace RecyclingIS
             this.Text = "frmProjectManagement";
             this.pnlSearch.ResumeLayout(false);
             this.pnlSearch.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDisplayProjects)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgSearch)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDisplayProjects)).EndInit();
             this.gpbProjects.ResumeLayout(false);
             this.gpbStudentOnProj.ResumeLayout(false);
             this.pnlSearch1.ResumeLayout(false);

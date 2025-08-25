@@ -98,7 +98,7 @@ namespace RecyclingIS
             merits.StartPosition = FormStartPosition.CenterParent;
             merits.ShowDialog(this);*/
 
-            OpenChildForm(new frmMeritManagement());
+            //OpenChildForm(new frmMeritManagement());
         }
 
         private void btnReports_Click(object sender, EventArgs e)

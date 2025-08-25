@@ -21,5 +21,10 @@ namespace RecyclingIS
         {
             this.Close();
         }
+
+        private void lblHeading_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
