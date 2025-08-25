@@ -94,12 +94,6 @@
     <Compile Include="frmItemsManagement.Designer.cs">
       <DependentUpon>frmItemsManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMeritManagement.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMeritManagement.Designer.cs">
-      <DependentUpon>frmMeritManagement.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmProjectManagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -168,11 +162,11 @@
     <EmbeddedResource Include="frmItemsManagement.resx">
       <DependentUpon>frmItemsManagement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMeritManagement.resx">
-      <DependentUpon>frmMeritManagement.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmProjectManagement.resx">
       <DependentUpon>frmProjectManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportManagement.resx">
+      <DependentUpon>frmReportManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmStudentManagement.resx">
       <DependentUpon>frmStudentManagement.cs</DependentUpon>

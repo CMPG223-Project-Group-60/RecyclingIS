@@ -16,5 +16,15 @@ namespace RecyclingIS
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gbxSort_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
