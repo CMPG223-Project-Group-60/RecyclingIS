@@ -130,7 +130,6 @@ namespace RecyclingIS
             // 
             // imgSearch
             // 
-            this.imgSearch.Image = ((System.Drawing.Image)(resources.GetObject("imgSearch.Image")));
             this.imgSearch.Location = new System.Drawing.Point(4, 4);
             this.imgSearch.Name = "imgSearch";
             this.imgSearch.Size = new System.Drawing.Size(45, 35);

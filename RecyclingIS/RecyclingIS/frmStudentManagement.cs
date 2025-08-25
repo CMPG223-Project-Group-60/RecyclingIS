@@ -13,7 +13,7 @@ namespace RecyclingIS
 {
     public partial class frmStudentManagement : Form
     {
-        private string placeholder = "Search students by name, number, grade, or class...";
+        private string placeholder = "Search students by number, name, or grade...";
 
         public frmStudentManagement()
         {
@@ -53,11 +53,53 @@ namespace RecyclingIS
 
         private void frmStudentManagement_Load(object sender, EventArgs e)
         {
-          
+            SetupDataGridView();
+        }
+        private void SetupDataGridView()
+        {
+            dgvDisplayStudents.Columns.Clear();
+
+            // Add text columns
+            dgvDisplayStudents.Columns.Add("Last Name", "Last Name");
+            dgvDisplayStudents.Columns.Add("First Name", "First Name");
+            dgvDisplayStudents.Columns.Add("Grade", "Grade");
+            dgvDisplayStudents.Columns.Add("Gender", "Gender");
+            dgvDisplayStudents.Columns.Add("Date of Birth", "Date of Birth");
+
+            /* DataGridViewButtonColumn btnDelete = new DataGridViewButtonColumn();
+             btnDelete.HeaderText = "Delete";
+             btnDelete.Text = "Delete";
+             btnDelete.UseColumnTextForButtonValue = true;
+             dgvDisplayItems.Columns.Add(btnDelete);*/
         }
 
 
+        private void btnAddStudent_Click(object sender, EventArgs e)
+        {
+            frmAddStudent student = new frmAddStudent();
+            student.StartPosition = FormStartPosition.CenterParent;
+            student.ShowDialog(this);
 
 
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            frmUpdateStudent update = new frmUpdateStudent();
+            update.StartPosition = FormStartPosition.CenterParent;
+            update.ShowDialog(this);
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            frmDeleteStudent delete = new frmDeleteStudent();
+            delete.StartPosition = FormStartPosition.CenterParent;
+            delete.ShowDialog(this);
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

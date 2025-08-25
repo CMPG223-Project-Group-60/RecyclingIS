@@ -52,11 +52,41 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAddItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddItems.Designer.cs">
+      <DependentUpon>frmAddItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddItemType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddItemType.Designer.cs">
+      <DependentUpon>frmAddItemType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddStudent.Designer.cs">
+      <DependentUpon>frmAddStudent.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDashboardManagement.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmDashboardManagement.Designer.cs">
       <DependentUpon>frmDashboardManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteItemType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteItemType.Designer.cs">
+      <DependentUpon>frmDeleteItemType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteStudent.Designer.cs">
+      <DependentUpon>frmDeleteStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="frmItemsManagement.cs">
       <SubType>Form</SubType>
@@ -100,13 +130,40 @@
     <Compile Include="frmUpdateItem.Designer.cs">
       <DependentUpon>frmUpdateItem.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUpdateItemType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateItemType.Designer.cs">
+      <DependentUpon>frmUpdateItemType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateStudent.Designer.cs">
+      <DependentUpon>frmUpdateStudent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAddItems.resx">
+      <DependentUpon>frmAddItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddItemType.resx">
+      <DependentUpon>frmAddItemType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddStudent.resx">
+      <DependentUpon>frmAddStudent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDashboardManagement.resx">
       <DependentUpon>frmDashboardManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteItemType.resx">
+      <DependentUpon>frmDeleteItemType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteStudent.resx">
+      <DependentUpon>frmDeleteStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmItemsManagement.resx">
       <DependentUpon>frmItemsManagement.cs</DependentUpon>
@@ -122,6 +179,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmUpdateItem.resx">
       <DependentUpon>frmUpdateItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateItemType.resx">
+      <DependentUpon>frmUpdateItemType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateStudent.resx">
+      <DependentUpon>frmUpdateStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

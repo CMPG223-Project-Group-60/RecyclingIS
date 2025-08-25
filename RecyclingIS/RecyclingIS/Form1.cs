@@ -51,22 +51,39 @@ namespace RecyclingIS
 
         private void btnStudents_Click(object sender, EventArgs e)
         {
+
+           /* frmStudentManagement students= new frmStudentManagement();
+            students.StartPosition = FormStartPosition.CenterParent;
+            students.ShowDialog(this);*/
+
             OpenChildForm(new frmStudentManagement());
         }
 
         private void btnItems_Click(object sender, EventArgs e)
         {
+           /* frmItemsManagement items = new frmItemsManagement();
+            items.StartPosition = FormStartPosition.CenterParent;
+            items.ShowDialog(this);*/
+
             OpenChildForm(new frmItemsManagement());
 
         }
 
         private void btnTransactions_Click(object sender, EventArgs e)
         {
+            /*frmRecordManagement transactions = new frmRecordManagement();
+            transactions.StartPosition = FormStartPosition.CenterParent;
+            transactions.ShowDialog(this);*/
+
             OpenChildForm(new frmRecordManagement());
         }
 
         private void btnProjects_Click(object sender, EventArgs e)
         {
+            /*frmProjectManagement projects = new frmProjectManagement();
+            projects.StartPosition = FormStartPosition.CenterParent;
+            projects.ShowDialog(this);*/
+
             OpenChildForm(new frmProjectManagement());
         }
 
@@ -77,11 +94,19 @@ namespace RecyclingIS
 
         private void btnMerits_Click(object sender, EventArgs e)
         {
+           /* frmMeritManagement merits = new frmMeritManagement();
+            merits.StartPosition = FormStartPosition.CenterParent;
+            merits.ShowDialog(this);*/
+
             OpenChildForm(new frmMeritManagement());
         }
 
         private void btnReports_Click(object sender, EventArgs e)
         {
+            /*frmReportManagement reports = new frmReportManagement();
+            reports.StartPosition = FormStartPosition.CenterParent;
+            reports.ShowDialog(this);*/
+
             OpenChildForm(new frmReportManagement());
         }
 
@@ -98,13 +123,20 @@ namespace RecyclingIS
                 form.Close();
             }
 
-            
+
             childform.Dock = DockStyle.Fill;
             childform.FormBorderStyle = FormBorderStyle.None;
             childform.TopLevel = false;
             childform.MdiParent = this;
             childform.BringToFront();
             childform.Show();
+
+            
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

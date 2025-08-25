@@ -12,7 +12,7 @@ namespace RecyclingIS
 {
     public partial class frmItemsManagement : Form
     {
-        private string placeholder = "Search by name or description...";
+        private string placeholder = "Search by name";
 
         public frmItemsManagement()
         {
@@ -50,8 +50,7 @@ namespace RecyclingIS
         private void frmItemsManagement_Load(object sender, EventArgs e)
         {
             SetupDataGridView();
-            PopulateCatalog();
-            dgvDisplayItems.CellContentClick += dgvCatalog_CellContentClick;
+            
         }
 
         private void SetupDataGridView()
@@ -60,73 +59,48 @@ namespace RecyclingIS
 
             // Add text columns
             dgvDisplayItems.Columns.Add("Name", "Name");
-            dgvDisplayItems.Columns.Add("Quantity", "Quantity");
-            dgvDisplayItems.Columns.Add("Description", "Description");
+            dgvDisplayItems.Columns.Add("QuantityOnHand", "QuantityOnHand");
 
-            // Add button columns
-            DataGridViewButtonColumn btnUpdate = new DataGridViewButtonColumn();
-            btnUpdate.HeaderText = "Update";
-            btnUpdate.Text = "Update";
-            btnUpdate.UseColumnTextForButtonValue = true;
-            dgvDisplayItems.Columns.Add(btnUpdate);
-
-            DataGridViewButtonColumn btnDelete = new DataGridViewButtonColumn();
+           /* DataGridViewButtonColumn btnDelete = new DataGridViewButtonColumn();
             btnDelete.HeaderText = "Delete";
             btnDelete.Text = "Delete";
             btnDelete.UseColumnTextForButtonValue = true;
-            dgvDisplayItems.Columns.Add(btnDelete);
+            dgvDisplayItems.Columns.Add(btnDelete);*/
         }
 
-        private void PopulateCatalog()
-        {
-            dgvDisplayItems.Rows.Clear();
-            dgvDisplayItems.Rows.Add("Plastic Bottle", 100, "Clean plastic bottles (PET)");
-            dgvDisplayItems.Rows.Add("Aluminum Can", 447, "Aluminum beverage cans");
-            dgvDisplayItems.Rows.Add("Paper Waste", 33, "Clean paper and cardboard");
-        }
 
-        private void dgvCatalog_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.RowIndex < 0) return; // Ignore header row
-
-            // Update button clicked
-            if (dgvDisplayItems.Columns[e.ColumnIndex].HeaderText == "Update")
-            {
-                string name = dgvDisplayItems.Rows[e.RowIndex].Cells["Name"].Value.ToString();
-                int quantity = 0;
-                int.TryParse(dgvDisplayItems.Rows[e.RowIndex].Cells["Quantity"].Value.ToString(), out quantity);
-                string description = dgvDisplayItems.Rows[e.RowIndex].Cells["Description"].Value.ToString();
-
-                // Open update popup
-                frmUpdateItem updateForm = new frmUpdateItem(name, quantity, description);
-                if (updateForm.ShowDialog() == DialogResult.OK)
-                {
-                    // Update the row with new values
-                    dgvDisplayItems.Rows[e.RowIndex].Cells["Name"].Value = updateForm.ItemName;
-                    dgvDisplayItems.Rows[e.RowIndex].Cells["Quantity"].Value = updateForm.ItemQty;
-                    dgvDisplayItems.Rows[e.RowIndex].Cells["Description"].Value = updateForm.ItemDescription;
-                }
-            }
-
-            // Delete button clicked
-            if (dgvDisplayItems.Columns[e.ColumnIndex].HeaderText == "Delete")
-            {
-                DialogResult result = MessageBox.Show(
-                    "Are you sure you want to delete this item?",
-                    "Confirm Delete",
-                    MessageBoxButtons.YesNo,
-                    MessageBoxIcon.Warning
-                );
-                if (result == DialogResult.Yes)
-                {
-                    dgvDisplayItems.Rows.RemoveAt(e.RowIndex);
-                }
-            }
-        }
-
+       
         private void lblSubHeading_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void dgvDisplayItems_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnAddStudent_Click(object sender, EventArgs e)
+        {
+            frmAddItemType add = new frmAddItemType();
+            add.StartPosition = FormStartPosition.CenterParent;
+            add.ShowDialog(this);
+        }
+
+        //BUTTON UPDATE ITEM TYPE
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmUpdateItemType update = new frmUpdateItemType();
+            update.StartPosition = FormStartPosition.CenterParent;
+            update.ShowDialog(this);
+        }
+
+        //BUTTON DELETE ITEM TYPE
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmDeleteItemType delete = new frmDeleteItemType();
+            delete.StartPosition = FormStartPosition.CenterParent;
+            delete.ShowDialog(this);
         }
     }
 }
