@@ -16,5 +16,15 @@ namespace RecyclingIS
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblSubHeading_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

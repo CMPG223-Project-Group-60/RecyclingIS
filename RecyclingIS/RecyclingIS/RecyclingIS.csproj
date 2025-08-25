@@ -165,6 +165,9 @@
     <EmbeddedResource Include="frmProjectManagement.resx">
       <DependentUpon>frmProjectManagement.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmRecordManagement.resx">
+      <DependentUpon>frmRecordManagement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmReportManagement.resx">
       <DependentUpon>frmReportManagement.cs</DependentUpon>
     </EmbeddedResource>

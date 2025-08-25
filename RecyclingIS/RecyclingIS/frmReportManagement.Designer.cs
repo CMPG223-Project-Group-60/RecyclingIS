@@ -29,6 +29,7 @@ namespace RecyclingIS
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmReportManagement));
             this.lblSubHeading = new System.Windows.Forms.Label();
             this.lblHeading = new System.Windows.Forms.Label();
             this.dgvDisplayReport = new System.Windows.Forms.DataGridView();
@@ -36,15 +37,15 @@ namespace RecyclingIS
             this.lblStart = new System.Windows.Forms.Label();
             this.cbxReport = new System.Windows.Forms.ComboBox();
             this.gbxReport = new System.Windows.Forms.GroupBox();
-            this.gbxSort = new System.Windows.Forms.GroupBox();
-            this.lblResult = new System.Windows.Forms.Label();
-            this.txtStart = new System.Windows.Forms.TextBox();
-            this.txtEnd = new System.Windows.Forms.TextBox();
             this.lblEnd = new System.Windows.Forms.Label();
-            this.rdoProjectAsc = new System.Windows.Forms.RadioButton();
-            this.rdoProjectDesc = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.txtEnd = new System.Windows.Forms.TextBox();
+            this.txtStart = new System.Windows.Forms.TextBox();
+            this.gbxSort = new System.Windows.Forms.GroupBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rdoProjectDesc = new System.Windows.Forms.RadioButton();
+            this.rdoProjectAsc = new System.Windows.Forms.RadioButton();
+            this.lblResult = new System.Windows.Forms.Label();
             this.btnGenerateReport = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDisplayReport)).BeginInit();
@@ -59,9 +60,9 @@ namespace RecyclingIS
             this.lblSubHeading.ForeColor = System.Drawing.Color.White;
             this.lblSubHeading.Location = new System.Drawing.Point(0, 57);
             this.lblSubHeading.Name = "lblSubHeading";
-            this.lblSubHeading.Size = new System.Drawing.Size(457, 23);
+            this.lblSubHeading.Size = new System.Drawing.Size(623, 23);
             this.lblSubHeading.TabIndex = 3;
-            this.lblSubHeading.Text = "Manage student records and information";
+            this.lblSubHeading.Text = "Generate reports to get insight on top projects and students";
             // 
             // lblHeading
             // 
@@ -72,7 +73,8 @@ namespace RecyclingIS
             this.lblHeading.Name = "lblHeading";
             this.lblHeading.Size = new System.Drawing.Size(830, 58);
             this.lblHeading.TabIndex = 2;
-            this.lblHeading.Text = "Student Management";
+            this.lblHeading.Text = "Report Management";
+            this.lblHeading.Click += new System.EventHandler(this.lblHeading_Click);
             // 
             // dgvDisplayReport
             // 
@@ -88,18 +90,22 @@ namespace RecyclingIS
             // lblReport
             // 
             this.lblReport.AutoSize = true;
+            this.lblReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold);
+            this.lblReport.ForeColor = System.Drawing.Color.White;
             this.lblReport.Location = new System.Drawing.Point(6, 30);
             this.lblReport.Name = "lblReport";
-            this.lblReport.Size = new System.Drawing.Size(86, 17);
+            this.lblReport.Size = new System.Drawing.Size(98, 17);
             this.lblReport.TabIndex = 7;
             this.lblReport.Text = "Report type:";
             // 
             // lblStart
             // 
             this.lblStart.AutoSize = true;
+            this.lblStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold);
+            this.lblStart.ForeColor = System.Drawing.Color.White;
             this.lblStart.Location = new System.Drawing.Point(6, 80);
             this.lblStart.Name = "lblStart";
-            this.lblStart.Size = new System.Drawing.Size(74, 17);
+            this.lblStart.Size = new System.Drawing.Size(85, 17);
             this.lblStart.TabIndex = 8;
             this.lblStart.Text = "Start date:";
             // 
@@ -109,19 +115,22 @@ namespace RecyclingIS
             this.cbxReport.Items.AddRange(new object[] {
             "Top 10 Recyclers",
             "Top 10 Projects Per Time Period "});
-            this.cbxReport.Location = new System.Drawing.Point(98, 30);
+            this.cbxReport.Location = new System.Drawing.Point(110, 27);
             this.cbxReport.Name = "cbxReport";
             this.cbxReport.Size = new System.Drawing.Size(100, 24);
             this.cbxReport.TabIndex = 9;
             // 
             // gbxReport
             // 
+            this.gbxReport.BackColor = System.Drawing.Color.Transparent;
             this.gbxReport.Controls.Add(this.lblEnd);
             this.gbxReport.Controls.Add(this.txtEnd);
             this.gbxReport.Controls.Add(this.txtStart);
             this.gbxReport.Controls.Add(this.lblReport);
             this.gbxReport.Controls.Add(this.lblStart);
             this.gbxReport.Controls.Add(this.cbxReport);
+            this.gbxReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold);
+            this.gbxReport.ForeColor = System.Drawing.Color.White;
             this.gbxReport.Location = new System.Drawing.Point(12, 113);
             this.gbxReport.Name = "gbxReport";
             this.gbxReport.Size = new System.Drawing.Size(423, 124);
@@ -129,36 +138,16 @@ namespace RecyclingIS
             this.gbxReport.TabStop = false;
             this.gbxReport.Text = "Choose Report:";
             // 
-            // gbxSort
+            // lblEnd
             // 
-            this.gbxSort.Controls.Add(this.radioButton2);
-            this.gbxSort.Controls.Add(this.radioButton1);
-            this.gbxSort.Controls.Add(this.rdoProjectDesc);
-            this.gbxSort.Controls.Add(this.rdoProjectAsc);
-            this.gbxSort.Location = new System.Drawing.Point(692, 103);
-            this.gbxSort.Name = "gbxSort";
-            this.gbxSort.Size = new System.Drawing.Size(185, 175);
-            this.gbxSort.TabIndex = 12;
-            this.gbxSort.TabStop = false;
-            this.gbxSort.Text = "Sort Report By:";
-            this.gbxSort.Enter += new System.EventHandler(this.gbxSort_Enter);
-            // 
-            // lblResult
-            // 
-            this.lblResult.AutoSize = true;
-            this.lblResult.Location = new System.Drawing.Point(18, 354);
-            this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(84, 17);
-            this.lblResult.TabIndex = 7;
-            this.lblResult.Text = "xxxResultxxx";
-            this.lblResult.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // txtStart
-            // 
-            this.txtStart.Location = new System.Drawing.Point(98, 78);
-            this.txtStart.Name = "txtStart";
-            this.txtStart.Size = new System.Drawing.Size(100, 22);
-            this.txtStart.TabIndex = 10;
+            this.lblEnd.AutoSize = true;
+            this.lblEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold);
+            this.lblEnd.ForeColor = System.Drawing.Color.White;
+            this.lblEnd.Location = new System.Drawing.Point(248, 83);
+            this.lblEnd.Name = "lblEnd";
+            this.lblEnd.Size = new System.Drawing.Size(78, 17);
+            this.lblEnd.TabIndex = 12;
+            this.lblEnd.Text = "End date:";
             // 
             // txtEnd
             // 
@@ -167,58 +156,87 @@ namespace RecyclingIS
             this.txtEnd.Size = new System.Drawing.Size(83, 22);
             this.txtEnd.TabIndex = 11;
             // 
-            // lblEnd
+            // txtStart
             // 
-            this.lblEnd.AutoSize = true;
-            this.lblEnd.Location = new System.Drawing.Point(248, 83);
-            this.lblEnd.Name = "lblEnd";
-            this.lblEnd.Size = new System.Drawing.Size(69, 17);
-            this.lblEnd.TabIndex = 12;
-            this.lblEnd.Text = "End date:";
+            this.txtStart.Location = new System.Drawing.Point(110, 80);
+            this.txtStart.Name = "txtStart";
+            this.txtStart.Size = new System.Drawing.Size(100, 22);
+            this.txtStart.TabIndex = 10;
             // 
-            // rdoProjectAsc
+            // gbxSort
             // 
-            this.rdoProjectAsc.AutoSize = true;
-            this.rdoProjectAsc.Location = new System.Drawing.Point(6, 21);
-            this.rdoProjectAsc.Name = "rdoProjectAsc";
-            this.rdoProjectAsc.Size = new System.Drawing.Size(149, 21);
-            this.rdoProjectAsc.TabIndex = 9;
-            this.rdoProjectAsc.TabStop = true;
-            this.rdoProjectAsc.Text = "Project name (Asc)";
-            this.rdoProjectAsc.UseVisualStyleBackColor = true;
-            // 
-            // rdoProjectDesc
-            // 
-            this.rdoProjectDesc.AutoSize = true;
-            this.rdoProjectDesc.Location = new System.Drawing.Point(6, 58);
-            this.rdoProjectDesc.Name = "rdoProjectDesc";
-            this.rdoProjectDesc.Size = new System.Drawing.Size(158, 21);
-            this.rdoProjectDesc.TabIndex = 10;
-            this.rdoProjectDesc.TabStop = true;
-            this.rdoProjectDesc.Text = "Project name (Desc)";
-            this.rdoProjectDesc.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(6, 94);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(149, 21);
-            this.radioButton1.TabIndex = 11;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Project name (Asc)";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.gbxSort.BackColor = System.Drawing.Color.Transparent;
+            this.gbxSort.Controls.Add(this.radioButton2);
+            this.gbxSort.Controls.Add(this.radioButton1);
+            this.gbxSort.Controls.Add(this.rdoProjectDesc);
+            this.gbxSort.Controls.Add(this.rdoProjectAsc);
+            this.gbxSort.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbxSort.ForeColor = System.Drawing.Color.White;
+            this.gbxSort.Location = new System.Drawing.Point(692, 103);
+            this.gbxSort.Name = "gbxSort";
+            this.gbxSort.Size = new System.Drawing.Size(185, 175);
+            this.gbxSort.TabIndex = 12;
+            this.gbxSort.TabStop = false;
+            this.gbxSort.Text = "Sort Report By:";
+            this.gbxSort.UseCompatibleTextRendering = true;
+            this.gbxSort.Enter += new System.EventHandler(this.gbxSort_Enter);
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(6, 131);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(158, 21);
+            this.radioButton2.Size = new System.Drawing.Size(177, 21);
             this.radioButton2.TabIndex = 12;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Project name (Desc)";
             this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(6, 94);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(167, 21);
+            this.radioButton1.TabIndex = 11;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Project name (Asc)";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // rdoProjectDesc
+            // 
+            this.rdoProjectDesc.AutoSize = true;
+            this.rdoProjectDesc.Location = new System.Drawing.Point(6, 58);
+            this.rdoProjectDesc.Name = "rdoProjectDesc";
+            this.rdoProjectDesc.Size = new System.Drawing.Size(177, 21);
+            this.rdoProjectDesc.TabIndex = 10;
+            this.rdoProjectDesc.TabStop = true;
+            this.rdoProjectDesc.Text = "Project name (Desc)";
+            this.rdoProjectDesc.UseVisualStyleBackColor = true;
+            // 
+            // rdoProjectAsc
+            // 
+            this.rdoProjectAsc.AutoSize = true;
+            this.rdoProjectAsc.Location = new System.Drawing.Point(6, 21);
+            this.rdoProjectAsc.Name = "rdoProjectAsc";
+            this.rdoProjectAsc.Size = new System.Drawing.Size(167, 21);
+            this.rdoProjectAsc.TabIndex = 9;
+            this.rdoProjectAsc.TabStop = true;
+            this.rdoProjectAsc.Text = "Project name (Asc)";
+            this.rdoProjectAsc.UseVisualStyleBackColor = true;
+            // 
+            // lblResult
+            // 
+            this.lblResult.AutoSize = true;
+            this.lblResult.BackColor = System.Drawing.Color.Transparent;
+            this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold);
+            this.lblResult.ForeColor = System.Drawing.Color.White;
+            this.lblResult.Location = new System.Drawing.Point(18, 354);
+            this.lblResult.Name = "lblResult";
+            this.lblResult.Size = new System.Drawing.Size(96, 17);
+            this.lblResult.TabIndex = 7;
+            this.lblResult.Text = "xxxResultxxx";
+            this.lblResult.Click += new System.EventHandler(this.label3_Click);
             // 
             // btnGenerateReport
             // 
@@ -242,6 +260,7 @@ namespace RecyclingIS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(957, 694);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnGenerateReport);

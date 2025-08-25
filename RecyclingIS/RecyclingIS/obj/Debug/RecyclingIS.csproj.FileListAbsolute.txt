@@ -74,3 +74,4 @@ K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.GenerateReso
 K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.CoreCompileInputs.cache
 K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe
 K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.pdb
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmRecordManagement.resources
