@@ -118,12 +118,6 @@
     <Compile Include="frmDeleteStudent.Designer.cs">
       <DependentUpon>frmDeleteStudent.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDeleteStudentProj.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmDeleteStudentProj.Designer.cs">
-      <DependentUpon>frmDeleteStudentProj.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmItemsManagement.cs">
       <SubType>Form</SubType>
     </Compile>
