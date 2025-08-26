@@ -31,8 +31,8 @@ namespace RecyclingIS
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDeleteProject));
             this.btnCancel = new System.Windows.Forms.Button();
-            this.btnAddStudent = new System.Windows.Forms.Button();
-            this.cbxItemType = new System.Windows.Forms.ComboBox();
+            this.btnDeleteProj = new System.Windows.Forms.Button();
+            this.cbxProj = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblHeading = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -50,25 +50,25 @@ namespace RecyclingIS
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // btnAddStudent
+            // btnDeleteProj
             // 
-            this.btnAddStudent.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddStudent.ForeColor = System.Drawing.Color.White;
-            this.btnAddStudent.Location = new System.Drawing.Point(12, 176);
-            this.btnAddStudent.Name = "btnAddStudent";
-            this.btnAddStudent.Size = new System.Drawing.Size(171, 40);
-            this.btnAddStudent.TabIndex = 53;
-            this.btnAddStudent.Text = "Delete Item Type";
-            this.btnAddStudent.UseVisualStyleBackColor = false;
+            this.btnDeleteProj.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnDeleteProj.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteProj.ForeColor = System.Drawing.Color.White;
+            this.btnDeleteProj.Location = new System.Drawing.Point(12, 176);
+            this.btnDeleteProj.Name = "btnDeleteProj";
+            this.btnDeleteProj.Size = new System.Drawing.Size(171, 40);
+            this.btnDeleteProj.TabIndex = 53;
+            this.btnDeleteProj.Text = "Delete Project";
+            this.btnDeleteProj.UseVisualStyleBackColor = false;
             // 
-            // cbxItemType
+            // cbxProj
             // 
-            this.cbxItemType.FormattingEnabled = true;
-            this.cbxItemType.Location = new System.Drawing.Point(12, 123);
-            this.cbxItemType.Name = "cbxItemType";
-            this.cbxItemType.Size = new System.Drawing.Size(276, 24);
-            this.cbxItemType.TabIndex = 52;
+            this.cbxProj.FormattingEnabled = true;
+            this.cbxProj.Location = new System.Drawing.Point(12, 123);
+            this.cbxProj.Name = "cbxProj";
+            this.cbxProj.Size = new System.Drawing.Size(276, 24);
+            this.cbxProj.TabIndex = 52;
             // 
             // label1
             // 
@@ -78,16 +78,16 @@ namespace RecyclingIS
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(18, 90);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 25);
+            this.label1.Size = new System.Drawing.Size(157, 25);
             this.label1.TabIndex = 51;
-            this.label1.Text = "Select item type";
+            this.label1.Text = "Select project";
             // 
             // lblHeading
             // 
             this.lblHeading.BackColor = System.Drawing.Color.Transparent;
             this.lblHeading.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeading.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblHeading.Location = new System.Drawing.Point(12, 9);
+            this.lblHeading.Location = new System.Drawing.Point(2, 9);
             this.lblHeading.Name = "lblHeading";
             this.lblHeading.Size = new System.Drawing.Size(830, 58);
             this.lblHeading.TabIndex = 50;
@@ -100,8 +100,8 @@ namespace RecyclingIS
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(482, 228);
             this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnAddStudent);
-            this.Controls.Add(this.cbxItemType);
+            this.Controls.Add(this.btnDeleteProj);
+            this.Controls.Add(this.cbxProj);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblHeading);
             this.Name = "frmDeleteProject";
@@ -114,8 +114,8 @@ namespace RecyclingIS
         #endregion
 
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Button btnAddStudent;
-        private System.Windows.Forms.ComboBox cbxItemType;
+        private System.Windows.Forms.Button btnDeleteProj;
+        private System.Windows.Forms.ComboBox cbxProj;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblHeading;
     }

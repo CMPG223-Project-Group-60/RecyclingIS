@@ -42,5 +42,23 @@ namespace RecyclingIS
         {
 
         }
+
+        private void frmAssignStudents_Load(object sender, EventArgs e)
+        {
+            SetupDataGridView();
+        }
+
+        private void SetupDataGridView()
+        {
+            dgvDisplayAssign.Columns.Clear();
+
+            // Add text columns
+            dgvDisplayAssign.Columns.Add("Student firstname", "ProjectID");
+            dgvDisplayAssign.Columns.Add("Project Name", "Project Name");
+            dgvDisplayAssign.Columns.Add("Description", "Description");
+            dgvDisplayAssign.Columns.Add("Due Date", "Due Date");
+
+            
+        }
     }
 }
