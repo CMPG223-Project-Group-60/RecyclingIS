@@ -87,3 +87,5 @@ K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteProject.re
 K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmRecordManagement.resources
 K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateProject.resources
 K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateRecordedItem.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddStudentProj.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateStudentProj.resources

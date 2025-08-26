@@ -204,6 +204,9 @@
     <EmbeddedResource Include="frmAddStudent.resx">
       <DependentUpon>frmAddStudent.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAddStudentProj.resx">
+      <DependentUpon>frmAddStudentProj.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAssignStudents.resx">
       <DependentUpon>frmAssignStudents.cs</DependentUpon>
     </EmbeddedResource>
@@ -248,6 +251,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmUpdateStudent.resx">
       <DependentUpon>frmUpdateStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateStudentProj.resx">
+      <DependentUpon>frmUpdateStudentProj.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
