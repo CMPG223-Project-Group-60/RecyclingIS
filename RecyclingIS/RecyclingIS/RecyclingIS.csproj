@@ -70,6 +70,12 @@
     <Compile Include="frmAddProject.Designer.cs">
       <DependentUpon>frmAddProject.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAddRecordedItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddRecordedItem.Designer.cs">
+      <DependentUpon>frmAddRecordedItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAddStudent.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +172,12 @@
     <Compile Include="frmUpdateProject.Designer.cs">
       <DependentUpon>frmUpdateProject.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUpdateRecordedItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateRecordedItem.Designer.cs">
+      <DependentUpon>frmUpdateRecordedItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmUpdateStudent.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -191,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAddProject.resx">
       <DependentUpon>frmAddProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddRecordedItem.resx">
+      <DependentUpon>frmAddRecordedItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAddStudent.resx">
       <DependentUpon>frmAddStudent.cs</DependentUpon>
@@ -233,6 +248,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmUpdateProject.resx">
       <DependentUpon>frmUpdateProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateRecordedItem.resx">
+      <DependentUpon>frmUpdateRecordedItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUpdateStudent.resx">
       <DependentUpon>frmUpdateStudent.cs</DependentUpon>
