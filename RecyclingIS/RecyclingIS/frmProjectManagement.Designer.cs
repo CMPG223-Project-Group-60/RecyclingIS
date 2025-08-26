@@ -55,9 +55,9 @@ namespace RecyclingIS
             this.lblSubHeading.ForeColor = System.Drawing.Color.White;
             this.lblSubHeading.Location = new System.Drawing.Point(18, 73);
             this.lblSubHeading.Name = "lblSubHeading";
-            this.lblSubHeading.Size = new System.Drawing.Size(409, 20);
+            this.lblSubHeading.Size = new System.Drawing.Size(234, 20);
             this.lblSubHeading.TabIndex = 3;
-            this.lblSubHeading.Text = "Manage the master list of recyclable item types";
+            this.lblSubHeading.Text = "Manage the list of projects";
             // 
             // dgvDisplayProjects
             // 
