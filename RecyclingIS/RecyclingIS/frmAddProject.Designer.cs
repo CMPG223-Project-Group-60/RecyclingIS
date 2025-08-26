@@ -39,7 +39,7 @@ namespace RecyclingIS
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.btnAddStudent = new System.Windows.Forms.Button();
+            this.btnAddProj = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblHeading
@@ -138,17 +138,17 @@ namespace RecyclingIS
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // btnAddStudent
+            // btnAddProj
             // 
-            this.btnAddStudent.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddStudent.ForeColor = System.Drawing.Color.White;
-            this.btnAddStudent.Location = new System.Drawing.Point(22, 349);
-            this.btnAddStudent.Name = "btnAddStudent";
-            this.btnAddStudent.Size = new System.Drawing.Size(145, 55);
-            this.btnAddStudent.TabIndex = 32;
-            this.btnAddStudent.Text = "Add Student";
-            this.btnAddStudent.UseVisualStyleBackColor = false;
+            this.btnAddProj.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnAddProj.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddProj.ForeColor = System.Drawing.Color.White;
+            this.btnAddProj.Location = new System.Drawing.Point(22, 349);
+            this.btnAddProj.Name = "btnAddProj";
+            this.btnAddProj.Size = new System.Drawing.Size(145, 55);
+            this.btnAddProj.TabIndex = 32;
+            this.btnAddProj.Text = "Add Project";
+            this.btnAddProj.UseVisualStyleBackColor = false;
             // 
             // frmAddProject
             // 
@@ -159,7 +159,7 @@ namespace RecyclingIS
             this.ClientSize = new System.Drawing.Size(536, 423);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnAddStudent);
+            this.Controls.Add(this.btnAddProj);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
@@ -185,6 +185,6 @@ namespace RecyclingIS
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Button btnAddStudent;
+        private System.Windows.Forms.Button btnAddProj;
     }
 }

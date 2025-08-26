@@ -12,7 +12,7 @@ namespace RecyclingIS
 {
     public partial class frmProjectManagement : Form
     {
-        private string placeholder = "Search students by number, name, or grade...";
+        private string placeholder = "Search projects by ID, name";
         public frmProjectManagement()
         {
             InitializeComponent();
@@ -49,17 +49,10 @@ namespace RecyclingIS
             dgvDisplayProjects.Columns.Clear();
 
             // Add text columns
-            dgvDisplayProjects.Columns.Add("Last Name", "Last Name");
-            dgvDisplayProjects.Columns.Add("First Name", "First Name");
-            dgvDisplayProjects.Columns.Add("Grade", "Grade");
-            dgvDisplayProjects.Columns.Add("Gender", "Gender");
-            dgvDisplayProjects.Columns.Add("Date of Birth", "Date of Birth");
-
-            /* DataGridViewButtonColumn btnDelete = new DataGridViewButtonColumn();
-             btnDelete.HeaderText = "Delete";
-             btnDelete.Text = "Delete";
-             btnDelete.UseColumnTextForButtonValue = true;
-             dgvDisplayItems.Columns.Add(btnDelete);*/
+            dgvDisplayProjects.Columns.Add("ProjectID", "ProjectID");
+            dgvDisplayProjects.Columns.Add("Project Name", "Project Name");
+            dgvDisplayProjects.Columns.Add("Description", "Description");
+            dgvDisplayProjects.Columns.Add("Due Date", "Due Date");
         }
 
         private void lblHeading_Click(object sender, EventArgs e)
@@ -98,6 +91,11 @@ namespace RecyclingIS
             frmAssignStudents assign = new frmAssignStudents();
             assign.StartPosition = FormStartPosition.CenterParent;
             assign.ShowDialog(this);
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

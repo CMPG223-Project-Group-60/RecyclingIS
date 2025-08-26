@@ -32,7 +32,7 @@ namespace RecyclingIS
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmUpdateProject));
             this.btnClear = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.btnAddStudent = new System.Windows.Forms.Button();
+            this.btnUpdateProj = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtItemName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -67,17 +67,17 @@ namespace RecyclingIS
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // btnAddStudent
+            // btnUpdateProj
             // 
-            this.btnAddStudent.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddStudent.ForeColor = System.Drawing.Color.White;
-            this.btnAddStudent.Location = new System.Drawing.Point(21, 309);
-            this.btnAddStudent.Name = "btnAddStudent";
-            this.btnAddStudent.Size = new System.Drawing.Size(153, 45);
-            this.btnAddStudent.TabIndex = 57;
-            this.btnAddStudent.Text = "Update Item Type";
-            this.btnAddStudent.UseVisualStyleBackColor = false;
+            this.btnUpdateProj.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnUpdateProj.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateProj.ForeColor = System.Drawing.Color.White;
+            this.btnUpdateProj.Location = new System.Drawing.Point(21, 309);
+            this.btnUpdateProj.Name = "btnUpdateProj";
+            this.btnUpdateProj.Size = new System.Drawing.Size(153, 45);
+            this.btnUpdateProj.TabIndex = 57;
+            this.btnUpdateProj.Text = "Update Project";
+            this.btnUpdateProj.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
@@ -159,7 +159,7 @@ namespace RecyclingIS
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnAddStudent);
+            this.Controls.Add(this.btnUpdateProj);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtItemName);
             this.Controls.Add(this.label2);
@@ -177,7 +177,7 @@ namespace RecyclingIS
 
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Button btnAddStudent;
+        private System.Windows.Forms.Button btnUpdateProj;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtItemName;
         private System.Windows.Forms.Label label2;
