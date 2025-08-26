@@ -82,6 +82,12 @@
     <Compile Include="frmAddStudent.Designer.cs">
       <DependentUpon>frmAddStudent.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAddStudentProj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddStudentProj.Designer.cs">
+      <DependentUpon>frmAddStudentProj.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAssignStudents.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,12 @@
     </Compile>
     <Compile Include="frmDeleteStudent.Designer.cs">
       <DependentUpon>frmDeleteStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteStudentProj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteStudentProj.Designer.cs">
+      <DependentUpon>frmDeleteStudentProj.cs</DependentUpon>
     </Compile>
     <Compile Include="frmItemsManagement.cs">
       <SubType>Form</SubType>
@@ -172,6 +184,12 @@
     <Compile Include="frmUpdateStudent.Designer.cs">
       <DependentUpon>frmUpdateStudent.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUpdateStudentProj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateStudentProj.Designer.cs">
+      <DependentUpon>frmUpdateStudentProj.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -191,6 +209,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAddStudent.resx">
       <DependentUpon>frmAddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssignStudents.resx">
+      <DependentUpon>frmAssignStudents.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDashboardManagement.resx">
       <DependentUpon>frmDashboardManagement.cs</DependentUpon>
