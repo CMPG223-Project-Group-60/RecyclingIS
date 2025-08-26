@@ -12,9 +12,37 @@ namespace RecyclingIS
 {
     public partial class frmAssignStudents : Form
     {
+        private string placeholder = "Search student on projects by firstname, lastname, project name";
+
         public frmAssignStudents()
         {
             InitializeComponent();
+
+            // Set initial placeholder
+            txtSearch.Text = placeholder;
+            txtSearch.ForeColor = Color.DarkGray;
+
+            // Hook up events
+            txtSearch.Enter += RemovePlaceholder;
+            txtSearch.Leave += SetPlaceholder;
+        }
+
+        private void RemovePlaceholder(object sender, EventArgs e)
+        {
+            if (txtSearch.Text == placeholder)
+            {
+                txtSearch.Text = "";
+                txtSearch.ForeColor = Color.Black;
+            }
+        }
+
+        private void SetPlaceholder(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtSearch.Text))
+            {
+                txtSearch.Text = placeholder;
+                txtSearch.ForeColor = Color.DarkGray;
+            }
         }
 
         private void btnAddStudentProj_Click(object sender, EventArgs e)
@@ -33,9 +61,7 @@ namespace RecyclingIS
 
         private void btnDeleteStudentProj_Click(object sender, EventArgs e)
         {
-            frmDeleteStudentProj add = new frmDeleteStudentProj();
-            add.StartPosition = FormStartPosition.CenterParent;
-            add.ShowDialog(this);
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -53,10 +79,10 @@ namespace RecyclingIS
             dgvDisplayAssign.Columns.Clear();
 
             // Add text columns
-            dgvDisplayAssign.Columns.Add("Student firstname", "ProjectID");
-            dgvDisplayAssign.Columns.Add("Project Name", "Project Name");
-            dgvDisplayAssign.Columns.Add("Description", "Description");
-            dgvDisplayAssign.Columns.Add("Due Date", "Due Date");
+            dgvDisplayAssign.Columns.Add("Student firstname", "Student firstname");
+            dgvDisplayAssign.Columns.Add("Student lastname", "Student lastname");
+            dgvDisplayAssign.Columns.Add("Project name", "Project name");
+            dgvDisplayAssign.Columns.Add("Project Due Date", "Project Due Date");
 
             
         }
