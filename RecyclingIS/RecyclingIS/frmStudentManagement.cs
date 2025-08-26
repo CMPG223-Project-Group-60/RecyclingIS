@@ -13,7 +13,7 @@ namespace RecyclingIS
 {
     public partial class frmStudentManagement : Form
     {
-        private string placeholder = "Search students by number, name, or grade...";
+        private string placeholder = "Search students by name or grade...";
 
         public frmStudentManagement()
         {
@@ -103,6 +103,11 @@ namespace RecyclingIS
         }
 
         private void lblHeading_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvDisplayStudents_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

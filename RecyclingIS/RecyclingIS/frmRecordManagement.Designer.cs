@@ -64,9 +64,9 @@ namespace RecyclingIS
             this.lblSubHeading.ForeColor = System.Drawing.Color.White;
             this.lblSubHeading.Location = new System.Drawing.Point(4, 54);
             this.lblSubHeading.Name = "lblSubHeading";
-            this.lblSubHeading.Size = new System.Drawing.Size(409, 20);
+            this.lblSubHeading.Size = new System.Drawing.Size(421, 20);
             this.lblSubHeading.TabIndex = 13;
-            this.lblSubHeading.Text = "Manage the master list of recyclable item types";
+            this.lblSubHeading.Text = "View, edit, and manage all recycling transactions";
             this.lblSubHeading.Click += new System.EventHandler(this.lblSubHeading_Click);
             // 
             // panel1
@@ -107,12 +107,13 @@ namespace RecyclingIS
             // 
             this.dgvRecordedItem.AllowUserToAddRows = false;
             this.dgvRecordedItem.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvRecordedItem.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvRecordedItem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvRecordedItem.Location = new System.Drawing.Point(8, 216);
+            this.dgvRecordedItem.Location = new System.Drawing.Point(8, 184);
             this.dgvRecordedItem.Name = "dgvRecordedItem";
             this.dgvRecordedItem.RowHeadersWidth = 51;
             this.dgvRecordedItem.RowTemplate.Height = 24;
-            this.dgvRecordedItem.Size = new System.Drawing.Size(801, 265);
+            this.dgvRecordedItem.Size = new System.Drawing.Size(801, 297);
             this.dgvRecordedItem.TabIndex = 9;
             // 
             // btnDeleteRecordedItem
@@ -126,6 +127,7 @@ namespace RecyclingIS
             this.btnDeleteRecordedItem.TabIndex = 18;
             this.btnDeleteRecordedItem.Text = "Delete Recorded Item";
             this.btnDeleteRecordedItem.UseVisualStyleBackColor = false;
+            this.btnDeleteRecordedItem.Click += new System.EventHandler(this.btnDeleteRecordedItem_Click);
             // 
             // btnUpdate
             // 
@@ -139,6 +141,7 @@ namespace RecyclingIS
             this.btnUpdate.TabIndex = 17;
             this.btnUpdate.Text = "Update Recorded Item";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnAddRecordedItem
             // 
@@ -147,10 +150,11 @@ namespace RecyclingIS
             this.btnAddRecordedItem.ForeColor = System.Drawing.Color.White;
             this.btnAddRecordedItem.Location = new System.Drawing.Point(14, 508);
             this.btnAddRecordedItem.Name = "btnAddRecordedItem";
-            this.btnAddRecordedItem.Size = new System.Drawing.Size(162, 55);
+            this.btnAddRecordedItem.Size = new System.Drawing.Size(183, 55);
             this.btnAddRecordedItem.TabIndex = 16;
             this.btnAddRecordedItem.Text = "Add Recorded Items";
             this.btnAddRecordedItem.UseVisualStyleBackColor = false;
+            this.btnAddRecordedItem.Click += new System.EventHandler(this.btnAddRecordedItem_Click);
             // 
             // frmRecordManagement
             // 
@@ -168,6 +172,7 @@ namespace RecyclingIS
             this.Controls.Add(this.lblSubHeading);
             this.Name = "frmRecordManagement";
             this.Text = "frmRecordManagement";
+            this.Load += new System.EventHandler(this.frmRecordManagement_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

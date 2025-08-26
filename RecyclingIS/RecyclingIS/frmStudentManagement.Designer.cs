@@ -125,6 +125,7 @@ namespace RecyclingIS
             this.dgvDisplayStudents.RowTemplate.Height = 24;
             this.dgvDisplayStudents.Size = new System.Drawing.Size(827, 345);
             this.dgvDisplayStudents.TabIndex = 4;
+            this.dgvDisplayStudents.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDisplayStudents_CellContentClick);
             // 
             // btnUpdate
             // 
