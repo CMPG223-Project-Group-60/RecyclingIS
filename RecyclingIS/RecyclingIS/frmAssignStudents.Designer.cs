@@ -53,7 +53,7 @@ namespace RecyclingIS
             this.btnDeleteStudentProj.Name = "btnDeleteStudentProj";
             this.btnDeleteStudentProj.Size = new System.Drawing.Size(178, 55);
             this.btnDeleteStudentProj.TabIndex = 22;
-            this.btnDeleteStudentProj.Text = "Delete Student to Project";
+            this.btnDeleteStudentProj.Text = "Delete Student from Project";
             this.btnDeleteStudentProj.UseVisualStyleBackColor = false;
             this.btnDeleteStudentProj.Click += new System.EventHandler(this.btnDeleteStudentProj_Click);
             // 
