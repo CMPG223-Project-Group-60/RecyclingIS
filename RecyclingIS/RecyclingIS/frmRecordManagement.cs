@@ -97,5 +97,10 @@ namespace RecyclingIS
         {
             
         }
+
+        private void dgvRecordedItem_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

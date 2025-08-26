@@ -115,6 +115,7 @@ namespace RecyclingIS
             this.dgvRecordedItem.RowTemplate.Height = 24;
             this.dgvRecordedItem.Size = new System.Drawing.Size(801, 297);
             this.dgvRecordedItem.TabIndex = 9;
+            this.dgvRecordedItem.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvRecordedItem_CellContentClick);
             // 
             // btnDeleteRecordedItem
             // 
