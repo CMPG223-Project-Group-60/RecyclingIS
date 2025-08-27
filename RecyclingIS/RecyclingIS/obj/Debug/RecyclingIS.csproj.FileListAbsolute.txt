@@ -85,3 +85,16 @@ C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-U
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteMerit.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMeritManagement.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdate_Merit.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddMerit.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddProject.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddRecordedItem.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddStudentProj.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAssignStudents.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteMerit.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteProject.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMeritManagement.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmRecordManagement.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdate_Merit.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateProject.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateRecordedItem.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateStudentProj.resources
