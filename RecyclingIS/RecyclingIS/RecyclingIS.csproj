@@ -52,10 +52,244 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAddItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddItems.Designer.cs">
+      <DependentUpon>frmAddItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddItemType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddItemType.Designer.cs">
+      <DependentUpon>frmAddItemType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddMerit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddMerit.Designer.cs">
+      <DependentUpon>frmAddMerit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddProject.Designer.cs">
+      <DependentUpon>frmAddProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddRecordedItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddRecordedItem.Designer.cs">
+      <DependentUpon>frmAddRecordedItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddStudent.Designer.cs">
+      <DependentUpon>frmAddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddStudentProj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddStudentProj.Designer.cs">
+      <DependentUpon>frmAddStudentProj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAssignStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssignStudents.Designer.cs">
+      <DependentUpon>frmAssignStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDashboardManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashboardManagement.Designer.cs">
+      <DependentUpon>frmDashboardManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteItemType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteItemType.Designer.cs">
+      <DependentUpon>frmDeleteItemType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteMerit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteMerit.Designer.cs">
+      <DependentUpon>frmDeleteMerit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteProject.Designer.cs">
+      <DependentUpon>frmDeleteProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteStudent.Designer.cs">
+      <DependentUpon>frmDeleteStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmItemsManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmItemsManagement.Designer.cs">
+      <DependentUpon>frmItemsManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMeritManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMeritManagement.Designer.cs">
+      <DependentUpon>frmMeritManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProjectManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProjectManagement.Designer.cs">
+      <DependentUpon>frmProjectManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecordManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecordManagement.Designer.cs">
+      <DependentUpon>frmRecordManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportManagement.Designer.cs">
+      <DependentUpon>frmReportManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStudentManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStudentManagement.Designer.cs">
+      <DependentUpon>frmStudentManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdate Merit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdate Merit.Designer.cs">
+      <DependentUpon>frmUpdate Merit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateItem.Designer.cs">
+      <DependentUpon>frmUpdateItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateItemType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateItemType.Designer.cs">
+      <DependentUpon>frmUpdateItemType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateProject.Designer.cs">
+      <DependentUpon>frmUpdateProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateRecordedItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateRecordedItem.Designer.cs">
+      <DependentUpon>frmUpdateRecordedItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateStudent.Designer.cs">
+      <DependentUpon>frmUpdateStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateStudentProj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateStudentProj.Designer.cs">
+      <DependentUpon>frmUpdateStudentProj.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddItems.resx">
+      <DependentUpon>frmAddItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddItemType.resx">
+      <DependentUpon>frmAddItemType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddMerit.resx">
+      <DependentUpon>frmAddMerit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddProject.resx">
+      <DependentUpon>frmAddProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddRecordedItem.resx">
+      <DependentUpon>frmAddRecordedItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddStudent.resx">
+      <DependentUpon>frmAddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddStudentProj.resx">
+      <DependentUpon>frmAddStudentProj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssignStudents.resx">
+      <DependentUpon>frmAssignStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDashboardManagement.resx">
+      <DependentUpon>frmDashboardManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteItemType.resx">
+      <DependentUpon>frmDeleteItemType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteMerit.resx">
+      <DependentUpon>frmDeleteMerit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteProject.resx">
+      <DependentUpon>frmDeleteProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteStudent.resx">
+      <DependentUpon>frmDeleteStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmItemsManagement.resx">
+      <DependentUpon>frmItemsManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeritManagement.resx">
+      <DependentUpon>frmMeritManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProjectManagement.resx">
+      <DependentUpon>frmProjectManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecordManagement.resx">
+      <DependentUpon>frmRecordManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportManagement.resx">
+      <DependentUpon>frmReportManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStudentManagement.resx">
+      <DependentUpon>frmStudentManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdate Merit.resx">
+      <DependentUpon>frmUpdate Merit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateItem.resx">
+      <DependentUpon>frmUpdateItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateItemType.resx">
+      <DependentUpon>frmUpdateItemType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateProject.resx">
+      <DependentUpon>frmUpdateProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateRecordedItem.resx">
+      <DependentUpon>frmUpdateRecordedItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateStudent.resx">
+      <DependentUpon>frmUpdateStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateStudentProj.resx">
+      <DependentUpon>frmUpdateStudentProj.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +299,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +313,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeicon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\students icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\items icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recordicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\projecticon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medal icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reporticon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

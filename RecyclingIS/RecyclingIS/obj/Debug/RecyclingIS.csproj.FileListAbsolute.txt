@@ -1,0 +1,89 @@
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe.config
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.pdb
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.AssemblyReference.cache
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMain.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.Properties.Resources.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.GenerateResource.cache
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.CoreCompileInputs.cache
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.pdb
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmStudentManagement.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmItemsManagement.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDashboardManagement.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItem.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe.config
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.pdb
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.AssemblyReference.cache
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMain.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDashboardManagement.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmItemsManagement.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmStudentManagement.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItem.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.Properties.Resources.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.GenerateResource.cache
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.CoreCompileInputs.cache
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.pdb
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmProjectManagement.resources
+C:\Users\seati\OneDrive\Documents\GitHub\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMeritManagement.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe.config
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.pdb
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.AssemblyReference.cache
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMain.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDashboardManagement.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmItemsManagement.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmProjectManagement.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmStudentManagement.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItem.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.Properties.Resources.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.GenerateResource.cache
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.CoreCompileInputs.cache
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.pdb
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddItems.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddStudent.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateStudent.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteStudent.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddItemType.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItemType.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteItemType.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmReportManagement.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe.config
+K:\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe
+K:\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.pdb
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.AssemblyReference.cache
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMain.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddItems.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddItemType.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddStudent.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDashboardManagement.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteItemType.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteStudent.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmItemsManagement.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmProjectManagement.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmReportManagement.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmStudentManagement.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItem.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItemType.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateStudent.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.Properties.Resources.resources
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.GenerateResource.cache
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.CoreCompileInputs.cache
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe
+K:\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.pdb
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddProject.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteProject.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateProject.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmRecordManagement.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddRecordedItem.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateRecordedItem.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAssignStudents.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddMerit.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteMerit.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMeritManagement.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdate_Merit.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddStudentProj.resources
+C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateStudentProj.resources
