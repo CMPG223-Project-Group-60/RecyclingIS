@@ -60,5 +60,11 @@ namespace RecyclingIS
         {
             m_form = new frmItemsManagement();
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtItemName.Text = "";
+            cbxQty.SelectedIndex = -1;
+        }
     }
 }
