@@ -279,6 +279,7 @@ namespace RecyclingIS
             this.Controls.Add(this.lblHeading);
             this.Name = "frmReportManagement";
             this.Text = "frmReportManagement";
+            this.Load += new System.EventHandler(this.frmReportManagement_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDisplayReport)).EndInit();
             this.gbxReport.ResumeLayout(false);
             this.gbxReport.PerformLayout();
