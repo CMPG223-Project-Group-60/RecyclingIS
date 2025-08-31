@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace RecyclingIS
 {
     public partial class frmDeleteItemType : Form
     {
+        private string connectionString = @"";
+        private SqlConnection con;
+
         public frmDeleteItemType()
         {
             InitializeComponent();
@@ -22,9 +26,47 @@ namespace RecyclingIS
             this.Close();
         }
 
-        private void lblHeading_Click(object sender, EventArgs e)
+        private void frmDeleteItemType_Load(object sender, EventArgs e)
         {
+            con = new SqlConnection(connectionString);
+            SqlCommand cmd;
+            SqlDataReader reader;
+            string sql;
 
+            con.Open(); // Open database connection
+
+            sql = "SELECT ItemID FROM ITEM";
+            cmd = new SqlCommand(sql, con);
+            reader = cmd.ExecuteReader();
+
+            while (reader.Read()) // loops through results and gets the item type to populate the combo box
+            {
+                cbxItemType.Items.Add(reader.GetValue(0));
+            }
+
+            cmd.Dispose();
+            con.Close(); // Close database connection
+        }
+
+        private void btnDeleteItemType_Click(object sender, EventArgs e)
+        {
+            con = new SqlConnection(connectionString);
+            SqlCommand cmd;
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            string sql;
+
+            con.Open(); // Open database connection
+
+            sql = "DELETE FROM ITEM WHERE ItemID = " + cbxItemType.SelectedItem.ToString();
+            cmd = new SqlCommand(sql, con);
+
+            adapter.DeleteCommand = cmd;
+            adapter.DeleteCommand.ExecuteNonQuery();
+
+            cmd.Dispose();
+            con.Close(); // Close database connection
+
+            MessageBox.Show("Item removed succesfully!");
         }
     }
 }

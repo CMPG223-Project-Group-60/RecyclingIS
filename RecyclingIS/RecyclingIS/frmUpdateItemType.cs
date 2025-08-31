@@ -58,7 +58,6 @@ namespace RecyclingIS
 
             cmd.Dispose();
             con.Close(); // Close database connection
-            MessageBox.Show("Item added succesfully!");
         }
 
         private void btnUpdateItemType_Click(object sender, EventArgs e)
@@ -79,6 +78,8 @@ namespace RecyclingIS
 
             cmd.Dispose();
             con.Close(); // Close database connection
+
+            MessageBox.Show("Item updated succesfully!");
         }
     }
 }
