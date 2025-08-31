@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmstudentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\nthab\\desktop\\recyclingis\\recyclingis\\recyclingis\\frmreportmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\nthab\\Desktop\\RecyclingIS\\RecyclingIS\\recyclingis\\frmreportmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmreportmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -60,20 +60,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmStudentManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nthab\\Desktop\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmStudentManagement.cs",
-              "RelativeDocumentMoniker": "RecyclingIS\\frmStudentManagement.cs",
-              "ToolTip": "C:\\Users\\nthab\\Desktop\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmStudentManagement.cs [Design]",
-              "RelativeToolTip": "RecyclingIS\\frmStudentManagement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T15:17:17.899Z",
-              "EditorCaption": " [Design]"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -84,8 +72,7 @@
               "RelativeToolTip": "RecyclingIS\\frmStudentManagement.cs",
               "ViewState": "AgIAAIYAAAAAAAAAAAAUwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T15:17:23.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T15:17:23.202Z"
             },
             {
               "$type": "Document",
@@ -107,10 +94,21 @@
               "RelativeDocumentMoniker": "RecyclingIS\\frmAddStudent.cs",
               "ToolTip": "C:\\Users\\nthab\\Desktop\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudent.cs",
               "RelativeToolTip": "RecyclingIS\\frmAddStudent.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAA6wIUAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAAAO8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-31T16:16:04.085Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmStudentManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nthab\\Desktop\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmStudentManagement.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmStudentManagement.cs",
+              "ToolTip": "C:\\Users\\nthab\\Desktop\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmStudentManagement.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmStudentManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T15:17:17.899Z"
             },
             {
               "$type": "Document",
@@ -121,8 +119,7 @@
               "ToolTip": "C:\\Users\\nthab\\Desktop\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmReportManagement.cs [Design]",
               "RelativeToolTip": "RecyclingIS\\frmReportManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T15:34:00.645Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-31T15:34:00.645Z"
             },
             {
               "$type": "Document",
@@ -133,8 +130,7 @@
               "ToolTip": "C:\\Users\\nthab\\Desktop\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmMeritManagement.cs [Design]",
               "RelativeToolTip": "RecyclingIS\\frmMeritManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T15:45:27.361Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-31T15:45:27.361Z"
             },
             {
               "$type": "Document",
@@ -146,8 +142,7 @@
               "RelativeToolTip": "RecyclingIS\\frmReportManagement.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAswBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T15:50:11.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T15:50:11.848Z"
             },
             {
               "$type": "Document",
@@ -158,8 +153,7 @@
               "ToolTip": "C:\\Users\\nthab\\Desktop\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmProjectManagement.cs [Design]",
               "RelativeToolTip": "RecyclingIS\\frmProjectManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T15:45:43.613Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-31T15:45:43.613Z"
             },
             {
               "$type": "Document",
@@ -170,8 +164,7 @@
               "ToolTip": "C:\\Users\\nthab\\Desktop\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmRecordManagement.cs [Design]",
               "RelativeToolTip": "RecyclingIS\\frmRecordManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T15:45:53.96Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-31T15:45:53.96Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "ToolTip": "C:\\Users\\nthab\\Desktop\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmItemsManagement.cs [Design]",
               "RelativeToolTip": "RecyclingIS\\frmItemsManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T15:44:52.216Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-31T15:44:52.216Z"
             },
             {
               "$type": "Document",
@@ -194,8 +186,7 @@
               "ToolTip": "C:\\Users\\nthab\\Desktop\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmUpdateStudent.cs [Design]",
               "RelativeToolTip": "RecyclingIS\\frmUpdateStudent.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T15:33:12.252Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-31T15:33:12.252Z"
             },
             {
               "$type": "Document",
