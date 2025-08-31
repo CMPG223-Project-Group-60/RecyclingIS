@@ -295,6 +295,7 @@ namespace RecyclingIS
             this.Name = "frmReportManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmReportManagement";
+            this.Load += new System.EventHandler(this.frmReportManagement_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDisplayReport)).EndInit();
             this.gbxReport.ResumeLayout(false);
             this.gbxReport.PerformLayout();

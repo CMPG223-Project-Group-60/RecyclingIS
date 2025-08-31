@@ -16,7 +16,7 @@ namespace RecyclingIS
         {
             InitializeComponent();
         }
-
+        String ConStr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True";
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -28,6 +28,11 @@ namespace RecyclingIS
         }
 
         private void lblHeading_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmReportManagement_Load(object sender, EventArgs e)
         {
 
         }
