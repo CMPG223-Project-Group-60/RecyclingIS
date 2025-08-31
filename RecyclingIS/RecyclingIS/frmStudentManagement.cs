@@ -8,13 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
+using System.Data.SqlClient;
 
 namespace RecyclingIS
 {
     public partial class frmStudentManagement : Form
     {
         private string placeholder = "Search students by name or grade...";
-
+        String ConStr = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True";
+        
         public frmStudentManagement()
         {
             InitializeComponent();
@@ -53,7 +55,9 @@ namespace RecyclingIS
 
         private void frmStudentManagement_Load(object sender, EventArgs e)
         {
-            SetupDataGridView();
+            //SetupDataGridView();
+            LoadStudents();
+
         }
         private void SetupDataGridView()
         {
@@ -81,6 +85,37 @@ namespace RecyclingIS
             student.ShowDialog(this);
 
 
+
+        }
+        private void LoadStudents()
+        {
+            dgvDisplayStudents.DataSource = GetStudentsByName("");
+        }
+
+        private DataTable GetStudentsByName(string searchName)
+        {
+            DataTable dt = new DataTable();
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(ConStr))
+                {
+                    using (SqlCommand cmd = new SqlCommand("sp_GetStudentsByName", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@SearchName", searchName);
+
+                        SqlDataAdapter da = new SqlDataAdapter(cmd);
+                        da.Fill(dt);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error fetching students: " + ex.Message);
+            }
+
+            return dt;
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
@@ -95,10 +130,14 @@ namespace RecyclingIS
             frmDeleteStudent delete = new frmDeleteStudent();
             delete.StartPosition = FormStartPosition.CenterParent;
             delete.ShowDialog(this);
+            
+            
         }
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
+            // Every time the user types, rebind the grid to the filtered data
+            dgvDisplayStudents.DataSource = GetStudentsByName(txtSearch.Text);
 
         }
 
