@@ -130,5 +130,16 @@ namespace RecyclingIS
             cmd.Dispose();
             con.Close(); // Close database connection
         }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            string sql = "Select * FROM ITEM WHERE ItemID LIKE '%" + txtSearch.Text + "%'";
+            SqlDataAdapter adapter = new SqlDataAdapter(sql, connectionString);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds, "ITEM");
+
+            dgvDisplayItems.DataSource = ds;
+            dgvDisplayItems.DataMember = "ITEM";
+        }
     }
 }
