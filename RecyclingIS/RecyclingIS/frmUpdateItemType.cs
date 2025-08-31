@@ -15,6 +15,7 @@ namespace RecyclingIS
     {
         private string connectionString = @"";
         private SqlConnection con;
+        private frmItemsManagement m_form;
 
         public frmUpdateItemType()
         {
@@ -40,6 +41,10 @@ namespace RecyclingIS
 
         private void frmUpdateItemType_Load(object sender, EventArgs e)
         {
+            // Initialize management form
+            m_form = new frmItemsManagement();
+
+            // DB STuff
             con = new SqlConnection(connectionString);
             SqlCommand cmd;
             SqlDataReader reader;
@@ -73,13 +78,21 @@ namespace RecyclingIS
                 + ", Item_Name = '" + txtItemName.Text + "', Item_QtyOnHand = " + cbxQty.SelectedItem.ToString();
             cmd = new SqlCommand(sql, con);
 
-            adapter.UpdateCommand = cmd;
-            adapter.UpdateCommand.ExecuteNonQuery();
+            try
+            {
+                adapter.UpdateCommand = cmd;
+                adapter.UpdateCommand.ExecuteNonQuery();
+            } catch (SqlException error)
+            {
+                MessageBox.Show("Couldn't update item!");
+                this.Close();
+            }
 
             cmd.Dispose();
             con.Close(); // Close database connection
 
             MessageBox.Show("Item updated succesfully!");
+            m_form.refreshGridView();
         }
     }
 }

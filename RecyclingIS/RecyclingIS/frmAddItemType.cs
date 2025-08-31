@@ -15,6 +15,7 @@ namespace RecyclingIS
     {
         private string connectionString = @"";
         private SqlConnection con;
+        private frmItemsManagement m_form;
 
         public frmAddItemType()
         {
@@ -45,12 +46,19 @@ namespace RecyclingIS
             } catch (SqlException error)
             {
                 MessageBox.Show("Item couldn't be added!");
+                this.Close();
             }
 
             cmd.Dispose();
             con.Close(); // Close database connection
 
             MessageBox.Show("Item added succesfully!");
+            m_form.refreshGridView();
+        }
+
+        private void frmAddItemType_Load(object sender, EventArgs e)
+        {
+            m_form = new frmItemsManagement();
         }
     }
 }

@@ -15,6 +15,7 @@ namespace RecyclingIS
     {
         private string connectionString = @"";
         private SqlConnection con;
+        private frmItemsManagement m_form;
 
         public frmDeleteItemType()
         {
@@ -28,6 +29,10 @@ namespace RecyclingIS
 
         private void frmDeleteItemType_Load(object sender, EventArgs e)
         {
+            // Initialize management form
+            m_form = new frmItemsManagement();
+
+            // DB Stuff
             con = new SqlConnection(connectionString);
             SqlCommand cmd;
             SqlDataReader reader;
@@ -60,13 +65,21 @@ namespace RecyclingIS
             sql = "DELETE FROM ITEM WHERE ItemID = " + cbxItemType.SelectedItem.ToString();
             cmd = new SqlCommand(sql, con);
 
-            adapter.DeleteCommand = cmd;
-            adapter.DeleteCommand.ExecuteNonQuery();
+            try
+            {
+                adapter.DeleteCommand = cmd;
+                adapter.DeleteCommand.ExecuteNonQuery();
+            } catch (SqlException error)
+            {
+                MessageBox.Show("Couldn't remove item!");
+                this.Close();
+            }
 
             cmd.Dispose();
             con.Close(); // Close database connection
 
             MessageBox.Show("Item removed succesfully!");
+            m_form.refreshGridView();
         }
     }
 }
