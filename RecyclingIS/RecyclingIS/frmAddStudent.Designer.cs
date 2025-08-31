@@ -52,9 +52,9 @@ namespace RecyclingIS
             this.lblHeading.BackColor = System.Drawing.Color.Transparent;
             this.lblHeading.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeading.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblHeading.Location = new System.Drawing.Point(12, 9);
+            this.lblHeading.Location = new System.Drawing.Point(14, 11);
             this.lblHeading.Name = "lblHeading";
-            this.lblHeading.Size = new System.Drawing.Size(830, 58);
+            this.lblHeading.Size = new System.Drawing.Size(934, 72);
             this.lblHeading.TabIndex = 7;
             this.lblHeading.Text = "Add New Student";
             this.lblHeading.Click += new System.EventHandler(this.lblHeading_Click);
@@ -64,9 +64,10 @@ namespace RecyclingIS
             this.btnAddStudent.BackColor = System.Drawing.Color.ForestGreen;
             this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddStudent.ForeColor = System.Drawing.Color.White;
-            this.btnAddStudent.Location = new System.Drawing.Point(21, 451);
+            this.btnAddStudent.Location = new System.Drawing.Point(24, 564);
+            this.btnAddStudent.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAddStudent.Name = "btnAddStudent";
-            this.btnAddStudent.Size = new System.Drawing.Size(118, 48);
+            this.btnAddStudent.Size = new System.Drawing.Size(133, 60);
             this.btnAddStudent.TabIndex = 10;
             this.btnAddStudent.Text = "Add Student";
             this.btnAddStudent.UseVisualStyleBackColor = false;
@@ -77,9 +78,10 @@ namespace RecyclingIS
             this.btnCancel.BackColor = System.Drawing.Color.Crimson;
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(381, 451);
+            this.btnCancel.Location = new System.Drawing.Point(429, 564);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(118, 48);
+            this.btnCancel.Size = new System.Drawing.Size(133, 60);
             this.btnCancel.TabIndex = 13;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -91,28 +93,30 @@ namespace RecyclingIS
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(16, 95);
+            this.label1.Location = new System.Drawing.Point(18, 119);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 25);
+            this.label1.Size = new System.Drawing.Size(143, 29);
             this.label1.TabIndex = 14;
             this.label1.Text = "First name";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(21, 123);
+            this.txtName.Location = new System.Drawing.Point(24, 154);
+            this.txtName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtName.Multiline = true;
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(478, 33);
+            this.txtName.Size = new System.Drawing.Size(537, 40);
             this.txtName.TabIndex = 15;
             this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
             // txtSurname
             // 
-            this.txtSurname.Location = new System.Drawing.Point(21, 207);
+            this.txtSurname.Location = new System.Drawing.Point(24, 259);
+            this.txtSurname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSurname.Multiline = true;
             this.txtSurname.Name = "txtSurname";
-            this.txtSurname.Size = new System.Drawing.Size(478, 33);
+            this.txtSurname.Size = new System.Drawing.Size(537, 40);
             this.txtSurname.TabIndex = 16;
             this.txtSurname.TextChanged += new System.EventHandler(this.txtSurname_TextChanged);
             // 
@@ -122,9 +126,9 @@ namespace RecyclingIS
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(17, 179);
+            this.label2.Location = new System.Drawing.Point(19, 224);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 25);
+            this.label2.Size = new System.Drawing.Size(141, 29);
             this.label2.TabIndex = 17;
             this.label2.Text = "Last name";
             // 
@@ -134,9 +138,9 @@ namespace RecyclingIS
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(334, 259);
+            this.label3.Location = new System.Drawing.Point(376, 324);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 25);
+            this.label3.Size = new System.Drawing.Size(87, 29);
             this.label3.TabIndex = 18;
             this.label3.Text = "Grade";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -144,9 +148,15 @@ namespace RecyclingIS
             // cbxGrade
             // 
             this.cbxGrade.FormattingEnabled = true;
-            this.cbxGrade.Location = new System.Drawing.Point(339, 293);
+            this.cbxGrade.Items.AddRange(new object[] {
+            "9",
+            "10",
+            "11",
+            "12"});
+            this.cbxGrade.Location = new System.Drawing.Point(381, 366);
+            this.cbxGrade.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbxGrade.Name = "cbxGrade";
-            this.cbxGrade.Size = new System.Drawing.Size(160, 24);
+            this.cbxGrade.Size = new System.Drawing.Size(180, 28);
             this.cbxGrade.TabIndex = 19;
             this.cbxGrade.SelectedIndexChanged += new System.EventHandler(this.cbxGrade_SelectedIndexChanged);
             // 
@@ -156,9 +166,9 @@ namespace RecyclingIS
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(18, 259);
+            this.label4.Location = new System.Drawing.Point(20, 324);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 25);
+            this.label4.Size = new System.Drawing.Size(102, 29);
             this.label4.TabIndex = 20;
             this.label4.Text = "Gender";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -168,9 +178,10 @@ namespace RecyclingIS
             this.rdoFemale.BackColor = System.Drawing.Color.Transparent;
             this.rdoFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.3F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoFemale.ForeColor = System.Drawing.Color.White;
-            this.rdoFemale.Location = new System.Drawing.Point(23, 287);
+            this.rdoFemale.Location = new System.Drawing.Point(26, 359);
+            this.rdoFemale.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rdoFemale.Name = "rdoFemale";
-            this.rdoFemale.Size = new System.Drawing.Size(184, 30);
+            this.rdoFemale.Size = new System.Drawing.Size(207, 38);
             this.rdoFemale.TabIndex = 21;
             this.rdoFemale.TabStop = true;
             this.rdoFemale.Text = "Female";
@@ -183,9 +194,10 @@ namespace RecyclingIS
             this.rdoMale.BackColor = System.Drawing.Color.Transparent;
             this.rdoMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.3F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoMale.ForeColor = System.Drawing.Color.White;
-            this.rdoMale.Location = new System.Drawing.Point(136, 282);
+            this.rdoMale.Location = new System.Drawing.Point(153, 352);
+            this.rdoMale.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rdoMale.Name = "rdoMale";
-            this.rdoMale.Size = new System.Drawing.Size(184, 41);
+            this.rdoMale.Size = new System.Drawing.Size(207, 51);
             this.rdoMale.TabIndex = 22;
             this.rdoMale.TabStop = true;
             this.rdoMale.Text = "Male";
@@ -199,9 +211,9 @@ namespace RecyclingIS
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(18, 352);
+            this.label5.Location = new System.Drawing.Point(20, 440);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(144, 25);
+            this.label5.Size = new System.Drawing.Size(166, 29);
             this.label5.TabIndex = 23;
             this.label5.Text = "Date of Birth";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -211,27 +223,29 @@ namespace RecyclingIS
             this.btnClear.BackColor = System.Drawing.Color.LightGreen;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.White;
-            this.btnClear.Location = new System.Drawing.Point(195, 451);
+            this.btnClear.Location = new System.Drawing.Point(219, 564);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(125, 48);
+            this.btnClear.Size = new System.Drawing.Size(141, 60);
             this.btnClear.TabIndex = 25;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(23, 380);
+            this.dateTimePicker1.Location = new System.Drawing.Point(26, 475);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(224, 26);
             this.dateTimePicker1.TabIndex = 26;
             // 
             // frmAddStudent
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(531, 510);
+            this.ClientSize = new System.Drawing.Size(597, 638);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.label5);
@@ -247,6 +261,7 @@ namespace RecyclingIS
             this.Controls.Add(this.lblHeading);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnAddStudent);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmAddStudent";
             this.Text = "frmAddStudent";
             this.Load += new System.EventHandler(this.frmAddStudent_Load);
