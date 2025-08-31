@@ -123,3 +123,4 @@ C:\Users\nthab\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS
 C:\Users\nthab\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.CoreCompileInputs.cache
 C:\Users\nthab\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe
 C:\Users\nthab\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.pdb
+C:\Users\nthab\Desktop\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe.config
