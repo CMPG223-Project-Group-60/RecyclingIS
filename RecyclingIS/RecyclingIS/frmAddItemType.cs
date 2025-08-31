@@ -21,5 +21,10 @@ namespace RecyclingIS
         {
             this.Close();
         }
+
+        private void frmAddItemType_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
