@@ -7,19 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace RecyclingIS
 {
     public partial class frmUpdateItemType : Form
     {
+        private string connectionString = @"";
+        private SqlConnection con;
+
         public frmUpdateItemType()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -30,6 +29,56 @@ namespace RecyclingIS
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            comboBox1.SelectedIndex = -1;
+            txtItemName.Text = "";
+            cbxQty.SelectedIndex = -1;
+        }
+
+        private void frmUpdateItemType_Load(object sender, EventArgs e)
+        {
+            con = new SqlConnection(connectionString);
+            SqlCommand cmd;
+            SqlDataReader reader;
+            string sql;
+
+            con.Open(); // Open database connection
+
+            sql = "SELECT ItemID FROM ITEM";
+            cmd = new SqlCommand(sql, con);
+            reader = cmd.ExecuteReader();
+
+            while (reader.Read()) // loops through results and gets the item type to populate the combo box
+            {
+                comboBox1.Items.Add(reader.GetValue(0));
+            }
+
+            cmd.Dispose();
+            con.Close(); // Close database connection
+            MessageBox.Show("Item added succesfully!");
+        }
+
+        private void btnUpdateItemType_Click(object sender, EventArgs e)
+        {
+            con = new SqlConnection(connectionString);
+            SqlCommand cmd;
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            string sql;
+
+            con.Open(); // Open database connection
+
+            sql = "UPDATE ITEM SET ItemID = " + comboBox1.SelectedItem.ToString()
+                + ", Item_Name = '" + txtItemName.Text + "', Item_QtyOnHand = " + cbxQty.SelectedItem.ToString();
+            cmd = new SqlCommand(sql, con);
+
+            adapter.UpdateCommand = cmd;
+            adapter.UpdateCommand.ExecuteNonQuery();
+
+            cmd.Dispose();
+            con.Close(); // Close database connection
         }
     }
 }
