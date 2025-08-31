@@ -282,7 +282,7 @@ namespace RecyclingIS
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(889, 696);
+            this.ClientSize = new System.Drawing.Size(872, 696);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnGenerateReport);
             this.Controls.Add(this.gbxSort);
