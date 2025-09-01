@@ -53,9 +53,9 @@ namespace RecyclingIS
             this.lblSubHeading.BackColor = System.Drawing.Color.Transparent;
             this.lblSubHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSubHeading.ForeColor = System.Drawing.Color.White;
-            this.lblSubHeading.Location = new System.Drawing.Point(20, 91);
+            this.lblSubHeading.Location = new System.Drawing.Point(18, 73);
             this.lblSubHeading.Name = "lblSubHeading";
-            this.lblSubHeading.Size = new System.Drawing.Size(292, 25);
+            this.lblSubHeading.Size = new System.Drawing.Size(234, 20);
             this.lblSubHeading.TabIndex = 3;
             this.lblSubHeading.Text = "Manage the list of projects";
             // 
@@ -65,20 +65,18 @@ namespace RecyclingIS
             this.dgvDisplayProjects.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDisplayProjects.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvDisplayProjects.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDisplayProjects.Location = new System.Drawing.Point(10, 232);
-            this.dgvDisplayProjects.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dgvDisplayProjects.Location = new System.Drawing.Point(9, 186);
             this.dgvDisplayProjects.Name = "dgvDisplayProjects";
             this.dgvDisplayProjects.RowHeadersWidth = 51;
             this.dgvDisplayProjects.RowTemplate.Height = 24;
-            this.dgvDisplayProjects.Size = new System.Drawing.Size(930, 331);
+            this.dgvDisplayProjects.Size = new System.Drawing.Size(827, 265);
             this.dgvDisplayProjects.TabIndex = 8;
             // 
             // splitter1
             // 
             this.splitter1.Location = new System.Drawing.Point(0, 0);
-            this.splitter1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 894);
+            this.splitter1.Size = new System.Drawing.Size(3, 640);
             this.splitter1.TabIndex = 9;
             this.splitter1.TabStop = false;
             // 
@@ -87,9 +85,9 @@ namespace RecyclingIS
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label1.Location = new System.Drawing.Point(14, 22);
+            this.label1.Location = new System.Drawing.Point(12, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(934, 72);
+            this.label1.Size = new System.Drawing.Size(830, 58);
             this.label1.TabIndex = 12;
             this.label1.Text = "Project Management";
             // 
@@ -99,11 +97,10 @@ namespace RecyclingIS
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.txtSearch);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(10, 166);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Location = new System.Drawing.Point(9, 133);
             this.panel1.Name = "panel1";
             this.panel1.Padding = new System.Windows.Forms.Padding(1);
-            this.panel1.Size = new System.Drawing.Size(930, 58);
+            this.panel1.Size = new System.Drawing.Size(827, 47);
             this.panel1.TabIndex = 9;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -112,21 +109,19 @@ namespace RecyclingIS
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.ForeColor = System.Drawing.Color.DarkGray;
-            this.txtSearch.Location = new System.Drawing.Point(62, 5);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtSearch.Location = new System.Drawing.Point(55, 4);
             this.txtSearch.Multiline = true;
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(858, 44);
+            this.txtSearch.Size = new System.Drawing.Size(763, 35);
             this.txtSearch.TabIndex = 1;
             this.txtSearch.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(4, 5);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(51, 44);
+            this.pictureBox1.Size = new System.Drawing.Size(45, 35);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -136,10 +131,9 @@ namespace RecyclingIS
             this.btnDelete.BackColor = System.Drawing.Color.Crimson;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(752, 602);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnDelete.Location = new System.Drawing.Point(672, 457);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(182, 69);
+            this.btnDelete.Size = new System.Drawing.Size(162, 55);
             this.btnDelete.TabIndex = 15;
             this.btnDelete.Text = "Delete Project";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -151,10 +145,9 @@ namespace RecyclingIS
             this.btnUpdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
-            this.btnUpdate.Location = new System.Drawing.Point(386, 602);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnUpdate.Location = new System.Drawing.Point(343, 457);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(182, 69);
+            this.btnUpdate.Size = new System.Drawing.Size(162, 55);
             this.btnUpdate.TabIndex = 14;
             this.btnUpdate.Text = "Update Project";
             this.btnUpdate.UseVisualStyleBackColor = false;
@@ -165,10 +158,9 @@ namespace RecyclingIS
             this.btnAddProject.BackColor = System.Drawing.Color.ForestGreen;
             this.btnAddProject.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddProject.ForeColor = System.Drawing.Color.White;
-            this.btnAddProject.Location = new System.Drawing.Point(10, 602);
-            this.btnAddProject.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnAddProject.Location = new System.Drawing.Point(9, 457);
             this.btnAddProject.Name = "btnAddProject";
-            this.btnAddProject.Size = new System.Drawing.Size(182, 69);
+            this.btnAddProject.Size = new System.Drawing.Size(162, 55);
             this.btnAddProject.TabIndex = 13;
             this.btnAddProject.Text = "Add Project";
             this.btnAddProject.UseVisualStyleBackColor = false;
@@ -180,9 +172,9 @@ namespace RecyclingIS
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(10, 738);
+            this.label2.Location = new System.Drawing.Point(8, 554);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(343, 25);
+            this.label2.Size = new System.Drawing.Size(273, 20);
             this.label2.TabIndex = 16;
             this.label2.Text = "Student to Project Management";
             // 
@@ -192,10 +184,9 @@ namespace RecyclingIS
             this.btnStuProj.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnStuProj.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStuProj.ForeColor = System.Drawing.Color.White;
-            this.btnStuProj.Location = new System.Drawing.Point(14, 782);
-            this.btnStuProj.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnStuProj.Location = new System.Drawing.Point(12, 577);
             this.btnStuProj.Name = "btnStuProj";
-            this.btnStuProj.Size = new System.Drawing.Size(321, 69);
+            this.btnStuProj.Size = new System.Drawing.Size(285, 55);
             this.btnStuProj.TabIndex = 17;
             this.btnStuProj.Text = "Assign Student to Project";
             this.btnStuProj.UseVisualStyleBackColor = false;
@@ -203,11 +194,11 @@ namespace RecyclingIS
             // 
             // frmProjectManagement
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(952, 894);
+            this.ClientSize = new System.Drawing.Size(846, 640);
             this.Controls.Add(this.btnStuProj);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnDelete);
@@ -218,7 +209,6 @@ namespace RecyclingIS
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblSubHeading);
             this.Controls.Add(this.splitter1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmProjectManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmProjectManagement";
