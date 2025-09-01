@@ -75,7 +75,18 @@ namespace RecyclingIS
 
             con.Open(); // Open database connection
 
-            sql = $"UPDATE ITEM SET (Item_Name = '{txtItemName.Text}', Item_QtyOnHand = {int.Parse(txtQty.Text)}) WHERE ItemID = {comboBox1.SelectedItem.ToString()}";
+            int id;
+            if(int.TryParse(txtQty.Text, out id))
+            {
+
+            }
+            else
+            {
+                MessageBox.Show("Please enter a proper ammount and try again!");
+                this.Close();
+            }
+
+            sql = $"UPDATE ITEM SET Item_Name = '{txtItemName.Text}', Item_QtyOnHand = {id)} WHERE ItemID = {comboBox1.SelectedItem.ToString()}";
             cmd = new SqlCommand(sql, con);
 
             try
@@ -86,7 +97,7 @@ namespace RecyclingIS
             } catch (SqlException error)
             {
                 MessageBox.Show("Couldn't update item!");
-                Console.WriteLine(error.ToString());
+                System.Console.WriteLine(error.ToString());
                 this.Close();
             }
 

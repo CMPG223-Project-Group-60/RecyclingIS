@@ -14,8 +14,8 @@ namespace RecyclingIS
 {
     public partial class frmStudentManagement : Form
     {
-        private string placeholder = "Search students by name";
-        String ConStr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;TrustServerCertificate=True";
+        private string placeholder = "Search students by Name";
+        String ConStr = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;TrustServerCertificate=True";
         
         public frmStudentManagement()
         {
