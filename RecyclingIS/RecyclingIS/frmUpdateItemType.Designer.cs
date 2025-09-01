@@ -33,12 +33,12 @@ namespace RecyclingIS
             this.lblHeading = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.cbxGrade = new System.Windows.Forms.ComboBox();
+            this.cbxQty = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtItemName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.btnAddStudent = new System.Windows.Forms.Button();
+            this.btnUpdateItemType = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -47,18 +47,20 @@ namespace RecyclingIS
             this.lblHeading.BackColor = System.Drawing.Color.Transparent;
             this.lblHeading.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeading.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblHeading.Location = new System.Drawing.Point(12, 9);
+            this.lblHeading.Location = new System.Drawing.Point(9, 7);
+            this.lblHeading.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHeading.Name = "lblHeading";
-            this.lblHeading.Size = new System.Drawing.Size(830, 58);
+            this.lblHeading.Size = new System.Drawing.Size(622, 47);
             this.lblHeading.TabIndex = 10;
             this.lblHeading.Text = "Edit Item Type";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(22, 130);
+            this.comboBox1.Location = new System.Drawing.Point(16, 106);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(295, 24);
+            this.comboBox1.Size = new System.Drawing.Size(222, 21);
             this.comboBox1.TabIndex = 42;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -68,20 +70,21 @@ namespace RecyclingIS
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(17, 102);
+            this.label1.Location = new System.Drawing.Point(13, 83);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 25);
+            this.label1.Size = new System.Drawing.Size(145, 20);
             this.label1.TabIndex = 41;
             this.label1.Text = "Select item type";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // cbxGrade
+            // cbxQty
             // 
-            this.cbxGrade.FormattingEnabled = true;
-            this.cbxGrade.Location = new System.Drawing.Point(22, 263);
-            this.cbxGrade.Name = "cbxGrade";
-            this.cbxGrade.Size = new System.Drawing.Size(152, 24);
-            this.cbxGrade.TabIndex = 46;
+            this.cbxQty.FormattingEnabled = true;
+            this.cbxQty.Location = new System.Drawing.Point(16, 214);
+            this.cbxQty.Margin = new System.Windows.Forms.Padding(2);
+            this.cbxQty.Name = "cbxQty";
+            this.cbxQty.Size = new System.Drawing.Size(115, 21);
+            this.cbxQty.TabIndex = 46;
             // 
             // label3
             // 
@@ -89,18 +92,20 @@ namespace RecyclingIS
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(21, 235);
+            this.label3.Location = new System.Drawing.Point(16, 191);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 25);
+            this.label3.Size = new System.Drawing.Size(79, 20);
             this.label3.TabIndex = 45;
             this.label3.Text = "Quantity";
             // 
             // txtItemName
             // 
-            this.txtItemName.Location = new System.Drawing.Point(21, 194);
+            this.txtItemName.Location = new System.Drawing.Point(16, 158);
+            this.txtItemName.Margin = new System.Windows.Forms.Padding(2);
             this.txtItemName.Multiline = true;
             this.txtItemName.Name = "txtItemName";
-            this.txtItemName.Size = new System.Drawing.Size(296, 24);
+            this.txtItemName.Size = new System.Drawing.Size(223, 20);
             this.txtItemName.TabIndex = 44;
             // 
             // label2
@@ -109,9 +114,10 @@ namespace RecyclingIS
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(21, 166);
+            this.label2.Location = new System.Drawing.Point(16, 135);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(123, 25);
+            this.label2.Size = new System.Drawing.Size(99, 20);
             this.label2.TabIndex = 43;
             this.label2.Text = "Item Name";
             // 
@@ -120,57 +126,64 @@ namespace RecyclingIS
             this.btnCancel.BackColor = System.Drawing.Color.Crimson;
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(364, 309);
+            this.btnCancel.Location = new System.Drawing.Point(273, 251);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(156, 45);
+            this.btnCancel.Size = new System.Drawing.Size(117, 37);
             this.btnCancel.TabIndex = 48;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // btnAddStudent
+            // btnUpdateItemType
             // 
-            this.btnAddStudent.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddStudent.ForeColor = System.Drawing.Color.White;
-            this.btnAddStudent.Location = new System.Drawing.Point(21, 309);
-            this.btnAddStudent.Name = "btnAddStudent";
-            this.btnAddStudent.Size = new System.Drawing.Size(153, 45);
-            this.btnAddStudent.TabIndex = 47;
-            this.btnAddStudent.Text = "Update Item Type";
-            this.btnAddStudent.UseVisualStyleBackColor = false;
+            this.btnUpdateItemType.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnUpdateItemType.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateItemType.ForeColor = System.Drawing.Color.White;
+            this.btnUpdateItemType.Location = new System.Drawing.Point(16, 251);
+            this.btnUpdateItemType.Margin = new System.Windows.Forms.Padding(2);
+            this.btnUpdateItemType.Name = "btnUpdateItemType";
+            this.btnUpdateItemType.Size = new System.Drawing.Size(115, 37);
+            this.btnUpdateItemType.TabIndex = 47;
+            this.btnUpdateItemType.Text = "Update Item Type";
+            this.btnUpdateItemType.UseVisualStyleBackColor = false;
+            this.btnUpdateItemType.Click += new System.EventHandler(this.btnUpdateItemType_Click);
             // 
             // btnClear
             // 
             this.btnClear.BackColor = System.Drawing.Color.LightGreen;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.White;
-            this.btnClear.Location = new System.Drawing.Point(189, 309);
+            this.btnClear.Location = new System.Drawing.Point(142, 251);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(2);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(159, 45);
+            this.btnClear.Size = new System.Drawing.Size(119, 37);
             this.btnClear.TabIndex = 49;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // frmUpdateItemType
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(529, 362);
+            this.ClientSize = new System.Drawing.Size(397, 294);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnAddStudent);
-            this.Controls.Add(this.cbxGrade);
+            this.Controls.Add(this.btnUpdateItemType);
+            this.Controls.Add(this.cbxQty);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtItemName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblHeading);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmUpdateItemType";
             this.Text = "frmUpdateItemType";
+            this.Load += new System.EventHandler(this.frmUpdateItemType_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -181,12 +194,12 @@ namespace RecyclingIS
         private System.Windows.Forms.Label lblHeading;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cbxGrade;
+        private System.Windows.Forms.ComboBox cbxQty;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtItemName;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Button btnAddStudent;
+        private System.Windows.Forms.Button btnUpdateItemType;
         private System.Windows.Forms.Button btnClear;
     }
 }

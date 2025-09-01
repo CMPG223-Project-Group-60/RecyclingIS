@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace RecyclingIS
 {
@@ -15,7 +16,7 @@ namespace RecyclingIS
     {
         private DataTable assignmentsTable;
         private string placeholder = "Search student on projects by firstname, lastname, project name";
-
+        //string connString = @"Data Source=34.29.210.64;Initial Catalog=RecyclingDB;Persist Security Info=True;User ID=sqlserver;Password=***********;Encrypt=True;TrustServerCertificate=True";
         public frmAssignStudents()
         {
             InitializeComponent();

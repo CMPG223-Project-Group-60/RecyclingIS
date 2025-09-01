@@ -76,7 +76,7 @@ namespace RecyclingIS
             this.pnlSearch.Location = new System.Drawing.Point(13, 146);
             this.pnlSearch.Name = "pnlSearch";
             this.pnlSearch.Padding = new System.Windows.Forms.Padding(1);
-            this.pnlSearch.Size = new System.Drawing.Size(827, 47);
+            this.pnlSearch.Size = new System.Drawing.Size(894, 47);
             this.pnlSearch.TabIndex = 2;
             // 
             // txtSearch
@@ -87,7 +87,7 @@ namespace RecyclingIS
             this.txtSearch.Location = new System.Drawing.Point(55, 4);
             this.txtSearch.Multiline = true;
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(763, 35);
+            this.txtSearch.Size = new System.Drawing.Size(830, 35);
             this.txtSearch.TabIndex = 1;
             this.txtSearch.TabStop = false;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
@@ -107,7 +107,7 @@ namespace RecyclingIS
             this.btnAddStudent.BackColor = System.Drawing.Color.ForestGreen;
             this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddStudent.ForeColor = System.Drawing.Color.White;
-            this.btnAddStudent.Location = new System.Drawing.Point(19, 572);
+            this.btnAddStudent.Location = new System.Drawing.Point(19, 483);
             this.btnAddStudent.Name = "btnAddStudent";
             this.btnAddStudent.Size = new System.Drawing.Size(162, 55);
             this.btnAddStudent.TabIndex = 3;
@@ -123,7 +123,7 @@ namespace RecyclingIS
             this.dgvDisplayStudents.Name = "dgvDisplayStudents";
             this.dgvDisplayStudents.RowHeadersWidth = 51;
             this.dgvDisplayStudents.RowTemplate.Height = 24;
-            this.dgvDisplayStudents.Size = new System.Drawing.Size(827, 345);
+            this.dgvDisplayStudents.Size = new System.Drawing.Size(894, 260);
             this.dgvDisplayStudents.TabIndex = 4;
             this.dgvDisplayStudents.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDisplayStudents_CellContentClick);
             // 
@@ -132,7 +132,7 @@ namespace RecyclingIS
             this.btnUpdate.BackColor = System.Drawing.Color.DarkOrange;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
-            this.btnUpdate.Location = new System.Drawing.Point(353, 572);
+            this.btnUpdate.Location = new System.Drawing.Point(395, 483);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(162, 55);
             this.btnUpdate.TabIndex = 5;
@@ -145,7 +145,7 @@ namespace RecyclingIS
             this.btnDelete.BackColor = System.Drawing.Color.Crimson;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(678, 572);
+            this.btnDelete.Location = new System.Drawing.Point(745, 483);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(162, 55);
             this.btnDelete.TabIndex = 6;
@@ -159,7 +159,7 @@ namespace RecyclingIS
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(847, 647);
+            this.ClientSize = new System.Drawing.Size(921, 542);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.dgvDisplayStudents);
@@ -169,6 +169,7 @@ namespace RecyclingIS
             this.Controls.Add(this.lblHeading);
             this.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.Name = "frmStudentManagement";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmStudentManagement";
             this.Load += new System.EventHandler(this.frmStudentManagement_Load);
             this.pnlSearch.ResumeLayout(false);

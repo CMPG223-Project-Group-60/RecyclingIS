@@ -45,7 +45,7 @@ namespace RecyclingIS
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label5
@@ -54,9 +54,9 @@ namespace RecyclingIS
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(18, 373);
+            this.label5.Location = new System.Drawing.Point(20, 466);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(144, 25);
+            this.label5.Size = new System.Drawing.Size(166, 29);
             this.label5.TabIndex = 38;
             this.label5.Text = "Date of Birth";
             // 
@@ -65,9 +65,10 @@ namespace RecyclingIS
             this.rdoMale.BackColor = System.Drawing.Color.Transparent;
             this.rdoMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.3F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoMale.ForeColor = System.Drawing.Color.White;
-            this.rdoMale.Location = new System.Drawing.Point(129, 306);
+            this.rdoMale.Location = new System.Drawing.Point(145, 382);
+            this.rdoMale.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rdoMale.Name = "rdoMale";
-            this.rdoMale.Size = new System.Drawing.Size(104, 41);
+            this.rdoMale.Size = new System.Drawing.Size(117, 51);
             this.rdoMale.TabIndex = 37;
             this.rdoMale.TabStop = true;
             this.rdoMale.Text = "Male";
@@ -78,9 +79,10 @@ namespace RecyclingIS
             this.rdoFemale.BackColor = System.Drawing.Color.Transparent;
             this.rdoFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.3F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoFemale.ForeColor = System.Drawing.Color.White;
-            this.rdoFemale.Location = new System.Drawing.Point(22, 311);
+            this.rdoFemale.Location = new System.Drawing.Point(25, 389);
+            this.rdoFemale.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rdoFemale.Name = "rdoFemale";
-            this.rdoFemale.Size = new System.Drawing.Size(101, 30);
+            this.rdoFemale.Size = new System.Drawing.Size(114, 38);
             this.rdoFemale.TabIndex = 36;
             this.rdoFemale.TabStop = true;
             this.rdoFemale.Text = "Female";
@@ -92,18 +94,24 @@ namespace RecyclingIS
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(18, 283);
+            this.label4.Location = new System.Drawing.Point(20, 354);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 25);
+            this.label4.Size = new System.Drawing.Size(102, 29);
             this.label4.TabIndex = 35;
             this.label4.Text = "Gender";
             // 
             // cbxGrade
             // 
             this.cbxGrade.FormattingEnabled = true;
-            this.cbxGrade.Location = new System.Drawing.Point(281, 317);
+            this.cbxGrade.Items.AddRange(new object[] {
+            "9",
+            "10",
+            "11",
+            "12"});
+            this.cbxGrade.Location = new System.Drawing.Point(316, 396);
+            this.cbxGrade.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbxGrade.Name = "cbxGrade";
-            this.cbxGrade.Size = new System.Drawing.Size(116, 24);
+            this.cbxGrade.Size = new System.Drawing.Size(130, 28);
             this.cbxGrade.TabIndex = 34;
             // 
             // label3
@@ -112,9 +120,9 @@ namespace RecyclingIS
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(276, 283);
+            this.label3.Location = new System.Drawing.Point(310, 354);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 25);
+            this.label3.Size = new System.Drawing.Size(87, 29);
             this.label3.TabIndex = 33;
             this.label3.Text = "Grade";
             // 
@@ -124,18 +132,19 @@ namespace RecyclingIS
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(18, 206);
+            this.label2.Location = new System.Drawing.Point(20, 258);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(123, 25);
+            this.label2.Size = new System.Drawing.Size(143, 29);
             this.label2.TabIndex = 32;
             this.label2.Text = "First name";
             // 
             // txtSurname
             // 
-            this.txtSurname.Location = new System.Drawing.Point(23, 234);
+            this.txtSurname.Location = new System.Drawing.Point(26, 292);
+            this.txtSurname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSurname.Multiline = true;
             this.txtSurname.Name = "txtSurname";
-            this.txtSurname.Size = new System.Drawing.Size(190, 27);
+            this.txtSurname.Size = new System.Drawing.Size(213, 33);
             this.txtSurname.TabIndex = 31;
             // 
             // label1
@@ -144,9 +153,9 @@ namespace RecyclingIS
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(18, 123);
+            this.label1.Location = new System.Drawing.Point(20, 154);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(163, 25);
+            this.label1.Size = new System.Drawing.Size(188, 29);
             this.label1.TabIndex = 29;
             this.label1.Text = "Select student";
             // 
@@ -155,9 +164,9 @@ namespace RecyclingIS
             this.lblHeading.BackColor = System.Drawing.Color.Transparent;
             this.lblHeading.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeading.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblHeading.Location = new System.Drawing.Point(12, 9);
+            this.lblHeading.Location = new System.Drawing.Point(14, 11);
             this.lblHeading.Name = "lblHeading";
-            this.lblHeading.Size = new System.Drawing.Size(830, 58);
+            this.lblHeading.Size = new System.Drawing.Size(934, 72);
             this.lblHeading.TabIndex = 25;
             this.lblHeading.Text = "Update Student ";
             // 
@@ -166,9 +175,10 @@ namespace RecyclingIS
             this.btnCancel.BackColor = System.Drawing.Color.Crimson;
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(342, 548);
+            this.btnCancel.Location = new System.Drawing.Point(369, 566);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(149, 55);
+            this.btnCancel.Size = new System.Drawing.Size(168, 54);
             this.btnCancel.TabIndex = 28;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -179,9 +189,10 @@ namespace RecyclingIS
             this.btnAddStudent.BackColor = System.Drawing.Color.ForestGreen;
             this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddStudent.ForeColor = System.Drawing.Color.White;
-            this.btnAddStudent.Location = new System.Drawing.Point(342, 477);
+            this.btnAddStudent.Location = new System.Drawing.Point(26, 566);
+            this.btnAddStudent.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAddStudent.Name = "btnAddStudent";
-            this.btnAddStudent.Size = new System.Drawing.Size(149, 55);
+            this.btnAddStudent.Size = new System.Drawing.Size(168, 54);
             this.btnAddStudent.TabIndex = 27;
             this.btnAddStudent.Text = "Update Student";
             this.btnAddStudent.UseVisualStyleBackColor = false;
@@ -189,17 +200,19 @@ namespace RecyclingIS
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(23, 151);
+            this.comboBox1.Location = new System.Drawing.Point(26, 189);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(295, 24);
+            this.comboBox1.Size = new System.Drawing.Size(331, 28);
             this.comboBox1.TabIndex = 40;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(281, 234);
+            this.textBox1.Location = new System.Drawing.Point(316, 292);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(197, 27);
+            this.textBox1.Size = new System.Drawing.Size(221, 33);
             this.textBox1.TabIndex = 41;
             // 
             // label6
@@ -208,26 +221,27 @@ namespace RecyclingIS
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(276, 206);
+            this.label6.Location = new System.Drawing.Point(310, 258);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 25);
+            this.label6.Size = new System.Drawing.Size(141, 29);
             this.label6.TabIndex = 42;
             this.label6.Text = "Last name";
             // 
-            // monthCalendar1
+            // dateTimePicker1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(18, 407);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 43;
+            this.dateTimePicker1.Location = new System.Drawing.Point(26, 509);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 26);
+            this.dateTimePicker1.TabIndex = 43;
             // 
             // frmUpdateStudent
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(514, 632);
-            this.Controls.Add(this.monthCalendar1);
+            this.ClientSize = new System.Drawing.Size(578, 622);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox1);
@@ -243,6 +257,7 @@ namespace RecyclingIS
             this.Controls.Add(this.lblHeading);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnAddStudent);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmUpdateStudent";
             this.Text = "frmUpdateStudent";
             this.ResumeLayout(false);
@@ -266,6 +281,6 @@ namespace RecyclingIS
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

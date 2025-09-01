@@ -153,7 +153,7 @@ namespace RecyclingIS
             this.btnAddRecordedItem.Name = "btnAddRecordedItem";
             this.btnAddRecordedItem.Size = new System.Drawing.Size(183, 55);
             this.btnAddRecordedItem.TabIndex = 16;
-            this.btnAddRecordedItem.Text = "Add Recorded Items";
+            this.btnAddRecordedItem.Text = "Add Recorded Item";
             this.btnAddRecordedItem.UseVisualStyleBackColor = false;
             this.btnAddRecordedItem.Click += new System.EventHandler(this.btnAddRecordedItem_Click);
             // 
@@ -172,6 +172,7 @@ namespace RecyclingIS
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblSubHeading);
             this.Name = "frmRecordManagement";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmRecordManagement";
             this.Load += new System.EventHandler(this.frmRecordManagement_Load);
             this.panel1.ResumeLayout(false);

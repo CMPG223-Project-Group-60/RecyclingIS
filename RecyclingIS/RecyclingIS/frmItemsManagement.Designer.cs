@@ -50,11 +50,12 @@ namespace RecyclingIS
             this.dgvDisplayItems.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDisplayItems.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvDisplayItems.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDisplayItems.Location = new System.Drawing.Point(20, 213);
+            this.dgvDisplayItems.Location = new System.Drawing.Point(15, 173);
+            this.dgvDisplayItems.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.dgvDisplayItems.Name = "dgvDisplayItems";
             this.dgvDisplayItems.RowHeadersWidth = 51;
             this.dgvDisplayItems.RowTemplate.Height = 24;
-            this.dgvDisplayItems.Size = new System.Drawing.Size(775, 265);
+            this.dgvDisplayItems.Size = new System.Drawing.Size(581, 215);
             this.dgvDisplayItems.TabIndex = 0;
             this.dgvDisplayItems.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDisplayItems_CellContentClick);
             // 
@@ -64,9 +65,10 @@ namespace RecyclingIS
             this.lblHeading.BackColor = System.Drawing.Color.Transparent;
             this.lblHeading.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeading.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblHeading.Location = new System.Drawing.Point(12, 18);
+            this.lblHeading.Location = new System.Drawing.Point(9, 14);
+            this.lblHeading.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHeading.Name = "lblHeading";
-            this.lblHeading.Size = new System.Drawing.Size(796, 59);
+            this.lblHeading.Size = new System.Drawing.Size(638, 47);
             this.lblHeading.TabIndex = 1;
             this.lblHeading.Text = "Recyclable Items Catalogue";
             // 
@@ -76,9 +78,10 @@ namespace RecyclingIS
             this.lblSubHeading.BackColor = System.Drawing.Color.Transparent;
             this.lblSubHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSubHeading.ForeColor = System.Drawing.Color.White;
-            this.lblSubHeading.Location = new System.Drawing.Point(15, 71);
+            this.lblSubHeading.Location = new System.Drawing.Point(11, 58);
+            this.lblSubHeading.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSubHeading.Name = "lblSubHeading";
-            this.lblSubHeading.Size = new System.Drawing.Size(509, 25);
+            this.lblSubHeading.Size = new System.Drawing.Size(409, 20);
             this.lblSubHeading.TabIndex = 2;
             this.lblSubHeading.Text = "Manage the master list of recyclable item types";
             this.lblSubHeading.Click += new System.EventHandler(this.lblSubHeading_Click);
@@ -89,10 +92,11 @@ namespace RecyclingIS
             this.pnlSearch.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlSearch.Controls.Add(this.txtSearch);
             this.pnlSearch.Controls.Add(this.imgSearch);
-            this.pnlSearch.Location = new System.Drawing.Point(20, 138);
+            this.pnlSearch.Location = new System.Drawing.Point(15, 112);
+            this.pnlSearch.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pnlSearch.Name = "pnlSearch";
             this.pnlSearch.Padding = new System.Windows.Forms.Padding(1);
-            this.pnlSearch.Size = new System.Drawing.Size(775, 47);
+            this.pnlSearch.Size = new System.Drawing.Size(582, 39);
             this.pnlSearch.TabIndex = 3;
             // 
             // txtSearch
@@ -100,19 +104,22 @@ namespace RecyclingIS
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.ForeColor = System.Drawing.Color.DarkGray;
-            this.txtSearch.Location = new System.Drawing.Point(55, 4);
+            this.txtSearch.Location = new System.Drawing.Point(41, 3);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtSearch.Multiline = true;
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(712, 35);
+            this.txtSearch.Size = new System.Drawing.Size(534, 29);
             this.txtSearch.TabIndex = 1;
             this.txtSearch.TabStop = false;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // imgSearch
             // 
             this.imgSearch.Image = ((System.Drawing.Image)(resources.GetObject("imgSearch.Image")));
-            this.imgSearch.Location = new System.Drawing.Point(4, 4);
+            this.imgSearch.Location = new System.Drawing.Point(3, 3);
+            this.imgSearch.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.imgSearch.Name = "imgSearch";
-            this.imgSearch.Size = new System.Drawing.Size(45, 35);
+            this.imgSearch.Size = new System.Drawing.Size(34, 29);
             this.imgSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imgSearch.TabIndex = 0;
             this.imgSearch.TabStop = false;
@@ -122,9 +129,10 @@ namespace RecyclingIS
             this.btnAddStudent.BackColor = System.Drawing.Color.ForestGreen;
             this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddStudent.ForeColor = System.Drawing.Color.White;
-            this.btnAddStudent.Location = new System.Drawing.Point(20, 503);
+            this.btnAddStudent.Location = new System.Drawing.Point(15, 409);
+            this.btnAddStudent.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnAddStudent.Name = "btnAddStudent";
-            this.btnAddStudent.Size = new System.Drawing.Size(162, 55);
+            this.btnAddStudent.Size = new System.Drawing.Size(121, 45);
             this.btnAddStudent.TabIndex = 4;
             this.btnAddStudent.Text = "Add Item Type";
             this.btnAddStudent.UseVisualStyleBackColor = false;
@@ -135,9 +143,10 @@ namespace RecyclingIS
             this.button1.BackColor = System.Drawing.Color.DarkOrange;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(331, 503);
+            this.button1.Location = new System.Drawing.Point(248, 409);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(162, 55);
+            this.button1.Size = new System.Drawing.Size(121, 45);
             this.button1.TabIndex = 5;
             this.button1.Text = "Update Item Type";
             this.button1.UseVisualStyleBackColor = false;
@@ -148,9 +157,10 @@ namespace RecyclingIS
             this.button2.BackColor = System.Drawing.Color.Crimson;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(633, 503);
+            this.button2.Location = new System.Drawing.Point(475, 409);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(162, 55);
+            this.button2.Size = new System.Drawing.Size(121, 45);
             this.button2.TabIndex = 6;
             this.button2.Text = "Delete Item Type";
             this.button2.UseVisualStyleBackColor = false;
@@ -158,11 +168,11 @@ namespace RecyclingIS
             // 
             // frmItemsManagement
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(844, 577);
+            this.ClientSize = new System.Drawing.Size(645, 469);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAddStudent);
@@ -170,7 +180,9 @@ namespace RecyclingIS
             this.Controls.Add(this.lblSubHeading);
             this.Controls.Add(this.lblHeading);
             this.Controls.Add(this.dgvDisplayItems);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "frmItemsManagement";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmItemsManagement";
             this.Load += new System.EventHandler(this.frmItemsManagement_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDisplayItems)).EndInit();
