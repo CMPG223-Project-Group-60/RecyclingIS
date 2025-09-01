@@ -14,7 +14,7 @@ namespace RecyclingIS
     public partial class frmItemsManagement : Form
     {
         private string placeholder = "Search by name";
-        private string connectionString = @"";
+        private string connectionString = @"Data Source=34.29.210.64;Initial Catalog=RecyclingIS;Persist Security Info=True;User ID=sqlserver;Password=223Group60;TrustServerCertificate=True";
         private SqlConnection con;
 
         public frmItemsManagement()
@@ -52,26 +52,8 @@ namespace RecyclingIS
 
         private void frmItemsManagement_Load(object sender, EventArgs e)
         {
-            SetupDataGridView();
-            
+            refreshGridView();
         }
-
-        private void SetupDataGridView()
-        {
-            dgvDisplayItems.Columns.Clear();
-
-            // Add text columns
-            dgvDisplayItems.Columns.Add("Name", "Name");
-            dgvDisplayItems.Columns.Add("QuantityOnHand", "QuantityOnHand");
-
-           /* DataGridViewButtonColumn btnDelete = new DataGridViewButtonColumn();
-            btnDelete.HeaderText = "Delete";
-            btnDelete.Text = "Delete";
-            btnDelete.UseColumnTextForButtonValue = true;
-            dgvDisplayItems.Columns.Add(btnDelete);*/
-        }
-
-
        
         private void lblSubHeading_Click(object sender, EventArgs e)
         {

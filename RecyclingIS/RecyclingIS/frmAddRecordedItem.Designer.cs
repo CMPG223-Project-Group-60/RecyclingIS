@@ -57,6 +57,7 @@ namespace RecyclingIS
             this.lblHeading.Size = new System.Drawing.Size(830, 58);
             this.lblHeading.TabIndex = 10;
             this.lblHeading.Text = "Record New Item";
+            this.lblHeading.Click += new System.EventHandler(this.lblHeading_Click);
             // 
             // cbxStudent
             // 

@@ -13,7 +13,7 @@ namespace RecyclingIS
 {
     public partial class frmUpdateRecordedItem : Form
     {
-        string constr;
+        string constr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True";
 
         public int RecordedItemId { get; set; }
 
@@ -218,5 +218,5 @@ namespace RecyclingIS
             CalculateMeritPoints();
         }
     }
-    }
 }
+
