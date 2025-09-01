@@ -13,7 +13,7 @@ namespace RecyclingIS
 {
     public partial class frmAddRecordedItem : Form
     {
-        string constr;
+        string constr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True";
         public frmAddRecordedItem()
         {
             InitializeComponent();
@@ -169,6 +169,11 @@ namespace RecyclingIS
         private void cbxItemType_SelectedIndexChanged(object sender, EventArgs e)
         {
             CalculateMeritPoints();
+        }
+
+        private void lblHeading_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

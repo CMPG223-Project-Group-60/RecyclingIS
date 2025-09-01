@@ -257,4 +257,5 @@ C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\ru\Micros
 C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\tr\Microsoft.Data.SqlClient.resources.dll
 C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.CopyComplete
+C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe.config
+C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\Recyclin.DBB191CB.Up2Date
