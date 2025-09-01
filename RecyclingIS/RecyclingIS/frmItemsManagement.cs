@@ -115,7 +115,7 @@ namespace RecyclingIS
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
-            string sql = "Select * FROM ITEM WHERE ItemID LIKE '%" + txtSearch.Text + "%'";
+            string sql = "Select * FROM ITEM WHERE Item_Name LIKE '%" + txtSearch.Text + "%'";
             SqlDataAdapter adapter = new SqlDataAdapter(sql, connectionString);
             DataSet ds = new DataSet();
             adapter.Fill(ds, "ITEM");

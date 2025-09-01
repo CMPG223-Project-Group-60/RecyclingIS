@@ -33,13 +33,13 @@ namespace RecyclingIS
             this.lblHeading = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.cbxQty = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtItemName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnUpdateItemType = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.txtQty = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblHeading
@@ -76,15 +76,6 @@ namespace RecyclingIS
             this.label1.Size = new System.Drawing.Size(145, 20);
             this.label1.TabIndex = 41;
             this.label1.Text = "Select item type";
-            // 
-            // cbxQty
-            // 
-            this.cbxQty.FormattingEnabled = true;
-            this.cbxQty.Location = new System.Drawing.Point(16, 214);
-            this.cbxQty.Margin = new System.Windows.Forms.Padding(2);
-            this.cbxQty.Name = "cbxQty";
-            this.cbxQty.Size = new System.Drawing.Size(115, 21);
-            this.cbxQty.TabIndex = 46;
             // 
             // label3
             // 
@@ -163,6 +154,13 @@ namespace RecyclingIS
             this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
+            // txtQty
+            // 
+            this.txtQty.Location = new System.Drawing.Point(16, 214);
+            this.txtQty.Name = "txtQty";
+            this.txtQty.Size = new System.Drawing.Size(100, 20);
+            this.txtQty.TabIndex = 50;
+            // 
             // frmUpdateItemType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -170,10 +168,10 @@ namespace RecyclingIS
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(397, 294);
+            this.Controls.Add(this.txtQty);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnUpdateItemType);
-            this.Controls.Add(this.cbxQty);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtItemName);
             this.Controls.Add(this.label2);
@@ -194,12 +192,12 @@ namespace RecyclingIS
         private System.Windows.Forms.Label lblHeading;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cbxQty;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtItemName;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnUpdateItemType;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.TextBox txtQty;
     }
 }
