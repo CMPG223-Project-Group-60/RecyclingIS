@@ -13,7 +13,7 @@ namespace RecyclingIS
 {
     public partial class frmUpdateStudent : Form
     {
-        string conStr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+        string conStr = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         private DataTable studentsTable;
         private int selectedStudentID = -1;
         public frmUpdateStudent()
