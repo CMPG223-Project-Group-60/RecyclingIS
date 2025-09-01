@@ -32,7 +32,7 @@ namespace RecyclingIS
 
         private void btnAddProj_Click(object sender, EventArgs e)
         {
-            string connectionString = @"Data Source=34.29.210.64;Initial Catalog=RecyclingIS;Persist Security Info=True;User ID=sqlserver;Password=223Group60";
+            string connectionString = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
 
             if (cbxFirstname.SelectedItem == null || cbxProjname.SelectedItem == null)
             {
