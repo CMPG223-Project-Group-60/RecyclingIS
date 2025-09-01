@@ -77,7 +77,7 @@ namespace RecyclingIS
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(291, 100);
+            this.label2.Location = new System.Drawing.Point(302, 100);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 25);
             this.label2.TabIndex = 46;
@@ -86,7 +86,7 @@ namespace RecyclingIS
             // cbxItemType
             // 
             this.cbxItemType.FormattingEnabled = true;
-            this.cbxItemType.Location = new System.Drawing.Point(296, 128);
+            this.cbxItemType.Location = new System.Drawing.Point(307, 128);
             this.cbxItemType.Name = "cbxItemType";
             this.cbxItemType.Size = new System.Drawing.Size(207, 24);
             this.cbxItemType.TabIndex = 45;
@@ -100,9 +100,9 @@ namespace RecyclingIS
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(21, 174);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 25);
+            this.label3.Size = new System.Drawing.Size(193, 25);
             this.label3.TabIndex = 42;
-            this.label3.Text = "Quantity";
+            this.label3.Text = "Quantity(In bags)";
             // 
             // txtQuantity
             // 
@@ -185,9 +185,9 @@ namespace RecyclingIS
             // 
             // dtpDate
             // 
-            this.dtpDate.Location = new System.Drawing.Point(296, 218);
+            this.dtpDate.Location = new System.Drawing.Point(307, 206);
             this.dtpDate.Name = "dtpDate";
-            this.dtpDate.Size = new System.Drawing.Size(200, 22);
+            this.dtpDate.Size = new System.Drawing.Size(260, 22);
             this.dtpDate.TabIndex = 53;
             // 
             // label4
@@ -196,7 +196,7 @@ namespace RecyclingIS
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(291, 174);
+            this.label4.Location = new System.Drawing.Point(302, 174);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(166, 25);
             this.label4.TabIndex = 52;

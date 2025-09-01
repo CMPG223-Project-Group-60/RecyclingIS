@@ -27,6 +27,9 @@ namespace RecyclingIS
 
         private void frmAddRecordedItem_Load(object sender, EventArgs e)
         {
+            cbxStudent.SelectedIndex = -1;
+            cbxItemType.SelectedIndex = -1;
+
             LoadComboBoxes();
             dtpDate.Value = DateTime.Today;
             lblMeritPointsOutput.Text = "0 Merit Points";
