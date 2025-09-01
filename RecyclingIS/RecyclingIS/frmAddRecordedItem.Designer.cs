@@ -33,9 +33,8 @@ namespace RecyclingIS
             this.lblHeading = new System.Windows.Forms.Label();
             this.cbxStudent = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtItemName = new System.Windows.Forms.TextBox();
+            this.txtQuantity = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.cbxStatus = new System.Windows.Forms.ComboBox();
             this.cbxItemType = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -44,6 +43,7 @@ namespace RecyclingIS
             this.btnClear = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnRecordItem = new System.Windows.Forms.Button();
+            this.dtpDate = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,13 +78,14 @@ namespace RecyclingIS
             this.label3.TabIndex = 26;
             this.label3.Text = "Quantity";
             // 
-            // txtItemName
+            // txtQuantity
             // 
-            this.txtItemName.Location = new System.Drawing.Point(17, 202);
-            this.txtItemName.Multiline = true;
-            this.txtItemName.Name = "txtItemName";
-            this.txtItemName.Size = new System.Drawing.Size(146, 26);
-            this.txtItemName.TabIndex = 25;
+            this.txtQuantity.Location = new System.Drawing.Point(17, 202);
+            this.txtQuantity.Multiline = true;
+            this.txtQuantity.Name = "txtQuantity";
+            this.txtQuantity.Size = new System.Drawing.Size(146, 26);
+            this.txtQuantity.TabIndex = 25;
+            this.txtQuantity.TextChanged += new System.EventHandler(this.txtQuantity_TextChanged);
             // 
             // label1
             // 
@@ -98,18 +99,6 @@ namespace RecyclingIS
             this.label1.TabIndex = 24;
             this.label1.Text = "Student";
             // 
-            // cbxStatus
-            // 
-            this.cbxStatus.FormattingEnabled = true;
-            this.cbxStatus.Items.AddRange(new object[] {
-            "Not started",
-            "In progress",
-            "Completed"});
-            this.cbxStatus.Location = new System.Drawing.Point(287, 204);
-            this.cbxStatus.Name = "cbxStatus";
-            this.cbxStatus.Size = new System.Drawing.Size(147, 24);
-            this.cbxStatus.TabIndex = 28;
-            // 
             // cbxItemType
             // 
             this.cbxItemType.FormattingEnabled = true;
@@ -117,6 +106,7 @@ namespace RecyclingIS
             this.cbxItemType.Name = "cbxItemType";
             this.cbxItemType.Size = new System.Drawing.Size(207, 24);
             this.cbxItemType.TabIndex = 29;
+            this.cbxItemType.SelectedIndexChanged += new System.EventHandler(this.cbxItemType_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -138,9 +128,9 @@ namespace RecyclingIS
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(282, 174);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 25);
+            this.label4.Size = new System.Drawing.Size(166, 25);
             this.label4.TabIndex = 31;
-            this.label4.Text = "Status";
+            this.label4.Text = "Date Received";
             // 
             // groupBox1
             // 
@@ -177,6 +167,7 @@ namespace RecyclingIS
             this.btnClear.TabIndex = 38;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnCancel
             // 
@@ -202,6 +193,14 @@ namespace RecyclingIS
             this.btnRecordItem.TabIndex = 36;
             this.btnRecordItem.Text = "Record Item";
             this.btnRecordItem.UseVisualStyleBackColor = false;
+            this.btnRecordItem.Click += new System.EventHandler(this.btnRecordItem_Click);
+            // 
+            // dtpDate
+            // 
+            this.dtpDate.Location = new System.Drawing.Point(287, 218);
+            this.dtpDate.Name = "dtpDate";
+            this.dtpDate.Size = new System.Drawing.Size(200, 22);
+            this.dtpDate.TabIndex = 39;
             // 
             // frmAddRecordedItem
             // 
@@ -210,6 +209,7 @@ namespace RecyclingIS
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(521, 431);
+            this.Controls.Add(this.dtpDate);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnRecordItem);
@@ -217,14 +217,14 @@ namespace RecyclingIS
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cbxItemType);
-            this.Controls.Add(this.cbxStatus);
             this.Controls.Add(this.cbxStudent);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtItemName);
+            this.Controls.Add(this.txtQuantity);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblHeading);
             this.Name = "frmAddRecordedItem";
             this.Text = "frmAddRecordedItem";
+            this.Load += new System.EventHandler(this.frmAddRecordedItem_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -237,9 +237,8 @@ namespace RecyclingIS
         private System.Windows.Forms.Label lblHeading;
         private System.Windows.Forms.ComboBox cbxStudent;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtItemName;
+        private System.Windows.Forms.TextBox txtQuantity;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cbxStatus;
         private System.Windows.Forms.ComboBox cbxItemType;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
@@ -248,5 +247,6 @@ namespace RecyclingIS
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnRecordItem;
+        private System.Windows.Forms.DateTimePicker dtpDate;
     }
 }
