@@ -14,7 +14,7 @@ namespace RecyclingIS
     public partial class frmItemsManagement : Form
     {
         private string placeholder = "Search by name";
-        private string connectionString = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+        string connectionString = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         private SqlConnection con;
 
         public frmItemsManagement()

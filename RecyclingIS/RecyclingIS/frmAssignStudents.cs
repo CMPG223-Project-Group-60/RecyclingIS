@@ -85,7 +85,7 @@ namespace RecyclingIS
 
             if (confirm == DialogResult.No) return;
 
-            string connectionString = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+            string connectionString = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
@@ -179,7 +179,7 @@ namespace RecyclingIS
 
         private void LoadAssignments()
         {
-            string connectionString = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+            string connectionString = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {

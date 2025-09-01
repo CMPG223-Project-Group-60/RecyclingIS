@@ -15,8 +15,7 @@ namespace RecyclingIS
     {
         public string NewprojectName { get; private set; }
 
-        string connectionString = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
-
+        string connectionString = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         public frmAddProject()
         {
             InitializeComponent();
