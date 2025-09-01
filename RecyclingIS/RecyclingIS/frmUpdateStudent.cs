@@ -223,8 +223,10 @@ namespace RecyclingIS
             if (UpdateStudent(selectedStudentID, firstName, lastName, grade, gender, dateOfBirth))
             {
                 MessageBox.Show("Student updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
                 LoadStudents(); // Refresh the list
                 ClearForm();
+                
             }
         }
     }   
