@@ -13,7 +13,7 @@ namespace RecyclingIS
 {
     public partial class frmAddRecordedItem : Form
     {
-        string constr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True";
+        string constr = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         public frmAddRecordedItem()
         {
             InitializeComponent();
@@ -27,13 +27,8 @@ namespace RecyclingIS
 
         private void frmAddRecordedItem_Load(object sender, EventArgs e)
         {
-            cbxStudent.SelectedIndex = -1;
-            cbxItemType.SelectedIndex = -1;
-
             LoadComboBoxes();
             dtpDate.Value = DateTime.Today;
-            dtpDate.Enabled = false; //the date is recorded in real time so no past/future dates can be used
-            
             lblMeritPointsOutput.Text = "0 Merit Points";
         }
 
@@ -119,7 +114,7 @@ namespace RecyclingIS
 
             int studentId = (int)cbxStudent.SelectedValue;
             int itemId = (int)cbxItemType.SelectedValue;
-            DateTime dateReceived = DateTime.Today;
+            DateTime dateReceived = dtpDate.Value;
 
 
             try

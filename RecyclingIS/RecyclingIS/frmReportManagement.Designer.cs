@@ -58,9 +58,10 @@ namespace RecyclingIS
             this.lblSubHeading.BackColor = System.Drawing.Color.Transparent;
             this.lblSubHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSubHeading.ForeColor = System.Drawing.Color.White;
-            this.lblSubHeading.Location = new System.Drawing.Point(0, 47);
+            this.lblSubHeading.Location = new System.Drawing.Point(0, 38);
+            this.lblSubHeading.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSubHeading.Name = "lblSubHeading";
-            this.lblSubHeading.Size = new System.Drawing.Size(623, 23);
+            this.lblSubHeading.Size = new System.Drawing.Size(467, 19);
             this.lblSubHeading.TabIndex = 3;
             this.lblSubHeading.Text = "Generate reports to get insight on top projects and students";
             // 
@@ -69,9 +70,10 @@ namespace RecyclingIS
             this.lblHeading.BackColor = System.Drawing.Color.Transparent;
             this.lblHeading.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeading.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblHeading.Location = new System.Drawing.Point(-6, -1);
+            this.lblHeading.Location = new System.Drawing.Point(-4, -1);
+            this.lblHeading.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHeading.Name = "lblHeading";
-            this.lblHeading.Size = new System.Drawing.Size(830, 58);
+            this.lblHeading.Size = new System.Drawing.Size(622, 47);
             this.lblHeading.TabIndex = 2;
             this.lblHeading.Text = "Report Management";
             this.lblHeading.Click += new System.EventHandler(this.lblHeading_Click);
@@ -80,11 +82,12 @@ namespace RecyclingIS
             // 
             this.dgvDisplayReport.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvDisplayReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDisplayReport.Location = new System.Drawing.Point(11, 347);
+            this.dgvDisplayReport.Location = new System.Drawing.Point(8, 282);
+            this.dgvDisplayReport.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvDisplayReport.Name = "dgvDisplayReport";
             this.dgvDisplayReport.RowHeadersWidth = 51;
             this.dgvDisplayReport.RowTemplate.Height = 24;
-            this.dgvDisplayReport.Size = new System.Drawing.Size(742, 243);
+            this.dgvDisplayReport.Size = new System.Drawing.Size(535, 180);
             this.dgvDisplayReport.TabIndex = 5;
             // 
             // lblReport
@@ -92,9 +95,10 @@ namespace RecyclingIS
             this.lblReport.AutoSize = true;
             this.lblReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold);
             this.lblReport.ForeColor = System.Drawing.Color.White;
-            this.lblReport.Location = new System.Drawing.Point(6, 30);
+            this.lblReport.Location = new System.Drawing.Point(4, 24);
+            this.lblReport.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblReport.Name = "lblReport";
-            this.lblReport.Size = new System.Drawing.Size(92, 16);
+            this.lblReport.Size = new System.Drawing.Size(77, 13);
             this.lblReport.TabIndex = 7;
             this.lblReport.Text = "Report type:";
             // 
@@ -103,9 +107,10 @@ namespace RecyclingIS
             this.lblStart.AutoSize = true;
             this.lblStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold);
             this.lblStart.ForeColor = System.Drawing.Color.White;
-            this.lblStart.Location = new System.Drawing.Point(6, 77);
+            this.lblStart.Location = new System.Drawing.Point(4, 63);
+            this.lblStart.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblStart.Name = "lblStart";
-            this.lblStart.Size = new System.Drawing.Size(46, 16);
+            this.lblStart.Size = new System.Drawing.Size(38, 13);
             this.lblStart.TabIndex = 8;
             this.lblStart.Text = "From:";
             this.lblStart.Click += new System.EventHandler(this.lblStart_Click);
@@ -116,10 +121,12 @@ namespace RecyclingIS
             this.cbxReport.Items.AddRange(new object[] {
             "Top 10 Recyclers",
             "Top 10 Projects "});
-            this.cbxReport.Location = new System.Drawing.Point(110, 27);
+            this.cbxReport.Location = new System.Drawing.Point(82, 22);
+            this.cbxReport.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbxReport.Name = "cbxReport";
-            this.cbxReport.Size = new System.Drawing.Size(259, 24);
+            this.cbxReport.Size = new System.Drawing.Size(195, 21);
             this.cbxReport.TabIndex = 9;
+            this.cbxReport.SelectedIndexChanged += new System.EventHandler(this.cbxReport_SelectedIndexChanged);
             // 
             // gbxReport
             // 
@@ -132,25 +139,29 @@ namespace RecyclingIS
             this.gbxReport.Controls.Add(this.cbxReport);
             this.gbxReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold);
             this.gbxReport.ForeColor = System.Drawing.Color.White;
-            this.gbxReport.Location = new System.Drawing.Point(11, 93);
+            this.gbxReport.Location = new System.Drawing.Point(8, 76);
+            this.gbxReport.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gbxReport.Name = "gbxReport";
-            this.gbxReport.Size = new System.Drawing.Size(400, 155);
+            this.gbxReport.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbxReport.Size = new System.Drawing.Size(300, 126);
             this.gbxReport.TabIndex = 11;
             this.gbxReport.TabStop = false;
             this.gbxReport.Text = "Choose Report:";
             // 
             // dtpTo
             // 
-            this.dtpTo.Location = new System.Drawing.Point(61, 113);
+            this.dtpTo.Location = new System.Drawing.Point(46, 92);
+            this.dtpTo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtpTo.Name = "dtpTo";
-            this.dtpTo.Size = new System.Drawing.Size(308, 22);
+            this.dtpTo.Size = new System.Drawing.Size(232, 19);
             this.dtpTo.TabIndex = 14;
             // 
             // dtpFrom
             // 
-            this.dtpFrom.Location = new System.Drawing.Point(61, 74);
+            this.dtpFrom.Location = new System.Drawing.Point(46, 60);
+            this.dtpFrom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtpFrom.Name = "dtpFrom";
-            this.dtpFrom.Size = new System.Drawing.Size(308, 22);
+            this.dtpFrom.Size = new System.Drawing.Size(232, 19);
             this.dtpFrom.TabIndex = 13;
             // 
             // lblEnd
@@ -158,9 +169,10 @@ namespace RecyclingIS
             this.lblEnd.AutoSize = true;
             this.lblEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold);
             this.lblEnd.ForeColor = System.Drawing.Color.White;
-            this.lblEnd.Location = new System.Drawing.Point(23, 113);
+            this.lblEnd.Location = new System.Drawing.Point(17, 92);
+            this.lblEnd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEnd.Name = "lblEnd";
-            this.lblEnd.Size = new System.Drawing.Size(30, 16);
+            this.lblEnd.Size = new System.Drawing.Size(26, 13);
             this.lblEnd.TabIndex = 12;
             this.lblEnd.Text = "To:";
             // 
@@ -173,9 +185,11 @@ namespace RecyclingIS
             this.gbxSort.Controls.Add(this.rdoProjectAsc);
             this.gbxSort.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbxSort.ForeColor = System.Drawing.Color.White;
-            this.gbxSort.Location = new System.Drawing.Point(521, 93);
+            this.gbxSort.Location = new System.Drawing.Point(391, 76);
+            this.gbxSort.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gbxSort.Name = "gbxSort";
-            this.gbxSort.Size = new System.Drawing.Size(232, 155);
+            this.gbxSort.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbxSort.Size = new System.Drawing.Size(152, 126);
             this.gbxSort.TabIndex = 12;
             this.gbxSort.TabStop = false;
             this.gbxSort.Text = "Sort Report By:";
@@ -185,9 +199,10 @@ namespace RecyclingIS
             // rdoStudentDesc
             // 
             this.rdoStudentDesc.AutoSize = true;
-            this.rdoStudentDesc.Location = new System.Drawing.Point(6, 131);
+            this.rdoStudentDesc.Location = new System.Drawing.Point(4, 106);
+            this.rdoStudentDesc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdoStudentDesc.Name = "rdoStudentDesc";
-            this.rdoStudentDesc.Size = new System.Drawing.Size(172, 20);
+            this.rdoStudentDesc.Size = new System.Drawing.Size(144, 17);
             this.rdoStudentDesc.TabIndex = 12;
             this.rdoStudentDesc.TabStop = true;
             this.rdoStudentDesc.Text = "Student name (Desc)";
@@ -196,9 +211,10 @@ namespace RecyclingIS
             // rdoStudentAsc
             // 
             this.rdoStudentAsc.AutoSize = true;
-            this.rdoStudentAsc.Location = new System.Drawing.Point(6, 94);
+            this.rdoStudentAsc.Location = new System.Drawing.Point(4, 76);
+            this.rdoStudentAsc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdoStudentAsc.Name = "rdoStudentAsc";
-            this.rdoStudentAsc.Size = new System.Drawing.Size(162, 20);
+            this.rdoStudentAsc.Size = new System.Drawing.Size(136, 17);
             this.rdoStudentAsc.TabIndex = 11;
             this.rdoStudentAsc.TabStop = true;
             this.rdoStudentAsc.Text = "Student name (Asc)";
@@ -207,9 +223,10 @@ namespace RecyclingIS
             // rdoProjectDesc
             // 
             this.rdoProjectDesc.AutoSize = true;
-            this.rdoProjectDesc.Location = new System.Drawing.Point(6, 58);
+            this.rdoProjectDesc.Location = new System.Drawing.Point(4, 47);
+            this.rdoProjectDesc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdoProjectDesc.Name = "rdoProjectDesc";
-            this.rdoProjectDesc.Size = new System.Drawing.Size(169, 20);
+            this.rdoProjectDesc.Size = new System.Drawing.Size(140, 17);
             this.rdoProjectDesc.TabIndex = 10;
             this.rdoProjectDesc.TabStop = true;
             this.rdoProjectDesc.Text = "Project name (Desc)";
@@ -218,9 +235,10 @@ namespace RecyclingIS
             // rdoProjectAsc
             // 
             this.rdoProjectAsc.AutoSize = true;
-            this.rdoProjectAsc.Location = new System.Drawing.Point(6, 21);
+            this.rdoProjectAsc.Location = new System.Drawing.Point(4, 17);
+            this.rdoProjectAsc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdoProjectAsc.Name = "rdoProjectAsc";
-            this.rdoProjectAsc.Size = new System.Drawing.Size(159, 20);
+            this.rdoProjectAsc.Size = new System.Drawing.Size(132, 17);
             this.rdoProjectAsc.TabIndex = 9;
             this.rdoProjectAsc.TabStop = true;
             this.rdoProjectAsc.Text = "Project name (Asc)";
@@ -232,10 +250,12 @@ namespace RecyclingIS
             this.lblResult.BackColor = System.Drawing.Color.Transparent;
             this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold);
             this.lblResult.ForeColor = System.Drawing.Color.White;
-            this.lblResult.Location = new System.Drawing.Point(12, 328);
+            this.lblResult.Location = new System.Drawing.Point(5, 266);
+            this.lblResult.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(0, 16);
+            this.lblResult.Size = new System.Drawing.Size(79, 13);
             this.lblResult.TabIndex = 7;
+            this.lblResult.Text = "xxxResultxxx";
             this.lblResult.Click += new System.EventHandler(this.label3_Click);
             // 
             // btnGenerateReport
@@ -243,9 +263,10 @@ namespace RecyclingIS
             this.btnGenerateReport.BackColor = System.Drawing.Color.ForestGreen;
             this.btnGenerateReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerateReport.ForeColor = System.Drawing.Color.White;
-            this.btnGenerateReport.Location = new System.Drawing.Point(11, 261);
+            this.btnGenerateReport.Location = new System.Drawing.Point(8, 212);
+            this.btnGenerateReport.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnGenerateReport.Name = "btnGenerateReport";
-            this.btnGenerateReport.Size = new System.Drawing.Size(170, 42);
+            this.btnGenerateReport.Size = new System.Drawing.Size(128, 34);
             this.btnGenerateReport.TabIndex = 13;
             this.btnGenerateReport.Text = "Generate Report";
             this.btnGenerateReport.UseVisualStyleBackColor = false;
@@ -256,9 +277,10 @@ namespace RecyclingIS
             this.btnClear.BackColor = System.Drawing.Color.Crimson;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.White;
-            this.btnClear.Location = new System.Drawing.Point(205, 261);
+            this.btnClear.Location = new System.Drawing.Point(154, 212);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(150, 42);
+            this.btnClear.Size = new System.Drawing.Size(112, 34);
             this.btnClear.TabIndex = 14;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
@@ -266,11 +288,11 @@ namespace RecyclingIS
             // 
             // frmReportManagement
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(765, 594);
+            this.ClientSize = new System.Drawing.Size(552, 465);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnGenerateReport);
             this.Controls.Add(this.gbxSort);
@@ -279,6 +301,7 @@ namespace RecyclingIS
             this.Controls.Add(this.dgvDisplayReport);
             this.Controls.Add(this.lblSubHeading);
             this.Controls.Add(this.lblHeading);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmReportManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmReportManagement";

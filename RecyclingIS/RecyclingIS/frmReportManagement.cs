@@ -13,7 +13,7 @@ namespace RecyclingIS
 {
     public partial class frmReportManagement : Form
     {
-        String conStr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True";
+        String conStr = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
 
         public frmReportManagement()
         {
@@ -79,8 +79,6 @@ namespace RecyclingIS
                 string reportType = cbxReport.SelectedItem.ToString().Trim();
                 DateTime fromDate = dtpFrom.Value.Date;
                 DateTime toDate = dtpTo.Value.Date.AddDays(1).AddSeconds(-1);
-
-                DateTime reportGenerationDate = DateTime.Now; //NEW
 
                 string query = "";
                 string reportTitle = "";
@@ -180,33 +178,6 @@ namespace RecyclingIS
                 // Display the results
                 dgvDisplayReport.DataSource = dt.DefaultView;
 
-                // ✅ Add end of report message to the DataTable
-                DataRow endRow = dt.NewRow();
-
-                foreach (DataColumn col in dt.Columns)
-                {
-                    if (col.DataType == typeof(string))
-                    {
-                        endRow[col.ColumnName] = "****END OF REPORT****";
-                        break;
-                    }
-                }
-
-                // If no string columns found, add a new column for the message
-                if (endRow.ItemArray.All(item => item == null || item == DBNull.Value))
-                {
-                    dt.Columns.Add("ReportMessage", typeof(string));
-                    endRow["ReportMessage"] = "****END OF REPORT****";
-                }
-
-                dt.Rows.Add(endRow);
-
-                dgvDisplayReport.DataSource = dt.DefaultView;
-
-
-                //dgvDisplayReport.Rows.Add("--- End of Report ---");//NEW
-
-
                 // Update the heading label with sorting information
                 string sortInfo = "";
                 if (rdoStudentAsc.Checked) sortInfo = "Sorted by: Student Name (A-Z)";
@@ -214,7 +185,7 @@ namespace RecyclingIS
                 else if (rdoProjectAsc.Checked) sortInfo = "Sorted by: Project Name (A-Z)";
                 else if (rdoProjectDesc.Checked) sortInfo = "Sorted by: Project Name (Z-A)";
 
-                lblResult.Text = $"{reportTitle} - {sortInfo} - Generated: {reportGenerationDate.ToString("yyyy-MM-dd HH:mm")}";
+                lblResult.Text = $"{reportTitle} - {sortInfo}";
                 lblResult.Visible = true;
 
                 // Format the DataGridView
@@ -233,7 +204,6 @@ namespace RecyclingIS
             }
         }
 
-        
         private void btnClear_Click(object sender, EventArgs e)
         {
             rdoProjectAsc.Checked = false;
