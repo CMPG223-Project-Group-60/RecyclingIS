@@ -75,9 +75,9 @@ namespace RecyclingIS
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(12, 174);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 25);
+            this.label3.Size = new System.Drawing.Size(193, 25);
             this.label3.TabIndex = 26;
-            this.label3.Text = "Quantity";
+            this.label3.Text = "Quantity(In bags)";
             // 
             // txtQuantity
             // 
@@ -105,7 +105,7 @@ namespace RecyclingIS
             this.cbxItemType.FormattingEnabled = true;
             this.cbxItemType.Location = new System.Drawing.Point(287, 128);
             this.cbxItemType.Name = "cbxItemType";
-            this.cbxItemType.Size = new System.Drawing.Size(207, 24);
+            this.cbxItemType.Size = new System.Drawing.Size(238, 24);
             this.cbxItemType.TabIndex = 29;
             this.cbxItemType.SelectedIndexChanged += new System.EventHandler(this.cbxItemType_SelectedIndexChanged);
             // 
@@ -200,7 +200,7 @@ namespace RecyclingIS
             // 
             this.dtpDate.Location = new System.Drawing.Point(287, 218);
             this.dtpDate.Name = "dtpDate";
-            this.dtpDate.Size = new System.Drawing.Size(200, 22);
+            this.dtpDate.Size = new System.Drawing.Size(238, 22);
             this.dtpDate.TabIndex = 39;
             // 
             // frmAddRecordedItem
@@ -209,7 +209,7 @@ namespace RecyclingIS
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(521, 431);
+            this.ClientSize = new System.Drawing.Size(639, 431);
             this.Controls.Add(this.dtpDate);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnCancel);

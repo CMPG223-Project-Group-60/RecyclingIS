@@ -98,6 +98,11 @@ namespace RecyclingIS
 
         private void frmUpdateRecordedItem_Load(object sender, EventArgs e)
         {
+            cbxStudent.SelectedIndex = -1;
+            cbxItemType.SelectedIndex = -1;
+            txtQuantity.Clear();
+            dtpDate.Value = DateTime.Today;
+
             if (RecordedItemId > 0)
             {
                 LoadRecordData();
@@ -137,6 +142,7 @@ namespace RecyclingIS
                                 cbxStudent.SelectedValue = studentId;
                                 cbxItemType.SelectedValue = itemId;
                                 dtpDate.Value = dateReceived;
+                                dtpDate.Enabled = false; 
                                 txtQuantity.Text = quantity.ToString();
                                 CalculateMeritPoints();
                             }
