@@ -42,9 +42,10 @@ namespace RecyclingIS
             this.btnCancel.BackColor = System.Drawing.Color.Crimson;
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(265, 176);
+            this.btnCancel.Location = new System.Drawing.Point(199, 143);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(171, 40);
+            this.btnCancel.Size = new System.Drawing.Size(128, 32);
             this.btnCancel.TabIndex = 54;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -55,9 +56,10 @@ namespace RecyclingIS
             this.btnDeleteProj.BackColor = System.Drawing.Color.ForestGreen;
             this.btnDeleteProj.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteProj.ForeColor = System.Drawing.Color.White;
-            this.btnDeleteProj.Location = new System.Drawing.Point(12, 176);
+            this.btnDeleteProj.Location = new System.Drawing.Point(9, 143);
+            this.btnDeleteProj.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDeleteProj.Name = "btnDeleteProj";
-            this.btnDeleteProj.Size = new System.Drawing.Size(171, 40);
+            this.btnDeleteProj.Size = new System.Drawing.Size(128, 32);
             this.btnDeleteProj.TabIndex = 53;
             this.btnDeleteProj.Text = "Delete Project";
             this.btnDeleteProj.UseVisualStyleBackColor = false;
@@ -65,9 +67,10 @@ namespace RecyclingIS
             // cbxProj
             // 
             this.cbxProj.FormattingEnabled = true;
-            this.cbxProj.Location = new System.Drawing.Point(12, 123);
+            this.cbxProj.Location = new System.Drawing.Point(9, 100);
+            this.cbxProj.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbxProj.Name = "cbxProj";
-            this.cbxProj.Size = new System.Drawing.Size(276, 24);
+            this.cbxProj.Size = new System.Drawing.Size(208, 21);
             this.cbxProj.TabIndex = 52;
             // 
             // label1
@@ -76,9 +79,10 @@ namespace RecyclingIS
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(18, 90);
+            this.label1.Location = new System.Drawing.Point(14, 73);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 25);
+            this.label1.Size = new System.Drawing.Size(126, 20);
             this.label1.TabIndex = 51;
             this.label1.Text = "Select project";
             // 
@@ -87,25 +91,28 @@ namespace RecyclingIS
             this.lblHeading.BackColor = System.Drawing.Color.Transparent;
             this.lblHeading.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeading.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblHeading.Location = new System.Drawing.Point(2, 9);
+            this.lblHeading.Location = new System.Drawing.Point(2, 7);
+            this.lblHeading.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHeading.Name = "lblHeading";
-            this.lblHeading.Size = new System.Drawing.Size(830, 58);
+            this.lblHeading.Size = new System.Drawing.Size(622, 47);
             this.lblHeading.TabIndex = 50;
             this.lblHeading.Text = "Delete Project";
             // 
             // frmDeleteProject
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(482, 228);
+            this.ClientSize = new System.Drawing.Size(362, 185);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnDeleteProj);
             this.Controls.Add(this.cbxProj);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblHeading);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmDeleteProject";
             this.Text = "frmDeleteProject";
+            this.Load += new System.EventHandler(this.frmDeleteProject_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

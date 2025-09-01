@@ -13,7 +13,7 @@ namespace RecyclingIS
 {
     public partial class frmReportManagement : Form
     {
-        String conStr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True";
+        String conStr = "Data Source=34.29.210.64;Initial Catalog=RecyclingIS;Persist Security Info=True;User ID=sqlserver;Password=223Group60";
 
         public frmReportManagement()
         {
@@ -97,6 +97,7 @@ namespace RecyclingIS
                  WHERE ri.Date_Received BETWEEN @fromDate AND @toDate
                  GROUP BY s.StudentID, s.F_Name, s.L_Name
                  ORDER BY TotalBagsRecycled DESC";
+
                 }
                 else if (reportType.Equals("Top 10 Projects", StringComparison.OrdinalIgnoreCase))
                 {
@@ -220,6 +221,42 @@ namespace RecyclingIS
 
             dgvDisplayReport.DataSource = null;
             // dgvDisplayReport.Rows.Clear();
+        }
+
+        private void cbxReport_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string reportType = cbxReport.SelectedItem.ToString().Trim();
+            if (reportType.Equals("Top 10 Recyclers", StringComparison.OrdinalIgnoreCase))
+            {
+                rdoStudentAsc.Enabled = true;
+                rdoStudentDesc.Enabled = true;
+                rdoProjectAsc.Enabled = false;
+                rdoProjectDesc.Enabled = false;
+                rdoProjectAsc.Checked = false;
+                rdoProjectDesc.Checked = false;
+                rdoStudentAsc.Checked = true; // Default selection
+            }
+            else if (reportType.Equals("Top 10 Projects", StringComparison.OrdinalIgnoreCase))
+            {
+                rdoStudentAsc.Enabled = false;
+                rdoStudentDesc.Enabled = false;
+                rdoProjectAsc.Enabled = true;
+                rdoProjectDesc.Enabled = true;
+                rdoStudentAsc.Checked = false;
+                rdoStudentDesc.Checked = false;
+                rdoProjectAsc.Checked = true; // Default selection
+            }
+            else
+            {
+                rdoStudentAsc.Enabled = false;
+                rdoStudentDesc.Enabled = false;
+                rdoProjectAsc.Enabled = false;
+                rdoProjectDesc.Enabled = false;
+                rdoStudentAsc.Checked = false;
+                rdoStudentDesc.Checked = false;
+                rdoProjectAsc.Checked = false;
+                rdoProjectDesc.Checked = false;
+            }
         }
     }
 
