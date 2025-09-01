@@ -16,5 +16,10 @@ namespace RecyclingIS
         {
             InitializeComponent();
         }
+
+        private void frmUpdateStudentProj_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

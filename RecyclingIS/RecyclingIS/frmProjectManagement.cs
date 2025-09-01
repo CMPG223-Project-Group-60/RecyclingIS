@@ -66,7 +66,7 @@ namespace RecyclingIS
         }
         private void LoadProjects()
         {
-            string connectionString = "Data Source=Nthabeleng_P\\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+            string connectionString = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
             SetupDataGridView();
 
             string query = @"
