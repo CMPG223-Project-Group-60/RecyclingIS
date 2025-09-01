@@ -90,7 +90,22 @@ namespace RecyclingIS
         private void LoadStudents()
         {
             dgvDisplayStudents.DataSource = GetStudentsByName("");
+
+            // Change column headers
+            if (dgvDisplayStudents.Columns.Contains("StudentID"))
+                dgvDisplayStudents.Columns["StudentID"].HeaderText = "ID";
+
+            if (dgvDisplayStudents.Columns.Contains("L_Name"))
+                dgvDisplayStudents.Columns["L_Name"].HeaderText = "Surname";
+
+            if (dgvDisplayStudents.Columns.Contains("F_Name"))
+                dgvDisplayStudents.Columns["F_Name"].HeaderText = "Name";
+
+            if (dgvDisplayStudents.Columns.Contains("DOB"))
+                dgvDisplayStudents.Columns["DOB"].HeaderText = "Date of Birth";
         }
+
+        
 
         private DataTable GetStudentsByName(string searchName)
         {
