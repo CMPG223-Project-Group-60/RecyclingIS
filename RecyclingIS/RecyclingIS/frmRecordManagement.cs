@@ -14,7 +14,7 @@ namespace RecyclingIS
     public partial class frmRecordManagement : Form
     {
         //connection string
-        string constr = "Data Source=34.29.210.64;Initial Catalog=RecyclingIS;Persist Security Info=True;User ID=sqlserver;Password=223Group60";
+        string constr = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
 
         private string placeholder = "Search by student or item...";
         public frmRecordManagement()

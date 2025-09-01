@@ -113,6 +113,7 @@ namespace RecyclingIS
             this.cbxGrade.Name = "cbxGrade";
             this.cbxGrade.Size = new System.Drawing.Size(130, 28);
             this.cbxGrade.TabIndex = 34;
+            this.cbxGrade.SelectedIndexChanged += new System.EventHandler(this.cbxGrade_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -125,6 +126,7 @@ namespace RecyclingIS
             this.label3.Size = new System.Drawing.Size(87, 29);
             this.label3.TabIndex = 33;
             this.label3.Text = "Grade";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -137,6 +139,7 @@ namespace RecyclingIS
             this.label2.Size = new System.Drawing.Size(143, 29);
             this.label2.TabIndex = 32;
             this.label2.Text = "First name";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtSurname
             // 
@@ -146,6 +149,7 @@ namespace RecyclingIS
             this.txtSurname.Name = "txtSurname";
             this.txtSurname.Size = new System.Drawing.Size(213, 33);
             this.txtSurname.TabIndex = 31;
+            this.txtSurname.TextChanged += new System.EventHandler(this.txtSurname_TextChanged);
             // 
             // label1
             // 
@@ -196,6 +200,7 @@ namespace RecyclingIS
             this.btnAddStudent.TabIndex = 27;
             this.btnAddStudent.Text = "Update Student";
             this.btnAddStudent.UseVisualStyleBackColor = false;
+            this.btnAddStudent.Click += new System.EventHandler(this.btnAddStudent_Click);
             // 
             // comboBox1
             // 
@@ -205,6 +210,7 @@ namespace RecyclingIS
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(331, 28);
             this.comboBox1.TabIndex = 40;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // textBox1
             // 
@@ -214,6 +220,7 @@ namespace RecyclingIS
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(221, 33);
             this.textBox1.TabIndex = 41;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label6
             // 
@@ -226,6 +233,7 @@ namespace RecyclingIS
             this.label6.Size = new System.Drawing.Size(141, 29);
             this.label6.TabIndex = 42;
             this.label6.Text = "Last name";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // dateTimePicker1
             // 
@@ -233,6 +241,7 @@ namespace RecyclingIS
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 26);
             this.dateTimePicker1.TabIndex = 43;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // frmUpdateStudent
             // 
@@ -260,6 +269,7 @@ namespace RecyclingIS
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmUpdateStudent";
             this.Text = "frmUpdateStudent";
+            this.Load += new System.EventHandler(this.frmUpdateStudent_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
