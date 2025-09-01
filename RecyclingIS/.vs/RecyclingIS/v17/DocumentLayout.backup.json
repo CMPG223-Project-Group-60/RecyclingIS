@@ -1,69 +1,153 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\",
+  "WorkspaceRootPath": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\recyclingis\\frmreportmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmreportmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmmeritmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmmeritmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmreportmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmreportmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmmeritmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmmeritmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmstudentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmstudentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmitemsmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmitemsmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmupdateproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmupdateproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmitemsmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmitemsmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmupdaterecordeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmupdaterecordeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmdeletestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmdeletestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmdeletestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmdeleteproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmdeletestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmdeletestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmdeleteproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmdeleteproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmassignstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmdeleteproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmdeleteproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmdeletemerit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmdeletemerit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmdeletemerit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmdeletemerit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmdeleteitemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmdeleteitemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmdeleteitemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmdeleteitemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmassignstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmassignstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmaddstudentproj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddstudentproj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmassignstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmassignstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmaddstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmaddstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmaddproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmaddstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmaddproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmaddstudentproj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddstudentproj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmaddrecordeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmaddstudentproj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddstudentproj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmaddrecordeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddrecordeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmprojectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmaddrecordeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddrecordeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmaddproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmaddproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmaddmerit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddmerit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmaddmerit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddmerit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmadditemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmadditemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmadditemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmadditemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmadditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmadditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmstudentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmstudentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\kgohl\\downloads\\recyclingis\\recyclingis\\recyclingis\\frmreportmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmreportmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmreportmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmreportmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmupdateproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmupdateproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmupdaterecordeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmupdaterecordeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmprojectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmprojectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmrecordmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmrecordmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmrecordmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmrecordmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\recyclingis\\frmrecordmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmrecordmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -74,57 +158,152 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmReportManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmReportManagement.cs",
-              "RelativeDocumentMoniker": "RecyclingIS\\frmReportManagement.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmReportManagement.cs [Design]",
-              "RelativeToolTip": "RecyclingIS\\frmReportManagement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T14:10:34.351Z",
-              "EditorCaption": " [Design]"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmReportManagement.cs",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmReportManagement.cs",
-              "RelativeDocumentMoniker": "RecyclingIS\\frmReportManagement.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmReportManagement.cs",
-              "RelativeToolTip": "RecyclingIS\\frmReportManagement.cs",
-              "ViewState": "AgIAANkAAAAAAAAAAAAqwPgAAAAQAAAAAAAAAA==",
+              "Title": "frmMeritManagement.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmMeritManagement.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmMeritManagement.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmMeritManagement.cs",
+              "RelativeToolTip": "RecyclingIS\\frmMeritManagement.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T15:50:11.848Z",
+              "WhenOpened": "2025-09-01T15:02:35.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMeritManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmMeritManagement.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmMeritManagement.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmMeritManagement.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmMeritManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:02:33.39Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmItemsManagement.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmItemsManagement.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmItemsManagement.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmItemsManagement.cs",
+              "RelativeToolTip": "RecyclingIS\\frmItemsManagement.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAvwBAAAACfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:01:56.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmItemsManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmItemsManagement.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmItemsManagement.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmItemsManagement.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmItemsManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:01:47.505Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "frmDeleteStudent.cs",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteStudent.cs",
+              "Title": "frmDeleteStudent.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteStudent.cs",
               "RelativeDocumentMoniker": "RecyclingIS\\frmDeleteStudent.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteStudent.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteStudent.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmDeleteStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:01:39.788Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmDeleteProject.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteProject.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmDeleteProject.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteProject.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmDeleteProject.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:01:24.768Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmDeleteMerit.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteMerit.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmDeleteMerit.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteMerit.cs",
+              "RelativeToolTip": "RecyclingIS\\frmDeleteMerit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:01:16.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmDeleteMerit.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteMerit.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmDeleteMerit.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteMerit.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmDeleteMerit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:01:14.987Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmDeleteItemType.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteItemType.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmDeleteItemType.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteItemType.cs",
+              "RelativeToolTip": "RecyclingIS\\frmDeleteItemType.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:00:44.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmDeleteStudent.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteStudent.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmDeleteStudent.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteStudent.cs",
               "RelativeToolTip": "RecyclingIS\\frmDeleteStudent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-01T13:53:23.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmDeleteItemType.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteItemType.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmDeleteItemType.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteItemType.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmDeleteItemType.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:00:43.098Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "frmDeleteProject.cs",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteProject.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteProject.cs",
               "RelativeDocumentMoniker": "RecyclingIS\\frmDeleteProject.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteProject.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmDeleteProject.cs",
               "RelativeToolTip": "RecyclingIS\\frmDeleteProject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -133,50 +312,265 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmAssignStudents.cs",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAssignStudents.cs",
+              "DocumentIndex": 13,
+              "Title": "frmAssignStudents.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAssignStudents.cs",
               "RelativeDocumentMoniker": "RecyclingIS\\frmAssignStudents.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAssignStudents.cs",
-              "RelativeToolTip": "RecyclingIS\\frmAssignStudents.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJsAAAAMAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAssignStudents.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmAssignStudents.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T13:52:54.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T14:59:34.393Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmAddStudentProj.cs",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudentProj.cs",
+              "DocumentIndex": 17,
+              "Title": "frmAddStudentProj.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudentProj.cs",
               "RelativeDocumentMoniker": "RecyclingIS\\frmAddStudentProj.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudentProj.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudentProj.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmAddStudentProj.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:59:01.07Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmAddStudent.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudent.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAddStudent.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudent.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmAddStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:58:47.162Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmAddRecordedItem.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddRecordedItem.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAddRecordedItem.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddRecordedItem.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmAddRecordedItem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:57:49.925Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmAddStudentProj.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudentProj.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAddStudentProj.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudentProj.cs",
               "RelativeToolTip": "RecyclingIS\\frmAddStudentProj.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAawFQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-01T13:52:39.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
+              "Title": "frmAssignStudents.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAssignStudents.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAssignStudents.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAssignStudents.cs",
+              "RelativeToolTip": "RecyclingIS\\frmAssignStudents.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAjwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T13:52:54.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmAddMerit.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddMerit.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAddMerit.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddMerit.cs",
+              "RelativeToolTip": "RecyclingIS\\frmAddMerit.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:56:51.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmAddStudent.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudent.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAddStudent.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudent.cs",
+              "RelativeToolTip": "RecyclingIS\\frmAddStudent.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T13:52:27.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmAddMerit.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddMerit.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAddMerit.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddMerit.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmAddMerit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:56:48.801Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmAddItemType.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddItemType.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAddItemType.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddItemType.cs",
+              "RelativeToolTip": "RecyclingIS\\frmAddItemType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:56:09.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frmAddProject.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddProject.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAddProject.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddProject.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmAddProject.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T13:51:48.768Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmAddRecordedItem.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddRecordedItem.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAddRecordedItem.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddRecordedItem.cs",
+              "RelativeToolTip": "RecyclingIS\\frmAddRecordedItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T13:51:59.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmAddItemType.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddItemType.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAddItemType.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddItemType.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmAddItemType.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:56:05.174Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmAddItems.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddItems.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAddItems.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddItems.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmAddItems.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:55:55.924Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmAddProject.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddProject.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAddProject.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddProject.cs",
+              "RelativeToolTip": "RecyclingIS\\frmAddProject.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T13:51:50.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\Form1.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\Form1.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\Form1.cs",
+              "RelativeToolTip": "RecyclingIS\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:54:55.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\Form1.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\Form1.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\Form1.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:51:19.455Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmReportManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmReportManagement.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmReportManagement.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmReportManagement.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmReportManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:10:34.351Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmReportManagement.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmReportManagement.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmReportManagement.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmReportManagement.cs",
+              "RelativeToolTip": "RecyclingIS\\frmReportManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T15:50:11.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "frmStudentManagement.cs",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmStudentManagement.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmStudentManagement.cs",
               "RelativeDocumentMoniker": "RecyclingIS\\frmStudentManagement.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmStudentManagement.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmStudentManagement.cs",
               "RelativeToolTip": "RecyclingIS\\frmStudentManagement.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAcwC8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-31T15:17:23.202Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 33,
               "Title": "frmUpdateRecordedItem.cs",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmUpdateRecordedItem.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmUpdateRecordedItem.cs",
               "RelativeDocumentMoniker": "RecyclingIS\\frmUpdateRecordedItem.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmUpdateRecordedItem.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmUpdateRecordedItem.cs",
               "RelativeToolTip": "RecyclingIS\\frmUpdateRecordedItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -185,37 +579,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frmAddStudent.cs",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudent.cs",
-              "RelativeDocumentMoniker": "RecyclingIS\\frmAddStudent.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudent.cs",
-              "RelativeToolTip": "RecyclingIS\\frmAddStudent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAACQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T13:52:27.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "frmAddRecordedItem.cs",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddRecordedItem.cs",
-              "RelativeDocumentMoniker": "RecyclingIS\\frmAddRecordedItem.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddRecordedItem.cs",
-              "RelativeToolTip": "RecyclingIS\\frmAddRecordedItem.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADgvw8AAACQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T13:51:59.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 32,
               "Title": "frmUpdateProject.cs",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmUpdateProject.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmUpdateProject.cs",
               "RelativeDocumentMoniker": "RecyclingIS\\frmUpdateProject.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmUpdateProject.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmUpdateProject.cs",
               "RelativeToolTip": "RecyclingIS\\frmUpdateProject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -224,36 +592,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmAddProject.cs",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddProject.cs",
-              "RelativeDocumentMoniker": "RecyclingIS\\frmAddProject.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddProject.cs",
-              "RelativeToolTip": "RecyclingIS\\frmAddProject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T13:51:50.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "frmAddProject.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddProject.cs",
-              "RelativeDocumentMoniker": "RecyclingIS\\frmAddProject.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddProject.cs [Design]",
-              "RelativeToolTip": "RecyclingIS\\frmAddProject.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T13:51:48.768Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 35,
               "Title": "frmRecordManagement.cs",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmRecordManagement.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmRecordManagement.cs",
               "RelativeDocumentMoniker": "RecyclingIS\\frmRecordManagement.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmRecordManagement.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmRecordManagement.cs",
               "RelativeToolTip": "RecyclingIS\\frmRecordManagement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAACQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -262,11 +605,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 36,
               "Title": "frmRecordManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmRecordManagement.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmRecordManagement.cs",
               "RelativeDocumentMoniker": "RecyclingIS\\frmRecordManagement.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmRecordManagement.cs [Design]",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmRecordManagement.cs [Design]",
               "RelativeToolTip": "RecyclingIS\\frmRecordManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-01T13:50:58.256Z",
@@ -274,11 +617,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 34,
               "Title": "frmProjectManagement.cs",
-              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmProjectManagement.cs",
+              "DocumentMoniker": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmProjectManagement.cs",
               "RelativeDocumentMoniker": "RecyclingIS\\frmProjectManagement.cs",
-              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmProjectManagement.cs",
+              "ToolTip": "C:\\Users\\kgohl\\Downloads\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmProjectManagement.cs",
               "RelativeToolTip": "RecyclingIS\\frmProjectManagement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

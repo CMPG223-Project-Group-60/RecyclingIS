@@ -15,8 +15,7 @@ namespace RecyclingIS
     {
         public string NewprojectName { get; private set; }
 
-        string connectionString = @"Data Source=34.29.210.64;Initial Catalog=RecyclingIS;Persist Security Info=True;User ID=sqlserver;Password=223Group60";
-
+        string connectionString = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         public frmAddProject()
         {
             InitializeComponent();

@@ -107,6 +107,7 @@ namespace RecyclingIS
             this.Controls.Add(this.lblHeading);
             this.Name = "frmDeleteMerit";
             this.Text = "frmDeleteMerit";
+            this.Load += new System.EventHandler(this.frmDeleteMerit_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

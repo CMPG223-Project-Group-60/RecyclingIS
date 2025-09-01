@@ -64,5 +64,10 @@ namespace RecyclingIS
             delete.StartPosition = FormStartPosition.CenterParent;
             delete.ShowDialog(this);
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

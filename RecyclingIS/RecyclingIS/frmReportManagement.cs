@@ -13,7 +13,7 @@ namespace RecyclingIS
 {
     public partial class frmReportManagement : Form
     {
-        String conStr = "Data Source=34.29.210.64;Initial Catalog=RecyclingIS;Persist Security Info=True;User ID=sqlserver;Password=223Group60";
+        String conStr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
 
         public frmReportManagement()
         {
