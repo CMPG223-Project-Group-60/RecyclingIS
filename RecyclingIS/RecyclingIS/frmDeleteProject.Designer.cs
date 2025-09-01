@@ -98,6 +98,7 @@ namespace RecyclingIS
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(482, 228);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnDeleteProj);
@@ -106,6 +107,7 @@ namespace RecyclingIS
             this.Controls.Add(this.lblHeading);
             this.Name = "frmDeleteProject";
             this.Text = "frmDeleteProject";
+            this.Load += new System.EventHandler(this.frmDeleteProject_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 

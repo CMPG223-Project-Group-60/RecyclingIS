@@ -21,5 +21,15 @@ namespace RecyclingIS
         {
             this.Close();
         }
+
+        private void frmDeleteProject_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmDeleteProject_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

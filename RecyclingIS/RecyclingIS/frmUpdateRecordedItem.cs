@@ -13,7 +13,7 @@ namespace RecyclingIS
 {
     public partial class frmUpdateRecordedItem : Form
     {
-        string constr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True";
+        string constr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
 
         public int RecordedItemId { get; set; }
 

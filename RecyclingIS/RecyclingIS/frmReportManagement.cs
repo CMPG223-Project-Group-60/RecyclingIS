@@ -13,7 +13,7 @@ namespace RecyclingIS
 {
     public partial class frmReportManagement : Form
     {
-        String conStr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True";
+        String conStr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
 
         public frmReportManagement()
         {
@@ -99,6 +99,7 @@ namespace RecyclingIS
                  WHERE ri.Date_Received BETWEEN @fromDate AND @toDate
                  GROUP BY s.StudentID, s.F_Name, s.L_Name
                  ORDER BY TotalBagsRecycled DESC";
+
                 }
                 else if (reportType.Equals("Top 10 Projects", StringComparison.OrdinalIgnoreCase))
                 {
@@ -122,7 +123,7 @@ namespace RecyclingIS
                 //s.F_Name + ' ' + s.L_Name AS StudentName,
 
             // Execute the query and get results
-            DataTable dt = new DataTable();
+                DataTable dt = new DataTable();
 
                 using (SqlConnection conn = new SqlConnection(conStr))
                 {
@@ -250,6 +251,57 @@ namespace RecyclingIS
 
             dgvDisplayReport.DataSource = null;
             // dgvDisplayReport.Rows.Clear();
+        }
+
+        private void cbxReport_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbxReport.SelectedItem == null)
+            {
+                // Disable all options if nothing is selected
+                rdoStudentAsc.Enabled = false;
+                rdoStudentDesc.Enabled = false;
+                rdoProjectAsc.Enabled = false;
+                rdoProjectDesc.Enabled = false;
+                rdoStudentAsc.Checked = false;
+                rdoStudentDesc.Checked = false;
+                rdoProjectAsc.Checked = false;
+                rdoProjectDesc.Checked = false;
+                return; // ✅ Exit early to avoid the error
+            }
+
+            string reportType = reportType = cbxReport.SelectedItem.ToString().Trim();
+
+            if (reportType.Equals("Top 10 Recyclers", StringComparison.OrdinalIgnoreCase))
+            {
+                rdoStudentAsc.Enabled = true;
+                rdoStudentDesc.Enabled = true;
+                rdoProjectAsc.Enabled = false;
+                rdoProjectDesc.Enabled = false;
+                rdoProjectAsc.Checked = false;
+                rdoProjectDesc.Checked = false;
+                rdoStudentAsc.Checked = true; // Default selection
+            }
+            else if (reportType.Equals("Top 10 Projects", StringComparison.OrdinalIgnoreCase))
+            {
+                rdoStudentAsc.Enabled = false;
+                rdoStudentDesc.Enabled = false;
+                rdoProjectAsc.Enabled = true;
+                rdoProjectDesc.Enabled = true;
+                rdoStudentAsc.Checked = false;
+                rdoStudentDesc.Checked = false;
+                rdoProjectAsc.Checked = true; // Default selection
+            }
+            else
+            {
+                rdoStudentAsc.Enabled = false;
+                rdoStudentDesc.Enabled = false;
+                rdoProjectAsc.Enabled = false;
+                rdoProjectDesc.Enabled = false;
+                rdoStudentAsc.Checked = false;
+                rdoStudentDesc.Checked = false;
+                rdoProjectAsc.Checked = false;
+                rdoProjectDesc.Checked = false;
+            }
         }
     }
 

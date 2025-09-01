@@ -21,5 +21,10 @@ namespace RecyclingIS
         {
             this.Close();
         }
+
+        private void frmUpdate_Merit_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

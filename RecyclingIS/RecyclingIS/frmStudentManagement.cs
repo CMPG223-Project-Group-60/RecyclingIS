@@ -15,8 +15,13 @@ namespace RecyclingIS
     public partial class frmStudentManagement : Form
     {
         private string placeholder = "Search students by Name";
+<<<<<<< HEAD
         String ConStr = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;TrustServerCertificate=True";
         
+=======
+        string ConStr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
         public frmStudentManagement()
         {
             InitializeComponent();
@@ -90,7 +95,22 @@ namespace RecyclingIS
         private void LoadStudents()
         {
             dgvDisplayStudents.DataSource = GetStudentsByName("");
+
+            // Change column headers
+            if (dgvDisplayStudents.Columns.Contains("StudentID"))
+                dgvDisplayStudents.Columns["StudentID"].HeaderText = "ID";
+
+            if (dgvDisplayStudents.Columns.Contains("L_Name"))
+                dgvDisplayStudents.Columns["L_Name"].HeaderText = "Surname";
+
+            if (dgvDisplayStudents.Columns.Contains("F_Name"))
+                dgvDisplayStudents.Columns["F_Name"].HeaderText = "Name";
+
+            if (dgvDisplayStudents.Columns.Contains("DOB"))
+                dgvDisplayStudents.Columns["DOB"].HeaderText = "Date of Birth";
         }
+
+        
 
         private DataTable GetStudentsByName(string searchName)
         {

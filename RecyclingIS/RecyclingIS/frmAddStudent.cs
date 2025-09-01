@@ -14,7 +14,12 @@ namespace RecyclingIS
 {
     public partial class frmAddStudent : Form
     {
+<<<<<<< HEAD
         String ConStr = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;TrustServerCertificate=True";
+=======
+        string ConStr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+        
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
         public frmAddStudent()
         {
             InitializeComponent();

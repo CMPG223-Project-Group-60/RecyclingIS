@@ -14,7 +14,12 @@ namespace RecyclingIS
     public partial class frmUpdateProject : Form
     {
         private int projectID;
+<<<<<<< HEAD
         private string connectionString = @"Data Source=34.29.210.64;Initial Catalog=RecyclingIS;Persist Security Info=True;User ID=sqlserver;Password=223Group60";
+=======
+        string connectionString = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
         public frmUpdateProject(int projID, string name, string description, DateTime dueDate)
         {
             InitializeComponent();
