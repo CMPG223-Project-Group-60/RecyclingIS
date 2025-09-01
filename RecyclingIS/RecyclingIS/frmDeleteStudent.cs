@@ -15,7 +15,7 @@ namespace RecyclingIS
 {
     public partial class frmDeleteStudent : Form
     {
-        String conStr = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;TrustServerCertificate=True";
+        String conStr = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         
         public frmDeleteStudent()
         {
