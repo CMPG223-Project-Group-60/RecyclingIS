@@ -87,3 +87,40 @@ C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-U
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdate_Merit.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddStudentProj.resources
 C:\Users\kgohl\OneDrive - North-West University\CodeBlocks\Desktop\RecyclingIS-UpdatedGUI\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateStudentProj.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe.config
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.pdb
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.AssemblyReference.cache
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe.config
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMain.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddItems.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddItemType.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddMerit.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddProject.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddRecordedItem.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddStudent.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddStudentProj.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAssignStudents.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDashboardManagement.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteItemType.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteMerit.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteProject.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmDeleteStudent.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmItemsManagement.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMeritManagement.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmProjectManagement.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmRecordManagement.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmReportManagement.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmStudentManagement.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdate_Merit.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItem.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateItemType.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateProject.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateRecordedItem.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateStudent.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateStudentProj.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.Properties.Resources.resources
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.GenerateResource.cache
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.CoreCompileInputs.cache
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe
+C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.pdb

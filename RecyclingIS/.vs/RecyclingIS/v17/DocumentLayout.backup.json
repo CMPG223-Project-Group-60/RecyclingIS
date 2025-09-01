@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmprojectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmprojectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmassignstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmassignstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\recyclingis\\frmassignstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmassignstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|c:\\users\\bokser\\desktop\\30272580\\cmpg223-project\\recyclingis(new)\\recyclingis\\recyclingis\\recyclingis\\frmprojectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmprojectmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\recyclingis\\frmaddstudentproj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddstudentproj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\recyclingis\\frmaddproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA4C73B-CCD5-488D-8698-EA0D222B764B}|RecyclingIS\\RecyclingIS.csproj|solutionrelative:recyclingis\\frmaddproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmProjectManagement.cs",
+              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmProjectManagement.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmProjectManagement.cs",
+              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmProjectManagement.cs",
+              "RelativeToolTip": "RecyclingIS\\frmProjectManagement.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAADgv7wAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T12:47:43.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmProjectManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmProjectManagement.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmProjectManagement.cs",
+              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmProjectManagement.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmProjectManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T12:46:03.667Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmAssignStudents.cs",
+              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAssignStudents.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAssignStudents.cs",
+              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAssignStudents.cs",
+              "RelativeToolTip": "RecyclingIS\\frmAssignStudents.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAmwMIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T19:58:21.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmAssignStudents.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAssignStudents.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAssignStudents.cs",
+              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAssignStudents.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmAssignStudents.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T19:55:09.749Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmAddStudentProj.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudentProj.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAddStudentProj.cs",
+              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddStudentProj.cs [Design]",
+              "RelativeToolTip": "RecyclingIS\\frmAddStudentProj.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T19:30:54.832Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmAddProject.cs",
+              "DocumentMoniker": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddProject.cs",
+              "RelativeDocumentMoniker": "RecyclingIS\\frmAddProject.cs",
+              "ToolTip": "C:\\Users\\Bokser\\Desktop\\30272580\\CMPG223-Project\\RecyclingIS(new)\\RecyclingIS\\RecyclingIS\\RecyclingIS\\frmAddProject.cs",
+              "RelativeToolTip": "RecyclingIS\\frmAddProject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T16:40:13.252Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

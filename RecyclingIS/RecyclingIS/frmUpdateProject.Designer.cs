@@ -34,12 +34,12 @@ namespace RecyclingIS
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnUpdateProj = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtItemName = new System.Windows.Forms.TextBox();
+            this.txtProjDesc = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbProjName = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblHeading = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimeProjDue = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // btnClear
@@ -47,21 +47,24 @@ namespace RecyclingIS
             this.btnClear.BackColor = System.Drawing.Color.LightGreen;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.White;
-            this.btnClear.Location = new System.Drawing.Point(236, 309);
+            this.btnClear.Location = new System.Drawing.Point(177, 251);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(2);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(159, 45);
+            this.btnClear.Size = new System.Drawing.Size(119, 37);
             this.btnClear.TabIndex = 59;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnCancel
             // 
             this.btnCancel.BackColor = System.Drawing.Color.Crimson;
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(442, 309);
+            this.btnCancel.Location = new System.Drawing.Point(332, 251);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(170, 45);
+            this.btnCancel.Size = new System.Drawing.Size(128, 37);
             this.btnCancel.TabIndex = 58;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -72,12 +75,14 @@ namespace RecyclingIS
             this.btnUpdateProj.BackColor = System.Drawing.Color.ForestGreen;
             this.btnUpdateProj.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateProj.ForeColor = System.Drawing.Color.White;
-            this.btnUpdateProj.Location = new System.Drawing.Point(21, 309);
+            this.btnUpdateProj.Location = new System.Drawing.Point(16, 251);
+            this.btnUpdateProj.Margin = new System.Windows.Forms.Padding(2);
             this.btnUpdateProj.Name = "btnUpdateProj";
-            this.btnUpdateProj.Size = new System.Drawing.Size(153, 45);
+            this.btnUpdateProj.Size = new System.Drawing.Size(115, 37);
             this.btnUpdateProj.TabIndex = 57;
             this.btnUpdateProj.Text = "Update Project";
             this.btnUpdateProj.UseVisualStyleBackColor = false;
+            this.btnUpdateProj.Click += new System.EventHandler(this.btnUpdateProj_Click);
             // 
             // label3
             // 
@@ -85,19 +90,21 @@ namespace RecyclingIS
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(21, 235);
+            this.label3.Location = new System.Drawing.Point(16, 191);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 25);
+            this.label3.Size = new System.Drawing.Size(85, 20);
             this.label3.TabIndex = 55;
             this.label3.Text = "Due date";
             // 
-            // txtItemName
+            // txtProjDesc
             // 
-            this.txtItemName.Location = new System.Drawing.Point(21, 194);
-            this.txtItemName.Multiline = true;
-            this.txtItemName.Name = "txtItemName";
-            this.txtItemName.Size = new System.Drawing.Size(296, 24);
-            this.txtItemName.TabIndex = 54;
+            this.txtProjDesc.Location = new System.Drawing.Point(11, 157);
+            this.txtProjDesc.Margin = new System.Windows.Forms.Padding(2);
+            this.txtProjDesc.Multiline = true;
+            this.txtProjDesc.Name = "txtProjDesc";
+            this.txtProjDesc.Size = new System.Drawing.Size(223, 20);
+            this.txtProjDesc.TabIndex = 54;
             // 
             // label2
             // 
@@ -105,19 +112,21 @@ namespace RecyclingIS
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(21, 166);
+            this.label2.Location = new System.Drawing.Point(16, 135);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 25);
+            this.label2.Size = new System.Drawing.Size(106, 20);
             this.label2.TabIndex = 53;
             this.label2.Text = "Description";
             // 
-            // comboBox1
+            // cbProjName
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(22, 130);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(295, 24);
-            this.comboBox1.TabIndex = 52;
+            this.cbProjName.FormattingEnabled = true;
+            this.cbProjName.Location = new System.Drawing.Point(16, 106);
+            this.cbProjName.Margin = new System.Windows.Forms.Padding(2);
+            this.cbProjName.Name = "cbProjName";
+            this.cbProjName.Size = new System.Drawing.Size(222, 21);
+            this.cbProjName.TabIndex = 52;
             // 
             // label1
             // 
@@ -125,9 +134,10 @@ namespace RecyclingIS
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(17, 102);
+            this.label1.Location = new System.Drawing.Point(13, 83);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(221, 25);
+            this.label1.Size = new System.Drawing.Size(177, 20);
             this.label1.TabIndex = 51;
             this.label1.Text = "Select project name";
             // 
@@ -136,38 +146,42 @@ namespace RecyclingIS
             this.lblHeading.BackColor = System.Drawing.Color.Transparent;
             this.lblHeading.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeading.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblHeading.Location = new System.Drawing.Point(12, 9);
+            this.lblHeading.Location = new System.Drawing.Point(9, 7);
+            this.lblHeading.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHeading.Name = "lblHeading";
-            this.lblHeading.Size = new System.Drawing.Size(830, 58);
+            this.lblHeading.Size = new System.Drawing.Size(622, 47);
             this.lblHeading.TabIndex = 50;
             this.lblHeading.Text = "Edit Project Details";
             // 
-            // dateTimePicker1
+            // dateTimeProjDue
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(21, 263);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker1.TabIndex = 60;
+            this.dateTimeProjDue.Location = new System.Drawing.Point(16, 214);
+            this.dateTimeProjDue.Margin = new System.Windows.Forms.Padding(2);
+            this.dateTimeProjDue.Name = "dateTimeProjDue";
+            this.dateTimeProjDue.Size = new System.Drawing.Size(151, 20);
+            this.dateTimeProjDue.TabIndex = 60;
             // 
             // frmUpdateProject
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(633, 365);
-            this.Controls.Add(this.dateTimePicker1);
+            this.ClientSize = new System.Drawing.Size(475, 297);
+            this.Controls.Add(this.dateTimeProjDue);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnUpdateProj);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtItemName);
+            this.Controls.Add(this.txtProjDesc);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbProjName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblHeading);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmUpdateProject";
             this.Text = "frmUpdateProject";
+            this.Load += new System.EventHandler(this.frmUpdateProject_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -179,11 +193,11 @@ namespace RecyclingIS
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnUpdateProj;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtItemName;
+        private System.Windows.Forms.TextBox txtProjDesc;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbProjName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblHeading;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimeProjDue;
     }
 }
