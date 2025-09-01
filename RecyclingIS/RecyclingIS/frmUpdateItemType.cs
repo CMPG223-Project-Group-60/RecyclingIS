@@ -86,7 +86,7 @@ namespace RecyclingIS
                 this.Close();
             }
 
-            sql = $"UPDATE ITEM SET Item_Name = '{txtItemName.Text}', Item_QtyOnHand = {id)} WHERE ItemID = {comboBox1.SelectedItem.ToString()}";
+            sql = $"UPDATE ITEM SET Item_Name = '{txtItemName.Text}', Item_QtyOnHand = {id} WHERE ItemID = {comboBox1.SelectedItem.ToString()}";
             cmd = new SqlCommand(sql, con);
 
             try
