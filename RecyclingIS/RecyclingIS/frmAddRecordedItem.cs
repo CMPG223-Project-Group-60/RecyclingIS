@@ -32,6 +32,8 @@ namespace RecyclingIS
 
             LoadComboBoxes();
             dtpDate.Value = DateTime.Today;
+            dtpDate.Enabled = false; //the date is recorded in real time so no past/future dates can be used
+            
             lblMeritPointsOutput.Text = "0 Merit Points";
         }
 
@@ -117,7 +119,7 @@ namespace RecyclingIS
 
             int studentId = (int)cbxStudent.SelectedValue;
             int itemId = (int)cbxItemType.SelectedValue;
-            DateTime dateReceived = dtpDate.Value;
+            DateTime dateReceived = DateTime.Today;
 
 
             try

@@ -142,6 +142,7 @@ namespace RecyclingIS
                                 cbxStudent.SelectedValue = studentId;
                                 cbxItemType.SelectedValue = itemId;
                                 dtpDate.Value = dateReceived;
+                                dtpDate.Enabled = false; 
                                 txtQuantity.Text = quantity.ToString();
                                 CalculateMeritPoints();
                             }
