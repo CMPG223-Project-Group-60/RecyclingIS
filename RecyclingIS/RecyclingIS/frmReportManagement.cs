@@ -120,7 +120,7 @@ namespace RecyclingIS
                 //s.F_Name + ' ' + s.L_Name AS StudentName,
 
             // Execute the query and get results
-            DataTable dt = new DataTable();
+                DataTable dt = new DataTable();
 
                 using (SqlConnection conn = new SqlConnection(conStr))
                 {
