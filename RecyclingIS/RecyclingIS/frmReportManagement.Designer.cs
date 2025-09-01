@@ -84,7 +84,7 @@ namespace RecyclingIS
             this.dgvDisplayReport.Name = "dgvDisplayReport";
             this.dgvDisplayReport.RowHeadersWidth = 51;
             this.dgvDisplayReport.RowTemplate.Height = 24;
-            this.dgvDisplayReport.Size = new System.Drawing.Size(713, 222);
+            this.dgvDisplayReport.Size = new System.Drawing.Size(742, 243);
             this.dgvDisplayReport.TabIndex = 5;
             // 
             // lblReport
@@ -94,7 +94,7 @@ namespace RecyclingIS
             this.lblReport.ForeColor = System.Drawing.Color.White;
             this.lblReport.Location = new System.Drawing.Point(6, 30);
             this.lblReport.Name = "lblReport";
-            this.lblReport.Size = new System.Drawing.Size(98, 17);
+            this.lblReport.Size = new System.Drawing.Size(92, 16);
             this.lblReport.TabIndex = 7;
             this.lblReport.Text = "Report type:";
             // 
@@ -105,7 +105,7 @@ namespace RecyclingIS
             this.lblStart.ForeColor = System.Drawing.Color.White;
             this.lblStart.Location = new System.Drawing.Point(6, 77);
             this.lblStart.Name = "lblStart";
-            this.lblStart.Size = new System.Drawing.Size(49, 17);
+            this.lblStart.Size = new System.Drawing.Size(46, 16);
             this.lblStart.TabIndex = 8;
             this.lblStart.Text = "From:";
             this.lblStart.Click += new System.EventHandler(this.lblStart_Click);
@@ -160,7 +160,7 @@ namespace RecyclingIS
             this.lblEnd.ForeColor = System.Drawing.Color.White;
             this.lblEnd.Location = new System.Drawing.Point(23, 113);
             this.lblEnd.Name = "lblEnd";
-            this.lblEnd.Size = new System.Drawing.Size(32, 17);
+            this.lblEnd.Size = new System.Drawing.Size(30, 16);
             this.lblEnd.TabIndex = 12;
             this.lblEnd.Text = "To:";
             // 
@@ -175,7 +175,7 @@ namespace RecyclingIS
             this.gbxSort.ForeColor = System.Drawing.Color.White;
             this.gbxSort.Location = new System.Drawing.Point(521, 93);
             this.gbxSort.Name = "gbxSort";
-            this.gbxSort.Size = new System.Drawing.Size(203, 155);
+            this.gbxSort.Size = new System.Drawing.Size(232, 155);
             this.gbxSort.TabIndex = 12;
             this.gbxSort.TabStop = false;
             this.gbxSort.Text = "Sort Report By:";
@@ -187,7 +187,7 @@ namespace RecyclingIS
             this.rdoStudentDesc.AutoSize = true;
             this.rdoStudentDesc.Location = new System.Drawing.Point(6, 131);
             this.rdoStudentDesc.Name = "rdoStudentDesc";
-            this.rdoStudentDesc.Size = new System.Drawing.Size(182, 21);
+            this.rdoStudentDesc.Size = new System.Drawing.Size(172, 20);
             this.rdoStudentDesc.TabIndex = 12;
             this.rdoStudentDesc.TabStop = true;
             this.rdoStudentDesc.Text = "Student name (Desc)";
@@ -198,7 +198,7 @@ namespace RecyclingIS
             this.rdoStudentAsc.AutoSize = true;
             this.rdoStudentAsc.Location = new System.Drawing.Point(6, 94);
             this.rdoStudentAsc.Name = "rdoStudentAsc";
-            this.rdoStudentAsc.Size = new System.Drawing.Size(172, 21);
+            this.rdoStudentAsc.Size = new System.Drawing.Size(162, 20);
             this.rdoStudentAsc.TabIndex = 11;
             this.rdoStudentAsc.TabStop = true;
             this.rdoStudentAsc.Text = "Student name (Asc)";
@@ -209,7 +209,7 @@ namespace RecyclingIS
             this.rdoProjectDesc.AutoSize = true;
             this.rdoProjectDesc.Location = new System.Drawing.Point(6, 58);
             this.rdoProjectDesc.Name = "rdoProjectDesc";
-            this.rdoProjectDesc.Size = new System.Drawing.Size(177, 21);
+            this.rdoProjectDesc.Size = new System.Drawing.Size(169, 20);
             this.rdoProjectDesc.TabIndex = 10;
             this.rdoProjectDesc.TabStop = true;
             this.rdoProjectDesc.Text = "Project name (Desc)";
@@ -220,7 +220,7 @@ namespace RecyclingIS
             this.rdoProjectAsc.AutoSize = true;
             this.rdoProjectAsc.Location = new System.Drawing.Point(6, 21);
             this.rdoProjectAsc.Name = "rdoProjectAsc";
-            this.rdoProjectAsc.Size = new System.Drawing.Size(167, 21);
+            this.rdoProjectAsc.Size = new System.Drawing.Size(159, 20);
             this.rdoProjectAsc.TabIndex = 9;
             this.rdoProjectAsc.TabStop = true;
             this.rdoProjectAsc.Text = "Project name (Asc)";
@@ -232,11 +232,10 @@ namespace RecyclingIS
             this.lblResult.BackColor = System.Drawing.Color.Transparent;
             this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold);
             this.lblResult.ForeColor = System.Drawing.Color.White;
-            this.lblResult.Location = new System.Drawing.Point(7, 328);
+            this.lblResult.Location = new System.Drawing.Point(12, 328);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(96, 17);
+            this.lblResult.Size = new System.Drawing.Size(0, 16);
             this.lblResult.TabIndex = 7;
-            this.lblResult.Text = "xxxResultxxx";
             this.lblResult.Click += new System.EventHandler(this.label3_Click);
             // 
             // btnGenerateReport
@@ -271,7 +270,7 @@ namespace RecyclingIS
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(736, 572);
+            this.ClientSize = new System.Drawing.Size(765, 594);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnGenerateReport);
             this.Controls.Add(this.gbxSort);
