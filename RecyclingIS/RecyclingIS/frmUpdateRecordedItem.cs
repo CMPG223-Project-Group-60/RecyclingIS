@@ -13,7 +13,7 @@ namespace RecyclingIS
 {
     public partial class frmUpdateRecordedItem : Form
     {
-        string constr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True";
+        string constr = "Data Source=34.29.210.64;Initial Catalog=RecyclingIS;Persist Security Info=True;User ID=sqlserver;Password=223Group60";
 
         public int RecordedItemId { get; set; }
 
@@ -98,6 +98,11 @@ namespace RecyclingIS
 
         private void frmUpdateRecordedItem_Load(object sender, EventArgs e)
         {
+            cbxStudent.SelectedIndex = -1;
+            cbxItemType.SelectedIndex = -1;
+            txtQuantity.Clear();
+            dtpDate.Value = DateTime.Today;
+
             if (RecordedItemId > 0)
             {
                 LoadRecordData();
@@ -137,6 +142,7 @@ namespace RecyclingIS
                                 cbxStudent.SelectedValue = studentId;
                                 cbxItemType.SelectedValue = itemId;
                                 dtpDate.Value = dateReceived;
+                                dtpDate.Enabled = false; 
                                 txtQuantity.Text = quantity.ToString();
                                 CalculateMeritPoints();
                             }
