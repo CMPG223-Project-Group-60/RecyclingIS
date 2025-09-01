@@ -55,13 +55,23 @@ namespace RecyclingIS
                         cmd.CommandType = CommandType.StoredProcedure;
                         cmd.Parameters.AddWithValue("@StudentID", studentID);
 
-                        conn.Open();
-                        int rows = cmd.ExecuteNonQuery();
+                        // Add parameter to capture RETURN value from stored procedure
+                        SqlParameter returnParameter = cmd.Parameters.Add("@ReturnVal", SqlDbType.Int);
+                        returnParameter.Direction = ParameterDirection.ReturnValue;
 
-                        if (rows > 0)
+                        conn.Open();
+                        cmd.ExecuteNonQuery();
+
+                        int resultCode = (int)returnParameter.Value;
+
+                        if (resultCode == 1) // Success
                         {
                             MessageBox.Show("Student deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             LoadStudents(); // Refresh list
+                        }
+                        else if (resultCode == -1) // Error
+                        {
+                            MessageBox.Show("Error occurred while deleting the student.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                         else
                         {
