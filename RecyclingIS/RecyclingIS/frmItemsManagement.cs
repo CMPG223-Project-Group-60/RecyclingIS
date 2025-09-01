@@ -7,12 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace RecyclingIS
 {
     public partial class frmItemsManagement : Form
     {
         private string placeholder = "Search by name";
+        private string connectionString = @"";
+        private SqlConnection con;
 
         public frmItemsManagement()
         {
@@ -101,6 +104,42 @@ namespace RecyclingIS
             frmDeleteItemType delete = new frmDeleteItemType();
             delete.StartPosition = FormStartPosition.CenterParent;
             delete.ShowDialog(this);
+        }
+
+        public void refreshGridView()
+        {
+            con = new SqlConnection(connectionString);
+            SqlCommand cmd;
+            SqlDataAdapter adapter;
+            DataSet ds;
+            string sql;
+
+            con.Open(); // Open database connection
+
+            sql = "SELECT * FROM ITEM";
+            cmd = new SqlCommand(sql, con);
+            adapter = new SqlDataAdapter();
+            ds = new DataSet();
+
+            adapter.SelectCommand = cmd;
+            adapter.Fill(ds, "ITEM");
+
+            dgvDisplayItems.DataSource = ds;
+            dgvDisplayItems.DataMember = "ITEM";
+
+            cmd.Dispose();
+            con.Close(); // Close database connection
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            string sql = "Select * FROM ITEM WHERE ItemID LIKE '%" + txtSearch.Text + "%'";
+            SqlDataAdapter adapter = new SqlDataAdapter(sql, connectionString);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds, "ITEM");
+
+            dgvDisplayItems.DataSource = ds;
+            dgvDisplayItems.DataMember = "ITEM";
         }
     }
 }

@@ -131,48 +131,83 @@ namespace RecyclingIS
             string firstName = txtName.Text.Trim();
             string lastName = txtSurname.Text.Trim();
             string grade = cbxGrade.SelectedItem.ToString();
-            string gender = rdoFemale.Checked ? "Female" : "Male";
+
+            // Convert gender to INT (0 for Female, 1 for Male)
+            int genderValue = rdoFemale.Checked ? 0 : 1;
+
             DateTime dateOfBirth = dateTimePicker1.Value;
 
-            // Add student to database
-            if (AddStudentToDatabase(firstName, lastName, grade, gender, dateOfBirth))
+            // Add student to database using stored procedure
+            int newStudentId = AddStudentToDatabase(firstName, lastName, grade, genderValue, dateOfBirth);
+
+            if (newStudentId > 0)
             {
-                MessageBox.Show("Student added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show($"Student added successfully! Student ID: {newStudentId}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 ClearForm();
             }
 
 
         }
-        private bool AddStudentToDatabase(string firstName, string lastName, string grade, string gender, DateTime dateOfBirth)
+
+        private int AddStudentToDatabase(string firstName, string lastName, string grade, int gender, DateTime dateOfBirth)
         {
             try
             {
                 using (SqlConnection conn = new SqlConnection(ConStr))
                 {
                     conn.Open();
-                    string query = @"INSERT INTO Student (F_Name, L_Name, Grade, Gender, DOB) 
-                                   VALUES (@FirstName, @LastName, @Grade, @Gender, @DateOfBirth)";
 
-                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    using (SqlCommand cmd = new SqlCommand("sp_AddStudent", conn))
                     {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        // Add input parameters
                         cmd.Parameters.AddWithValue("@FirstName", firstName);
                         cmd.Parameters.AddWithValue("@LastName", lastName);
-                        cmd.Parameters.AddWithValue("@Grade", grade);
+                        cmd.Parameters.AddWithValue("@Grade", Convert.ToInt32(grade));
                         cmd.Parameters.AddWithValue("@Gender", gender);
                         cmd.Parameters.AddWithValue("@DateOfBirth", dateOfBirth.Date);
 
-                        int rowsAffected = cmd.ExecuteNonQuery();
-                        return rowsAffected > 0;
+                        // Add output parameter for StudentID
+                        SqlParameter studentIdParam = new SqlParameter("@StudentID", SqlDbType.Int);
+                        studentIdParam.Direction = ParameterDirection.Output;
+                        cmd.Parameters.Add(studentIdParam);
+
+                        // Add return value parameter
+                        SqlParameter returnParam = new SqlParameter("@ReturnValue", SqlDbType.Int);
+                        returnParam.Direction = ParameterDirection.ReturnValue;
+                        cmd.Parameters.Add(returnParam);
+
+                        // Execute the stored procedure
+                        cmd.ExecuteNonQuery();
+
+                        // Get the return value
+                        int returnValue = (int)returnParam.Value;
+
+                        if (returnValue == 1) // Success
+                        {
+                            // Return the newly created StudentID
+                            return (int)studentIdParam.Value;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Failed to add student. Database returned error.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return -1;
+                        }
                     }
                 }
             }
+            catch (SqlException sqlEx)
+            {
+                MessageBox.Show($"Database error adding student: {sqlEx.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return -1;
+            }
             catch (Exception ex)
             {
-                MessageBox.Show("Error adding student: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return false;
+                MessageBox.Show($"Error adding student: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return -1;
             }
         }
-
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
         {
 
