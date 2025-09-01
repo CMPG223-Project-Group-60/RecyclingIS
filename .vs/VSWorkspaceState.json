@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RecyclingIS",
+    "\\RecyclingIS\\RecyclingIS"
   ],
-  "SelectedNode": "\\RecyclingIS.sln",
+  "SelectedNode": "\\RecyclingIS\\RecyclingIS\\frmAddProject.cs",
   "PreviewInSolutionExplorer": false
 }
