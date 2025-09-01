@@ -190,6 +190,7 @@ namespace RecyclingIS
             this.Controls.Add(this.lblHeading);
             this.Name = "frmUpdateStudentProj";
             this.Text = "frmUpdateStudentProj";
+            this.Load += new System.EventHandler(this.frmUpdateStudentProj_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

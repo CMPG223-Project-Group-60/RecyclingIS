@@ -107,6 +107,7 @@ namespace RecyclingIS
             this.Controls.Add(this.lblHeading);
             this.Name = "frmDeleteProject";
             this.Text = "frmDeleteProject";
+            this.Load += new System.EventHandler(this.frmDeleteProject_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 

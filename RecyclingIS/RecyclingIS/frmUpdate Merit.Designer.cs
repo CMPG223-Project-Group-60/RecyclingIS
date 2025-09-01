@@ -145,6 +145,7 @@ namespace RecyclingIS
             this.Controls.Add(this.lblHeading);
             this.Name = "frmUpdate_Merit";
             this.Text = "frmUpdate_Merit";
+            this.Load += new System.EventHandler(this.frmUpdate_Merit_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

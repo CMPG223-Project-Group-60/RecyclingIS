@@ -255,7 +255,9 @@ namespace RecyclingIS
 
         private void cbxReport_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string reportType = cbxReport.SelectedItem.ToString().Trim();
+            string reportType = "";
+            //reportType = cbxReport.SelectedItem.ToString();
+
             if (reportType.Equals("Top 10 Recyclers", StringComparison.OrdinalIgnoreCase))
             {
                 rdoStudentAsc.Enabled = true;

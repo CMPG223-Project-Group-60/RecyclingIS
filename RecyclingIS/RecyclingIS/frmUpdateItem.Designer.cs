@@ -54,6 +54,7 @@ namespace RecyclingIS
             this.lblHeading.Size = new System.Drawing.Size(789, 348);
             this.lblHeading.TabIndex = 0;
             this.lblHeading.Text = "Edit Item Type";
+            this.lblHeading.Click += new System.EventHandler(this.lblHeading_Click);
             // 
             // lblItemName
             // 
