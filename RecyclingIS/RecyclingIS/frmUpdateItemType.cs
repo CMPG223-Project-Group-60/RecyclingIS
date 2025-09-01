@@ -13,7 +13,7 @@ namespace RecyclingIS
 {
     public partial class frmUpdateItemType : Form
     {
-        private string connectionString = @"";
+        private string connectionString = @"Data Source=34.29.210.64;Initial Catalog=RecyclingIS;Persist Security Info=True;User ID=sqlserver;Password=223Group60;TrustServerCertificate=True";
         private SqlConnection con;
         private frmItemsManagement m_form;
 

@@ -98,6 +98,11 @@ namespace RecyclingIS
 
         private void frmUpdateRecordedItem_Load(object sender, EventArgs e)
         {
+            cbxStudent.SelectedIndex = -1;
+            cbxItemType.SelectedIndex = -1;
+            txtQuantity.Clear();
+            dtpDate.Value = DateTime.Today;
+
             if (RecordedItemId > 0)
             {
                 LoadRecordData();

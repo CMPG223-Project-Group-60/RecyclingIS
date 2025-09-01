@@ -329,6 +329,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecyclingISDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecyclingISDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RecyclingISDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecyclingISDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RecyclingISDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecyclingISDataSet2.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -435,6 +450,39 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="RecyclingISDataSet.xsc">
+      <DependentUpon>RecyclingISDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RecyclingISDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RecyclingISDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RecyclingISDataSet.xss">
+      <DependentUpon>RecyclingISDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RecyclingISDataSet1.xsc">
+      <DependentUpon>RecyclingISDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RecyclingISDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RecyclingISDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RecyclingISDataSet1.xss">
+      <DependentUpon>RecyclingISDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RecyclingISDataSet2.xsc">
+      <DependentUpon>RecyclingISDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="RecyclingISDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RecyclingISDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RecyclingISDataSet2.xss">
+      <DependentUpon>RecyclingISDataSet2.xsd</DependentUpon>
+    </None>
     <None Include="Resources\homeicon.png" />
   </ItemGroup>
   <ItemGroup>
