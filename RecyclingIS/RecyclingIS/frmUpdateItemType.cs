@@ -24,7 +24,21 @@ namespace RecyclingIS
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            string sql;
+            con = new SqlConnection(connectionString);
+            SqlCommand cmd;
+            SqlDataReader reader;
 
+            con.Open();
+
+            sql = $"SELECT Item_Name, Item_QtyOnHand FROM ITEM WHERE ItemID = {comboBox1.SelectedItem.ToString()}";
+            cmd = new SqlCommand(sql, con);
+            reader = cmd.ExecuteReader();
+
+            txtItemName.Text = (string)reader.GetValue(0);
+            txtQty.Text = (string)reader.GetValue(1);
+
+            con.Close();
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

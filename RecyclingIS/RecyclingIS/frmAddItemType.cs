@@ -64,9 +64,9 @@ namespace RecyclingIS
             if (complete)
             { 
                 MessageBox.Show("Item added succesfully!");
+                m_form.refreshGridView();
             }
-
-            m_form.refreshGridView();
+            
             this.Close();
         }
 
