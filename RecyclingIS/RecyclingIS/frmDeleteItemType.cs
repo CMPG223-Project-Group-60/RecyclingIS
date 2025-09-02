@@ -59,6 +59,7 @@ namespace RecyclingIS
             SqlCommand cmd;
             SqlDataAdapter adapter = new SqlDataAdapter();
             string sql;
+            bool completed = false;
 
             con.Open(); // Open database connection
 
@@ -69,6 +70,7 @@ namespace RecyclingIS
             {
                 adapter.DeleteCommand = cmd;
                 adapter.DeleteCommand.ExecuteNonQuery();
+                completed = true;
             } catch (SqlException error)
             {
                 MessageBox.Show("Couldn't remove item!");
@@ -78,8 +80,11 @@ namespace RecyclingIS
             cmd.Dispose();
             con.Close(); // Close database connection
 
-            MessageBox.Show("Item removed succesfully!");
-            m_form.refreshGridView();
+            if (completed)
+            {
+                MessageBox.Show("Item removed succesfully!");
+                m_form.refreshGridView();
+            }
 
             this.Close();
         }

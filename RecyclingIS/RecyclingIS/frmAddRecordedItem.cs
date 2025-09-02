@@ -27,14 +27,8 @@ namespace RecyclingIS
 
         private void frmAddRecordedItem_Load(object sender, EventArgs e)
         {
-            cbxStudent.SelectedIndex = -1;
-            cbxItemType.SelectedIndex = -1;
-
             LoadComboBoxes();
-            dtpDate.Value = DateTime.Today;
-            dtpDate.Enabled = false; //the date is recorded in real time so no past/future dates can be used
-            
-            lblMeritPointsOutput.Text = "0 Merit Points";
+            ClearForm();
         }
 
 
@@ -163,6 +157,17 @@ namespace RecyclingIS
             cbxItemType.SelectedIndex = -1;
             txtQuantity.Clear();
             dtpDate.Value = DateTime.Today;
+            lblMeritPointsOutput.Text = "0 Merit Points";
+        }
+
+        public void ClearForm()
+        {
+            cbxStudent.SelectedIndex = -1;
+            cbxItemType.SelectedIndex = -1;
+            txtQuantity.Clear();
+            dtpDate.Value = DateTime.Today;
+            dtpDate.Enabled = false; //the date is recorded in real time so no past/future dates can be used
+
             lblMeritPointsOutput.Text = "0 Merit Points";
         }
 
