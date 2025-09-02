@@ -29,30 +29,45 @@ namespace RecyclingIS
         private void btnAddStudent_Click(object sender, EventArgs e)
         {
             con = new SqlConnection(connectionString);
-            SqlCommand cmd;
             SqlDataAdapter adapter = new SqlDataAdapter();
+            SqlCommand cmd;
             string sql;
+            bool complete = false;
 
             con.Open(); // Open database connection
 
-            sql = "INSERT INTO ITEM VALUES(" + txtItemName.Text + ", " + cbxQty.SelectedItem.ToString() + ")";
-            cmd = new SqlCommand(sql, con);
-
+            
             try
             {
-                adapter.UpdateCommand = cmd;
-                adapter.UpdateCommand.ExecuteNonQuery();
+                sql = $"INSERT INTO ITEM (Item_Name, Item_QtyOnHand) VALUES('{txtItemName.Text}', {int.Parse(txtQty.Text)})";
+                cmd = new SqlCommand(sql, con);
+
+                adapter.InsertCommand = cmd;
+                adapter.InsertCommand.ExecuteNonQuery();
+                    
+                complete = true;
+                cmd.Dispose();
             } catch (SqlException error)
+            {
+                MessageBox.Show("Item couldn't be added!");
+                Console.WriteLine(error.ToString());
+                this.Close();
+            }
+            catch (Exception err)
             {
                 MessageBox.Show("Item couldn't be added!");
                 this.Close();
             }
 
-            cmd.Dispose();
             con.Close(); // Close database connection
 
-            MessageBox.Show("Item added succesfully!");
+            if (complete)
+            { 
+                MessageBox.Show("Item added succesfully!");
+            }
+
             m_form.refreshGridView();
+            this.Close();
         }
 
         private void frmAddItemType_Load(object sender, EventArgs e)
@@ -63,7 +78,7 @@ namespace RecyclingIS
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtItemName.Text = "";
-            cbxQty.SelectedIndex = -1;
+            txtQty.Text = "";
         }
     }
 }

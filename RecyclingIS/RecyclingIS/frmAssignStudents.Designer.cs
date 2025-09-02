@@ -48,10 +48,17 @@ namespace RecyclingIS
             this.btnDeleteStudentProj.BackColor = System.Drawing.Color.Crimson;
             this.btnDeleteStudentProj.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteStudentProj.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
+            this.btnDeleteStudentProj.Location = new System.Drawing.Point(402, 384);
+            this.btnDeleteStudentProj.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDeleteStudentProj.Name = "btnDeleteStudentProj";
+            this.btnDeleteStudentProj.Size = new System.Drawing.Size(183, 45);
+=======
             this.btnDeleteStudentProj.Location = new System.Drawing.Point(536, 473);
             this.btnDeleteStudentProj.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDeleteStudentProj.Name = "btnDeleteStudentProj";
             this.btnDeleteStudentProj.Size = new System.Drawing.Size(244, 55);
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
             this.btnDeleteStudentProj.TabIndex = 22;
             this.btnDeleteStudentProj.Text = "Delete Student from Project";
             this.btnDeleteStudentProj.UseVisualStyleBackColor = false;
@@ -62,10 +69,17 @@ namespace RecyclingIS
             this.btnAddStudentProj.BackColor = System.Drawing.Color.ForestGreen;
             this.btnAddStudentProj.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddStudentProj.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
+            this.btnAddStudentProj.Location = new System.Drawing.Point(52, 384);
+            this.btnAddStudentProj.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAddStudentProj.Name = "btnAddStudentProj";
+            this.btnAddStudentProj.Size = new System.Drawing.Size(183, 45);
+=======
             this.btnAddStudentProj.Location = new System.Drawing.Point(69, 473);
             this.btnAddStudentProj.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAddStudentProj.Name = "btnAddStudentProj";
             this.btnAddStudentProj.Size = new System.Drawing.Size(244, 55);
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
             this.btnAddStudentProj.TabIndex = 20;
             this.btnAddStudentProj.Text = "Add Student to Project";
             this.btnAddStudentProj.UseVisualStyleBackColor = false;
@@ -77,12 +91,17 @@ namespace RecyclingIS
             this.dgvDisplayAssign.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDisplayAssign.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvDisplayAssign.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+<<<<<<< HEAD
+            this.dgvDisplayAssign.Location = new System.Drawing.Point(9, 144);
+            this.dgvDisplayAssign.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+=======
             this.dgvDisplayAssign.Location = new System.Drawing.Point(12, 177);
             this.dgvDisplayAssign.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
             this.dgvDisplayAssign.Name = "dgvDisplayAssign";
             this.dgvDisplayAssign.RowHeadersWidth = 51;
             this.dgvDisplayAssign.RowTemplate.Height = 24;
-            this.dgvDisplayAssign.Size = new System.Drawing.Size(827, 265);
+            this.dgvDisplayAssign.Size = new System.Drawing.Size(620, 215);
             this.dgvDisplayAssign.TabIndex = 17;
             // 
             // panel1
@@ -91,11 +110,16 @@ namespace RecyclingIS
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.txtSearch);
             this.panel1.Controls.Add(this.pictureBox1);
+<<<<<<< HEAD
+            this.panel1.Location = new System.Drawing.Point(9, 101);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+=======
             this.panel1.Location = new System.Drawing.Point(12, 124);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
             this.panel1.Name = "panel1";
             this.panel1.Padding = new System.Windows.Forms.Padding(1);
-            this.panel1.Size = new System.Drawing.Size(827, 47);
+            this.panel1.Size = new System.Drawing.Size(621, 39);
             this.panel1.TabIndex = 18;
             // 
             // txtSearch
@@ -103,21 +127,36 @@ namespace RecyclingIS
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.ForeColor = System.Drawing.Color.DarkGray;
+<<<<<<< HEAD
+            this.txtSearch.Location = new System.Drawing.Point(41, 3);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSearch.Multiline = true;
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(572, 28);
+=======
             this.txtSearch.Location = new System.Drawing.Point(55, 4);
             this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSearch.Multiline = true;
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(763, 34);
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
             this.txtSearch.TabIndex = 1;
             this.txtSearch.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+<<<<<<< HEAD
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(34, 28);
+=======
             this.pictureBox1.Location = new System.Drawing.Point(4, 4);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(45, 34);
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -127,9 +166,10 @@ namespace RecyclingIS
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label1.Location = new System.Drawing.Point(8, 9);
+            this.label1.Location = new System.Drawing.Point(6, 7);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(939, 58);
+            this.label1.Size = new System.Drawing.Size(704, 47);
             this.label1.TabIndex = 19;
             this.label1.Text = "Student To Project Management";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -140,26 +180,39 @@ namespace RecyclingIS
             this.lblSubHeading.BackColor = System.Drawing.Color.Transparent;
             this.lblSubHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSubHeading.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
+            this.lblSubHeading.Location = new System.Drawing.Point(10, 54);
+            this.lblSubHeading.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+=======
             this.lblSubHeading.Location = new System.Drawing.Point(13, 66);
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
             this.lblSubHeading.Name = "lblSubHeading";
-            this.lblSubHeading.Size = new System.Drawing.Size(360, 20);
+            this.lblSubHeading.Size = new System.Drawing.Size(312, 17);
             this.lblSubHeading.TabIndex = 16;
             this.lblSubHeading.Text = "Manage the students on different projects";
             // 
             // frmAssignStudents
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(694, 488);
+=======
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(925, 601);
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
             this.Controls.Add(this.btnDeleteStudentProj);
             this.Controls.Add(this.btnAddStudentProj);
             this.Controls.Add(this.dgvDisplayAssign);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblSubHeading);
+<<<<<<< HEAD
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+=======
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
             this.Name = "frmAssignStudents";
             this.Text = "frmAssignStudents";
             this.Load += new System.EventHandler(this.frmAssignStudents_Load);

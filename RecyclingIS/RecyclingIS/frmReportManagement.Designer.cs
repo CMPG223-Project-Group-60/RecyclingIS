@@ -85,7 +85,11 @@ namespace RecyclingIS
             this.dgvDisplayReport.Name = "dgvDisplayReport";
             this.dgvDisplayReport.RowHeadersWidth = 51;
             this.dgvDisplayReport.RowTemplate.Height = 24;
+<<<<<<< HEAD
+            this.dgvDisplayReport.Size = new System.Drawing.Size(742, 243);
+=======
             this.dgvDisplayReport.Size = new System.Drawing.Size(730, 222);
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
             this.dgvDisplayReport.TabIndex = 5;
             // 
             // lblReport
@@ -183,8 +187,12 @@ namespace RecyclingIS
             this.gbxSort.Location = new System.Drawing.Point(521, 94);
             this.gbxSort.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gbxSort.Name = "gbxSort";
+<<<<<<< HEAD
+            this.gbxSort.Size = new System.Drawing.Size(232, 155);
+=======
             this.gbxSort.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gbxSort.Size = new System.Drawing.Size(220, 155);
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
             this.gbxSort.TabIndex = 12;
             this.gbxSort.TabStop = false;
             this.gbxSort.Text = "Sort Report By:";
@@ -245,7 +253,11 @@ namespace RecyclingIS
             this.lblResult.BackColor = System.Drawing.Color.Transparent;
             this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold);
             this.lblResult.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
+            this.lblResult.Location = new System.Drawing.Point(12, 328);
+=======
             this.lblResult.Location = new System.Drawing.Point(7, 327);
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
             this.lblResult.Name = "lblResult";
             this.lblResult.Size = new System.Drawing.Size(0, 16);
             this.lblResult.TabIndex = 7;
@@ -285,7 +297,11 @@ namespace RecyclingIS
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(765, 594);
+=======
             this.ClientSize = new System.Drawing.Size(752, 572);
+>>>>>>> ecb476944263b7f3de8b09977629dc607fad3b8e
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnGenerateReport);
             this.Controls.Add(this.gbxSort);
