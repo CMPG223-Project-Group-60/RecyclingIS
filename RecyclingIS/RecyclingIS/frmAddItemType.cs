@@ -33,20 +33,34 @@ namespace RecyclingIS
             SqlCommand cmd;
             string sql;
             bool complete = false;
+            bool isValid = false;
+
+            int qty;
+            if (int.TryParse(txtQty.Text, out qty))
+            {
+                isValid = true;
+            }
+            else
+            {
+                MessageBox.Show("Please enter a proper ammount and try again!");
+                this.Close();
+            }
 
             con.Open(); // Open database connection
 
-            
             try
             {
-                sql = $"INSERT INTO ITEM (Item_Name, Item_QtyOnHand) VALUES('{txtItemName.Text}', {int.Parse(txtQty.Text)})";
-                cmd = new SqlCommand(sql, con);
+                if (isValid)
+                {
+                    sql = $"INSERT INTO ITEM (Item_Name, Item_QtyOnHand) VALUES('{txtItemName.Text}', {qty})";
+                    cmd = new SqlCommand(sql, con);
 
-                adapter.InsertCommand = cmd;
-                adapter.InsertCommand.ExecuteNonQuery();
-                    
-                complete = true;
-                cmd.Dispose();
+                    adapter.InsertCommand = cmd;
+                    adapter.InsertCommand.ExecuteNonQuery();
+
+                    complete = true;
+                    cmd.Dispose();
+                }
             } catch (SqlException error)
             {
                 MessageBox.Show("Item couldn't be added!");
