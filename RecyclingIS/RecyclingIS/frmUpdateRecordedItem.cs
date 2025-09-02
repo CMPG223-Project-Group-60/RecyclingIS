@@ -13,11 +13,7 @@ namespace RecyclingIS
 {
     public partial class frmUpdateRecordedItem : Form
     {
-        string constr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
-        private int originalStudentId;
-        private int originalItemId;
-        private DateTime originalDateReceived;
-        private int originalQuantity;
+        string constr = @"Data Source=Nthabeleng_P\SQLEXPRESS02;Initial Catalog=RecyclingIS;Integrated Security=True";
 
         public int RecordedItemId { get; set; }
 
@@ -109,8 +105,8 @@ namespace RecyclingIS
 
             if (RecordedItemId > 0)
             {
-                LoadComboBoxes();
                 LoadRecordData();
+                LoadComboBoxes();
 
             }
             else
@@ -138,16 +134,16 @@ namespace RecyclingIS
                         {
                             if (reader.Read())
                             {
-                                originalStudentId = reader.GetInt32(0);
-                                originalItemId = reader.GetInt32(1);
-                                originalDateReceived = reader.GetDateTime(2);
-                                originalQuantity = reader.GetInt32(3);
+                                int studentId = reader.GetInt32(0);
+                                int itemId = reader.GetInt32(1);
+                                DateTime dateReceived = reader.GetDateTime(2);
+                                int quantity = reader.GetInt32(3);
 
-                                cbxStudent.SelectedValue = originalStudentId;
-                                cbxItemType.SelectedValue = originalItemId;
-                                dtpDate.Value = originalDateReceived;
+                                cbxStudent.SelectedValue = studentId;
+                                cbxItemType.SelectedValue = itemId;
+                                dtpDate.Value = dateReceived;
                                 dtpDate.Enabled = false; 
-                                txtQuantity.Text = originalQuantity.ToString();
+                                txtQuantity.Text = quantity.ToString();
                                 CalculateMeritPoints();
                             }
                         }
@@ -215,11 +211,7 @@ namespace RecyclingIS
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            cbxStudent.SelectedValue = originalStudentId;
-            cbxItemType.SelectedValue = originalItemId;
-            dtpDate.Value = originalDateReceived;
-            txtQuantity.Text = originalQuantity.ToString();
-            CalculateMeritPoints();
+            LoadRecordData();
         }
 
         private void txtQuantity_TextChanged(object sender, EventArgs e)
