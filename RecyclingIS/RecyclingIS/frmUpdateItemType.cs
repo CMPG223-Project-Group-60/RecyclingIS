@@ -36,7 +36,7 @@ namespace RecyclingIS
         {
             comboBox1.SelectedIndex = -1;
             txtItemName.Text = "";
-            cbxQty.SelectedIndex = -1;
+            txtQty.Text = "";
         }
 
         private void frmUpdateItemType_Load(object sender, EventArgs e)
@@ -71,28 +71,45 @@ namespace RecyclingIS
             SqlCommand cmd;
             SqlDataAdapter adapter = new SqlDataAdapter();
             string sql;
+            bool completed = false;
 
             con.Open(); // Open database connection
 
-            sql = "UPDATE ITEM SET ItemID = " + comboBox1.SelectedItem.ToString()
-                + ", Item_Name = '" + txtItemName.Text + "', Item_QtyOnHand = " + cbxQty.SelectedItem.ToString();
+            int id;
+            if(int.TryParse(txtQty.Text, out id))
+            {
+
+            }
+            else
+            {
+                MessageBox.Show("Please enter a proper ammount and try again!");
+                this.Close();
+            }
+
+            sql = $"UPDATE ITEM SET Item_Name = '{txtItemName.Text}', Item_QtyOnHand = {id} WHERE ItemID = {comboBox1.SelectedItem.ToString()}";
             cmd = new SqlCommand(sql, con);
 
             try
             {
                 adapter.UpdateCommand = cmd;
                 adapter.UpdateCommand.ExecuteNonQuery();
+                completed = true;
             } catch (SqlException error)
             {
                 MessageBox.Show("Couldn't update item!");
+                System.Console.WriteLine(error.ToString());
                 this.Close();
             }
 
             cmd.Dispose();
             con.Close(); // Close database connection
-
-            MessageBox.Show("Item updated succesfully!");
+            if (completed)
+            { 
+                MessageBox.Show("Item updated succesfully!");
+            }
             m_form.refreshGridView();
+
+            this.Close();
         }
     }
 }

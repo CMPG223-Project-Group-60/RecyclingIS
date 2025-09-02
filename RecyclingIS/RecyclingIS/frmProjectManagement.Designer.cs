@@ -333,7 +333,6 @@ namespace RecyclingIS
             this.Controls.Add(this.splitter1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmProjectManagement";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmProjectManagement";
             this.Load += new System.EventHandler(this.frmProjectManagement_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDisplayProjects)).EndInit();

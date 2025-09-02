@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace RecyclingIS
 {
     public partial class frmMeritManagement : Form
     {
+        //connection string
+        string constr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+
         public frmMeritManagement()
         {
             InitializeComponent();
@@ -20,6 +24,38 @@ namespace RecyclingIS
         private void frmMeritManagement_Load(object sender, EventArgs e)
         {
             SetupDataGridView();
+            LoadMerits();
+        }
+
+        private void LoadMerits()
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(constr))
+                {
+                    string query = @"SELECT 
+                        MeritID,
+                        CASE Merit_Type
+                            WHEN 1 THEN 'Gold'
+                            WHEN 2 THEN 'Silver'
+                            WHEN 3 THEN 'Bronze'
+                        END AS Merit_Type,
+                        Points_Awarded
+                    FROM MERIT
+                    ORDER BY Merit_Type";
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
+                    DataTable meritsTable = new DataTable();
+                    adapter.Fill(meritsTable);
+
+                    dgvDisplayMerits.DataSource = meritsTable;
+                    dgvDisplayMerits.AutoResizeColumns();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading merits: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void SetupDataGridView()
@@ -27,8 +63,8 @@ namespace RecyclingIS
             dgvDisplayMerits.Columns.Clear();
 
             // Add text columns
-            dgvDisplayMerits.Columns.Add("Merit Type", "Merit Type");
-            dgvDisplayMerits.Columns.Add("Points Awarded", "Points Awarded");
+           // dgvDisplayMerits.Columns.Add("Merit Type", "Merit Type");
+            //dgvDisplayMerits.Columns.Add("Points Awarded", "Points Awarded");
             
 
 
@@ -44,6 +80,7 @@ namespace RecyclingIS
 
         }
 
+
         private void btnAddMerit_Click(object sender, EventArgs e)
         {
             frmAddMerit add = new frmAddMerit();
@@ -53,7 +90,7 @@ namespace RecyclingIS
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            frmUpdate_Merit update = new frmUpdate_Merit();
+            frmUpdateMerit update = new frmUpdateMerit();
             update.StartPosition = FormStartPosition.CenterParent;
             update.ShowDialog(this);
         }

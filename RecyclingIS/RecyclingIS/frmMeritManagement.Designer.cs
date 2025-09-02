@@ -35,7 +35,6 @@ namespace RecyclingIS
             this.dgvDisplayMerits = new System.Windows.Forms.DataGridView();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
-            this.btnAddMerit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDisplayMerits)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +47,7 @@ namespace RecyclingIS
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(830, 58);
             this.label1.TabIndex = 16;
-            this.label1.Text = "Merits Management";
+            this.label1.Text = "Merit Management";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblSubHeading
@@ -95,7 +94,7 @@ namespace RecyclingIS
             this.btnUpdate.BackColor = System.Drawing.Color.DarkOrange;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
-            this.btnUpdate.Location = new System.Drawing.Point(210, 286);
+            this.btnUpdate.Location = new System.Drawing.Point(10, 286);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(162, 55);
             this.btnUpdate.TabIndex = 19;
@@ -103,29 +102,15 @@ namespace RecyclingIS
             this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
-            // btnAddMerit
-            // 
-            this.btnAddMerit.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnAddMerit.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddMerit.ForeColor = System.Drawing.Color.White;
-            this.btnAddMerit.Location = new System.Drawing.Point(10, 286);
-            this.btnAddMerit.Name = "btnAddMerit";
-            this.btnAddMerit.Size = new System.Drawing.Size(162, 55);
-            this.btnAddMerit.TabIndex = 18;
-            this.btnAddMerit.Text = "Add Merit";
-            this.btnAddMerit.UseVisualStyleBackColor = false;
-            this.btnAddMerit.Click += new System.EventHandler(this.btnAddMerit_Click);
-            // 
             // frmMeritManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(599, 350);
+            this.ClientSize = new System.Drawing.Size(599, 349);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
-            this.Controls.Add(this.btnAddMerit);
             this.Controls.Add(this.dgvDisplayMerits);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblSubHeading);
@@ -146,6 +131,5 @@ namespace RecyclingIS
         private System.Windows.Forms.DataGridView dgvDisplayMerits;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.Button btnAddMerit;
     }
 }

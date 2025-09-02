@@ -80,6 +80,8 @@ namespace RecyclingIS
 
             MessageBox.Show("Item removed succesfully!");
             m_form.refreshGridView();
+
+            this.Close();
         }
     }
 }

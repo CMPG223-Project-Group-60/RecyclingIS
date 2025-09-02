@@ -255,8 +255,21 @@ namespace RecyclingIS
 
         private void cbxReport_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string reportType = "";
-            //reportType = cbxReport.SelectedItem.ToString();
+            if (cbxReport.SelectedItem == null)
+            {
+                // Disable all options if nothing is selected
+                rdoStudentAsc.Enabled = false;
+                rdoStudentDesc.Enabled = false;
+                rdoProjectAsc.Enabled = false;
+                rdoProjectDesc.Enabled = false;
+                rdoStudentAsc.Checked = false;
+                rdoStudentDesc.Checked = false;
+                rdoProjectAsc.Checked = false;
+                rdoProjectDesc.Checked = false;
+                return; // ✅ Exit early to avoid the error
+            }
+
+            string reportType = reportType = cbxReport.SelectedItem.ToString().Trim();
 
             if (reportType.Equals("Top 10 Recyclers", StringComparison.OrdinalIgnoreCase))
             {
