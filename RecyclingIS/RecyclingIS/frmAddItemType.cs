@@ -13,7 +13,8 @@ namespace RecyclingIS
 {
     public partial class frmAddItemType : Form
     {
-        string connectionString = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"; private SqlConnection con;
+        string connectionString = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"; 
+        private SqlConnection con;
         private frmItemsManagement m_form;
 
         public frmAddItemType()
