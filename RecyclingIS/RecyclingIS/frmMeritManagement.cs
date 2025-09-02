@@ -86,6 +86,7 @@ namespace RecyclingIS
             frmAddMerit add = new frmAddMerit();
             add.StartPosition = FormStartPosition.CenterParent;
             add.ShowDialog(this);
+            LoadMerits();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
@@ -93,6 +94,14 @@ namespace RecyclingIS
             frmUpdateMerit update = new frmUpdateMerit();
             update.StartPosition = FormStartPosition.CenterParent;
             update.ShowDialog(this);
+
+            if (update.ShowDialog(this) == DialogResult.OK)
+            {
+                // ✅ REFRESH THE DATAGRIDVIEW AFTER UPDATE
+                LoadMerits();
+                MessageBox.Show("Merit updated successfully!", "Success",
+                               MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
@@ -100,6 +109,8 @@ namespace RecyclingIS
             frmDeleteMerit delete = new frmDeleteMerit();
             delete.StartPosition = FormStartPosition.CenterParent;
             delete.ShowDialog(this);
+
+            LoadMerits();
         }
 
         private void label1_Click(object sender, EventArgs e)
