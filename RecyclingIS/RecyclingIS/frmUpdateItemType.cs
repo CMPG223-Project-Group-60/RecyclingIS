@@ -24,7 +24,21 @@ namespace RecyclingIS
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            string sql;
+            con = new SqlConnection(connectionString);
+            SqlCommand cmd;
+            SqlDataReader reader;
 
+            con.Open();
+
+            sql = $"SELECT Item_Name, Item_QtyOnHand FROM ITEM WHERE ItemID = {comboBox1.SelectedItem.ToString()}";
+            cmd = new SqlCommand(sql, con);
+            reader = cmd.ExecuteReader();
+
+            txtItemName.Text = (string)reader.GetValue(0);
+            txtQty.Text = (string)reader.GetValue(1);
+
+            con.Close();
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -72,13 +86,14 @@ namespace RecyclingIS
             SqlDataAdapter adapter = new SqlDataAdapter();
             string sql;
             bool completed = false;
+            bool isValid = false;
 
             con.Open(); // Open database connection
 
             int id;
             if(int.TryParse(txtQty.Text, out id))
             {
-
+                isValid = true;
             }
             else
             {
@@ -91,9 +106,12 @@ namespace RecyclingIS
 
             try
             {
-                adapter.UpdateCommand = cmd;
-                adapter.UpdateCommand.ExecuteNonQuery();
-                completed = true;
+                if (isValid)
+                {
+                    adapter.UpdateCommand = cmd;
+                    adapter.UpdateCommand.ExecuteNonQuery();
+                    completed = true;
+                }
             } catch (SqlException error)
             {
                 MessageBox.Show("Couldn't update item!");
@@ -106,8 +124,8 @@ namespace RecyclingIS
             if (completed)
             { 
                 MessageBox.Show("Item updated succesfully!");
+                m_form.refreshGridView();
             }
-            m_form.refreshGridView();
 
             this.Close();
         }
