@@ -106,8 +106,8 @@ namespace RecyclingIS
             if (completed)
             { 
                 MessageBox.Show("Item updated succesfully!");
+                m_form.refreshGridView();
             }
-            m_form.refreshGridView();
 
             this.Close();
         }

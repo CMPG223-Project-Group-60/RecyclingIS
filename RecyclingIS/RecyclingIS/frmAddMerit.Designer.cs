@@ -1,5 +1,4 @@
-﻿
-namespace RecyclingIS
+﻿namespace RecyclingIS
 {
     partial class frmAddMerit
     {
@@ -30,26 +29,68 @@ namespace RecyclingIS
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAddMerit));
-            this.btnClear = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.btnAddStudent = new System.Windows.Forms.Button();
-            this.cbxMerit = new System.Windows.Forms.ComboBox();
+            this.lblHeading = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblHeading = new System.Windows.Forms.Label();
             this.txtPointsAwarded = new System.Windows.Forms.TextBox();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.txtMeritType = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
+            // 
+            // lblHeading
+            // 
+            this.lblHeading.BackColor = System.Drawing.Color.Transparent;
+            this.lblHeading.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeading.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblHeading.Location = new System.Drawing.Point(-4, -1);
+            this.lblHeading.Name = "lblHeading";
+            this.lblHeading.Size = new System.Drawing.Size(830, 58);
+            this.lblHeading.TabIndex = 8;
+            this.lblHeading.Text = "Add New Merit";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(1, 88);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(124, 25);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "Merit Type";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(1, 170);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(176, 25);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "Points Awarded";
+            // 
+            // txtPointsAwarded
+            // 
+            this.txtPointsAwarded.Location = new System.Drawing.Point(6, 198);
+            this.txtPointsAwarded.Multiline = true;
+            this.txtPointsAwarded.Name = "txtPointsAwarded";
+            this.txtPointsAwarded.Size = new System.Drawing.Size(196, 25);
+            this.txtPointsAwarded.TabIndex = 23;
             // 
             // btnClear
             // 
             this.btnClear.BackColor = System.Drawing.Color.LightGreen;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.White;
-            this.btnClear.Location = new System.Drawing.Point(190, 315);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnClear.Location = new System.Drawing.Point(146, 253);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(148, 59);
-            this.btnClear.TabIndex = 42;
+            this.btnClear.Size = new System.Drawing.Size(125, 41);
+            this.btnClear.TabIndex = 28;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
             // 
@@ -58,97 +99,49 @@ namespace RecyclingIS
             this.btnCancel.BackColor = System.Drawing.Color.Crimson;
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(370, 315);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCancel.Location = new System.Drawing.Point(290, 253);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(143, 59);
-            this.btnCancel.TabIndex = 41;
+            this.btnCancel.Size = new System.Drawing.Size(118, 41);
+            this.btnCancel.TabIndex = 27;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // btnAddStudent
+            // btnAdd
             // 
-            this.btnAddStudent.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddStudent.ForeColor = System.Drawing.Color.White;
-            this.btnAddStudent.Location = new System.Drawing.Point(25, 315);
-            this.btnAddStudent.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnAddStudent.Name = "btnAddStudent";
-            this.btnAddStudent.Size = new System.Drawing.Size(142, 59);
-            this.btnAddStudent.TabIndex = 40;
-            this.btnAddStudent.Text = "Add Merit";
-            this.btnAddStudent.UseVisualStyleBackColor = false;
+            this.btnAdd.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.ForeColor = System.Drawing.Color.White;
+            this.btnAdd.Location = new System.Drawing.Point(7, 253);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(118, 41);
+            this.btnAdd.TabIndex = 26;
+            this.btnAdd.Text = "Add Merit";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // cbxMerit
+            // txtMeritType
             // 
-            this.cbxMerit.FormattingEnabled = true;
-            this.cbxMerit.Location = new System.Drawing.Point(29, 164);
-            this.cbxMerit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.cbxMerit.Name = "cbxMerit";
-            this.cbxMerit.Size = new System.Drawing.Size(271, 28);
-            this.cbxMerit.TabIndex = 39;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(19, 218);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(201, 29);
-            this.label3.TabIndex = 38;
-            this.label3.Text = "Points awarded";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(24, 129);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(134, 29);
-            this.label1.TabIndex = 37;
-            this.label1.Text = "Merit type";
-            // 
-            // lblHeading
-            // 
-            this.lblHeading.BackColor = System.Drawing.Color.Transparent;
-            this.lblHeading.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeading.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblHeading.Location = new System.Drawing.Point(14, 11);
-            this.lblHeading.Name = "lblHeading";
-            this.lblHeading.Size = new System.Drawing.Size(934, 72);
-            this.lblHeading.TabIndex = 36;
-            this.lblHeading.Text = "Add New Merit";
-            // 
-            // txtPointsAwarded
-            // 
-            this.txtPointsAwarded.Location = new System.Drawing.Point(25, 252);
-            this.txtPointsAwarded.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtPointsAwarded.Multiline = true;
-            this.txtPointsAwarded.Name = "txtPointsAwarded";
-            this.txtPointsAwarded.Size = new System.Drawing.Size(376, 32);
-            this.txtPointsAwarded.TabIndex = 43;
+            this.txtMeritType.Location = new System.Drawing.Point(6, 116);
+            this.txtMeritType.Multiline = true;
+            this.txtMeritType.Name = "txtMeritType";
+            this.txtMeritType.Size = new System.Drawing.Size(196, 25);
+            this.txtMeritType.TabIndex = 29;
             // 
             // frmAddMerit
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(530, 395);
-            this.Controls.Add(this.txtPointsAwarded);
+            this.ClientSize = new System.Drawing.Size(442, 305);
+            this.Controls.Add(this.txtMeritType);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnAddStudent);
-            this.Controls.Add(this.cbxMerit);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.txtPointsAwarded);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.lblHeading);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmAddMerit";
             this.Text = "frmAddMerit";
             this.Load += new System.EventHandler(this.frmAddMerit_Load);
@@ -159,13 +152,13 @@ namespace RecyclingIS
 
         #endregion
 
-        private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Button btnAddStudent;
-        private System.Windows.Forms.ComboBox cbxMerit;
+        private System.Windows.Forms.Label lblHeading;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblHeading;
         private System.Windows.Forms.TextBox txtPointsAwarded;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.TextBox txtMeritType;
     }
 }
