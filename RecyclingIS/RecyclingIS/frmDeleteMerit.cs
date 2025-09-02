@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace RecyclingIS
 {
-    public partial class frmDeleteMerit : Form
+    public partial class frmDeleteMerit: Form
     {
         public frmDeleteMerit()
         {
             InitializeComponent();
-        }
-
-        private void btnCancel_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void frmDeleteMerit_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿
-namespace RecyclingIS
+﻿namespace RecyclingIS
 {
     partial class frmDeleteMerit
     {
@@ -29,100 +28,12 @@ namespace RecyclingIS
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDeleteMerit));
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.cbxMerit = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblHeading = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.BackColor = System.Drawing.Color.Crimson;
-            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(226, 220);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(192, 50);
-            this.btnCancel.TabIndex = 54;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = false;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(14, 220);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(192, 50);
-            this.btnDelete.TabIndex = 53;
-            this.btnDelete.Text = "Delete Merit";
-            this.btnDelete.UseVisualStyleBackColor = false;
-            // 
-            // cbxMerit
-            // 
-            this.cbxMerit.FormattingEnabled = true;
-            this.cbxMerit.Location = new System.Drawing.Point(14, 154);
-            this.cbxMerit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.cbxMerit.Name = "cbxMerit";
-            this.cbxMerit.Size = new System.Drawing.Size(310, 28);
-            this.cbxMerit.TabIndex = 52;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.4F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(20, 112);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 29);
-            this.label1.TabIndex = 51;
-            this.label1.Text = "Select merit";
-            // 
-            // lblHeading
-            // 
-            this.lblHeading.BackColor = System.Drawing.Color.Transparent;
-            this.lblHeading.Font = new System.Drawing.Font("Stencil", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeading.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblHeading.Location = new System.Drawing.Point(14, 11);
-            this.lblHeading.Name = "lblHeading";
-            this.lblHeading.Size = new System.Drawing.Size(934, 72);
-            this.lblHeading.TabIndex = 50;
-            this.lblHeading.Text = "Delete Merit ";
-            // 
-            // frmDeleteMerit
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(452, 282);
-            this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnDelete);
-            this.Controls.Add(this.cbxMerit);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblHeading);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "frmDeleteMerit";
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "frmDeleteMerit";
-            this.Load += new System.EventHandler(this.frmDeleteMerit_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.ComboBox cbxMerit;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblHeading;
     }
 }

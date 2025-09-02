@@ -141,7 +141,6 @@ C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\Recycling
 C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe
 C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.pdb
 C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.AssemblyReference.cache
-C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe.config
 C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmMain.resources
 C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddItems.resources
 C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmAddItemType.resources
@@ -258,7 +257,6 @@ C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\ru\Micros
 C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\tr\Microsoft.Data.SqlClient.resources.dll
 C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\Recyclin.DBB191CB.Up2Date
 C:\Users\Student1\Documents\CMPG223\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe.config
 C:\Users\Student1\Documents\CMPG223\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.exe
 C:\Users\Student1\Documents\CMPG223\RecyclingIS\RecyclingIS\bin\Debug\RecyclingIS.pdb
@@ -587,3 +585,5 @@ C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\Re
 C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\Recyclin.DBB191CB.Up2Date
 C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.exe
 C:\Users\Bokser\Desktop\30272580\CMPG223-Project\RecyclingIS(new)\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.pdb
+C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.csproj.CopyComplete
+C:\Users\kgohl\Downloads\RecyclingIS\RecyclingIS\RecyclingIS\obj\Debug\RecyclingIS.frmUpdateMerit.resources

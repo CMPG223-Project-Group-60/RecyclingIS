@@ -303,6 +303,12 @@
     <Compile Include="frmUpdateItemType.Designer.cs">
       <DependentUpon>frmUpdateItemType.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUpdateMerit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateMerit.Designer.cs">
+      <DependentUpon>frmUpdateMerit.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmUpdateProject.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -412,6 +418,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmUpdateItemType.resx">
       <DependentUpon>frmUpdateItemType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateMerit.resx">
+      <DependentUpon>frmUpdateMerit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUpdateProject.resx">
       <DependentUpon>frmUpdateProject.cs</DependentUpon>
