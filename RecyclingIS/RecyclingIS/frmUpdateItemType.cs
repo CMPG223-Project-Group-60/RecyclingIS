@@ -72,13 +72,14 @@ namespace RecyclingIS
             SqlDataAdapter adapter = new SqlDataAdapter();
             string sql;
             bool completed = false;
+            bool isValid = false;
 
             con.Open(); // Open database connection
 
             int id;
             if(int.TryParse(txtQty.Text, out id))
             {
-
+                isValid = true;
             }
             else
             {
@@ -91,9 +92,12 @@ namespace RecyclingIS
 
             try
             {
-                adapter.UpdateCommand = cmd;
-                adapter.UpdateCommand.ExecuteNonQuery();
-                completed = true;
+                if (isValid)
+                {
+                    adapter.UpdateCommand = cmd;
+                    adapter.UpdateCommand.ExecuteNonQuery();
+                    completed = true;
+                }
             } catch (SqlException error)
             {
                 MessageBox.Show("Couldn't update item!");
