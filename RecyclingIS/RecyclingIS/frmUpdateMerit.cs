@@ -13,12 +13,10 @@ namespace RecyclingIS
 {
     public partial class frmUpdateMerit : Form
     {
-
         string constr = @"Data Source=Rams\SQLEXPRESS;Initial Catalog=RecyclingIS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
 
-        // ✅ Add these properties to pass data back to main form
+        // ✅ Keep properties to track the selected merit
         public int SelectedMeritID { get; private set; }
-        public int NewPoints { get; private set; }
 
         public frmUpdateMerit()
         {
@@ -38,7 +36,6 @@ namespace RecyclingIS
                 {
                     conn.Open();
 
-                    // ✅ Load Merit Types (Gold, Silver, Bronze) from database
                     string meritSQL = @"SELECT 
                                 MeritID,
                                 CASE Merit_Type
@@ -54,21 +51,18 @@ namespace RecyclingIS
                     DataTable meritTable = new DataTable();
                     meritAdap.Fill(meritTable);
 
-                    // ✅ Bind to ComboBox for merit types
-                    cbxMeritType.DisplayMember = "Merit_Type";  // Shows "Gold", "Silver", "Bronze"
-                    cbxMeritType.ValueMember = "MeritID";       // Stores the numeric ID (1, 2, 3)
+                    cbxMeritType.SelectedIndexChanged -= CbxMeritType_SelectedIndexChanged;
+
+                    cbxMeritType.DisplayMember = "Merit_Type";
+                    cbxMeritType.ValueMember = "MeritID";
                     cbxMeritType.DataSource = meritTable;
 
                     cbxMeritType.SelectedIndexChanged += CbxMeritType_SelectedIndexChanged;
 
-                    // ✅ Load points for the first item initially
                     if (cbxMeritType.Items.Count > 0)
                     {
                         LoadPointsForSelectedMerit();
                     }
-
-                    // ✅ Optional: Also load Points_Awarded if you need to display it
-                    // You can add another combobox or display the points when merit type is selected
                 }
             }
             catch (Exception ex)
@@ -76,9 +70,6 @@ namespace RecyclingIS
                 MessageBox.Show("Error loading merit types: " + ex.Message, "Error",
                                MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-            // ✅ Event handler when merit type selection changes
-            
         }
 
         private void CbxMeritType_SelectedIndexChanged(object sender, EventArgs e)
@@ -88,60 +79,113 @@ namespace RecyclingIS
 
         private void LoadPointsForSelectedMerit()
         {
-            if (cbxMeritType.SelectedItem != null)
+            if (cbxMeritType.SelectedItem != null && cbxMeritType.SelectedItem is DataRowView)
             {
                 DataRowView selectedRow = (DataRowView)cbxMeritType.SelectedItem;
-                int currentPoints = Convert.ToInt32(selectedRow["Points_Awarded"]);
-                txtPointsAwarded.Text = currentPoints.ToString();
 
-                // Optional: Select all text for easy editing
-                txtPointsAwarded.SelectAll();
-                txtPointsAwarded.Focus();
+                if (selectedRow["Points_Awarded"] != DBNull.Value)
+                {
+                    int currentPoints = Convert.ToInt32(selectedRow["Points_Awarded"]);
+                    txtPointsAwarded.Text = currentPoints.ToString();
+                    txtPointsAwarded.SelectAll();
+                    txtPointsAwarded.Focus();
+                }
             }
         }
 
-
+        // ✅ UPDATED: Now performs the actual database update
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            try
+            // 1. Validate input
+            if (cbxMeritType.SelectedItem == null)
             {
-                // 1. Validate input
-                if (cbxMeritType.SelectedItem == null)
+                MessageBox.Show("Please select a merit type to update.", "Selection Required",
+                               MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                cbxMeritType.Focus();
+                return;
+            }
+
+            if (!int.TryParse(txtPointsAwarded.Text, out int points) || points <= 0)
+            {
+                MessageBox.Show("Please enter valid points (must be a positive number).", "Validation Error",
+                               MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtPointsAwarded.Focus();
+                return;
+            }
+
+            // 2. Get selected values
+            DataRowView selectedRow = (DataRowView)cbxMeritType.SelectedItem;
+            int meritID = Convert.ToInt32(selectedRow["MeritID"]);
+            string meritTypeName = selectedRow["Merit_Type"].ToString();
+
+            // 3. Confirm update
+            var result = MessageBox.Show($"Update {meritTypeName} merit to {points} points?",
+                "Confirm Update", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                try
                 {
-                    MessageBox.Show("Please select a merit type to update.", "Selection Required",
-                                   MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    cbxMeritType.Focus();
-                    return;
+                    // ✅ PERFORM THE DATABASE UPDATE HERE
+                    using (SqlConnection conn = new SqlConnection(constr))
+                    {
+                        conn.Open();
+
+                        string query = @"UPDATE MERIT 
+                                      SET Points_Awarded = @Points 
+                                      WHERE MeritID = @MeritID";
+
+                        using (SqlCommand cmd = new SqlCommand(query, conn))
+                        {
+                            cmd.Parameters.AddWithValue("@Points", points);
+                            cmd.Parameters.AddWithValue("@MeritID", meritID);
+
+                            int rowsAffected = cmd.ExecuteNonQuery();
+
+                            if (rowsAffected > 0)
+                            {
+                                MessageBox.Show("Merit updated successfully!", "Success",
+                                               MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                // ✅ Close the form with OK result
+                                this.DialogResult = DialogResult.OK;
+                                this.Close();
+                            }
+                            else
+                            {
+                                MessageBox.Show("No records were updated.", "Warning",
+                                               MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            }
+                        }
+                    }
                 }
-
-                if (!int.TryParse(txtPointsAwarded.Text, out int points) || points <= 0)
+                catch (SqlException sqlEx)
                 {
-                    MessageBox.Show("Please enter valid points (must be a positive number).", "Validation Error",
-                                   MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    txtPointsAwarded.Focus();
-                    return;
+                    MessageBox.Show($"Database error: {sqlEx.Message}", "Database Error",
+                                   MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-
-                // 2. Get selected values
-                DataRowView selectedRow = (DataRowView)cbxMeritType.SelectedItem;
-                SelectedMeritID = Convert.ToInt32(selectedRow["MeritID"]);
-                NewPoints = points;
-
-                // 3. Confirm update
-                string meritTypeName = selectedRow["Merit_Type"].ToString();
-                var result = MessageBox.Show($"Update {meritTypeName} merit to {points} points?",
-                    "Confirm Update", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-                if (result == DialogResult.Yes)
+                catch (Exception ex)
                 {
-                    DialogResult = DialogResult.OK;
-                    Close();
+                    MessageBox.Show($"Error updating merit: {ex.Message}", "Error",
+                                   MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            catch (Exception ex)
+        }
+
+        // ✅ Cancel button
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.Cancel;
+            Close();
+        }
+
+        // ✅ Enter key functionality
+        private void txtPointsAwarded_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
             {
-                MessageBox.Show($"Error: {ex.Message}", "Error",
-                               MessageBoxButtons.OK, MessageBoxIcon.Error);
+                btnUpdate.PerformClick();
+                e.SuppressKeyPress = true;
             }
         }
     }
