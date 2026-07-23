@@ -1,35 +1,32 @@
-# RecyclingIS (RIS)
-# The Trashure Informational System
+---
 
-## 📌 Project Overview
-**The Trashure** is an automated recycling data tracking system designed to streamline waste management and encourage sustainable recycling habits. The system provides a centralized platform to log, track, and analyze recycling data, transforming raw environmental metrics into actionable insights.
+## 2. The Trashure (Recycling & Sustainability Tracking System)
 
-This project was developed as a collaborative student software engineering assignment, demonstrating full-stack application development, database normalization, and version-controlled team workflows.
+```markdown
+# The Trashure — Recycling & Waste Tracking Information System
+
+An automated information system designed to incentivize waste separation and streamline community recycling tracking.
 
 ---
+
+## 📌 Problem Statement
+Local recycling operations often struggle with manual tracking methods, inconsistent drop-off logs, and a lack of user engagement incentives, making community-level waste management inefficient and hard to scale.
+
+## 💡 Solution & Features
+**The Trashure** digitizes the recycling chain by logging community drop-offs, tracking material weights, and calculating user reward credits automatically.
+* **Waste Drop-off Logging:** Records recyclable materials (glass, paper, plastic, electronic waste) with weight-based validation.
+* **Reward Credit System:** Automatically computes user points and incentives based on verified recyclable contributions.
+* **Analytics & Reporting:** Generates insights on community waste diversion rates and collection trends.
+* **Data Integrity:** Relies on robust relational database logic to maintain transactional accuracy.
 
 ## 🛠️ Tech Stack
-*   **Frontend / UI:** C# (.NET WinForms / WPF)
-*   **Database:** SQL (Relational Database Management System)
-*   **Version Control:** Git & GitHub
+* **Core Language:** C#
+* **Database:** Microsoft SQL Server
+* **Architecture:** Relational Database Architecture & Object-Oriented Programming (OOP)
+* **IDE:** Visual Studio
 
----
-
-## 🚀 Key Features
-*   **Data Logging:** Easily record and categorize different types of recyclable materials.
-*   **Automated Tracking:** Real-time monitoring of recycling metrics and environmental impacts.
-*   **Secure Database Integration:** Robust SQL backend ensuring data integrity, optimized queries, and structured storage.
-*   **User-Friendly Interface:** Intuitive C# desktop application interface designed for seamless data entry and reporting.
-
----
-
-## 💻 Installation & Setup
-
-### Prerequisites
-*   Visual Studio (2022 or later recommended with .NET desktop development workload)
-*   SQL Server Management Studio (SSMS) or a compatible SQL environment
-
-### Getting Started
+## 🚀 Setup & Installation
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/the-trashure.git](https://github.com/YOUR_USERNAME/the-trashure.git)
+   git clone [https://github.com/LeeSeatile/the-trashure.git](https://github.com/LeeSeatile/the-trashure.git)
+   cd the-trashure
